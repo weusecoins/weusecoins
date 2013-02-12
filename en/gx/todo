@@ -1,0 +1,5 @@
+#!/bin/bash
+for i in gx/logo.png gx/menu_whatis.png gx/menu_getstarted.png gx/menu_security.png gx/menu_qna.png gx/menu_merchants.png gx/menu_mining.png gx/menu_links.png gx/icon_bitcoin.png gx/icon_hand.png gx/icon_lock.png gx/icon_qna.png gx/icon_pickaxe.png gx/icon_shop.png gx/btn_download.png gx/fbtn_extrusion_l.png gx/fbtn_extrusion_r.png gx/fbtn_small.png gx/fbtn_small.png gx/fbtn_large.png gx/fbtn_large.png gx/fbtn_tiny.png gx/fbtn_tiny.png gx/banner_walletget.png gx/btn_addstore.png gx/tex_leather.jpg gx/wallet_slot_phone.png gx/quote_open.png gx/quote_close.png gx/load.gif gx/box_expand.png gx/box_contract.png gx/slit_media_l.png gx/slit_media_r.png gx/media.gif gx/media2.gif gx/merchant_marwan.jpg gx/quote_open_red.png gx/quote_close_red.png
+do
+	wget "http://www.weusecoins.com/${i}"
+done
