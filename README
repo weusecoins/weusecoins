@@ -49,7 +49,7 @@ This allows you to replace all occurence of "src" by "dst" in all .html files in
 
 ## Keep the same html structure ##
 
-Keep html structure as symetric and perfectly identical as possible between each pages, and each localized version. This should not prevent you to add unique things for some languages. But ou can keep the rest exactly as it is.
+Keep html structure as symetric and perfectly identical as possible between each pages, and each localized version. This should not prevent you to add unique things for some languages. But you can keep the rest exactly as it is.
 
 
 # Test different browsers ##
