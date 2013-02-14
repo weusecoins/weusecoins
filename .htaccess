@@ -3,7 +3,7 @@ RewriteEngine on
 RewriteRule ^fund\.php$ /en/fund [R=301,L]
 RewriteRule ^about\.php$ /en/about [R=301,L]
 RewriteRule ^materials\.php$ /en/materials [R=301,L]
-RewriteRule ^translations\.php$ /en/ [R=301,L]
+RewriteRule ^translations\.php$ /en/translations [R=301,L]
 RewriteRule ^getting-started\.php$ /en/getting-started [R=301,L]
 RewriteRule ^questions\.php$ /en/questions [R=301,L]
 RewriteRule ^merchant-tools\.php$ /en/merchant-tools [R=301,L]

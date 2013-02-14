@@ -122,11 +122,6 @@ p {
   display: none;
 }
 
-#menu {
-
-
-}
-
 #menu li {
   float: left;
   list-style: none;
@@ -154,24 +149,12 @@ p {
   width: 73px;
 }
 
-#menu_security a {
-  width: 81px;
-}
-
 #menu_qna a {
   width: 96px;
 }
 
 #menu_merchants a {
   width: 96px;
-}
-
-#menu_mining a {
-  width: 59px;
-}
-
-#menu_links a {
-  width: 57px;
 }
 
 #menu_whatis {
@@ -182,16 +165,8 @@ p {
   background-image: url(../gx/icon_hand.png);
 }
 
-#menu_security {
-  background-image: url(../gx/icon_lock.png);
-}
-
 #menu_qna {
   background-image: url(../gx/icon_qna.png);
-}
-
-#menu_mining {
-  background-image: url(../gx/icon_pickaxe.png);
 }
 
 #menu_merchants {
@@ -542,131 +517,16 @@ a.fbtn:active .contents {
     margin-top: 25px;
 }
 
-#search_bitcoin .add_store a {
-    display: block;
-    float: right;
-    position: relative;
-    top: -20px;
-    left: -15px;
-    width: 160px;
-    height: 42px;
-    margin-bottom: -42px;
-    background-image: url(../gx/btn_addstore.png);
-}
-
-#search_bitcoin .add_store a:hover {
-    background-position: bottom center;
-}
-
-#search_bitcoin .add_store span {
-    display: none;
-}
-
-#search_bitcoin .search {
-    padding: 0.2em 0.3em;
-    border: 1px solid #BDB8B1;
-    border-bottom: 0;
-    background-color: #BDB8B1;
-}
-
-#search_bitcoin .search .query {
-    font-size: 1.3em;
-    width: 380px;
-}
-
-#search_bitcoin .search .query.inactive {
-    color: #aaa;
-    font-style: italic;
-}
-
-#search_bitcoin .search .submit {
-    font-size: 1.3em;
-    margin-left: 0.3em;
-}
-
-#search_bitcoin .search .return {
-    padding-left: 0.6em;
-    margin: 0;
-    font-weight: bold;
-}
-
-#search_bitcoin .search .return a {
-    color: #eee;
-    text-decoration: none;
-}
-
-#search_bitcoin .search .return a:hover{
-    text-decoration: underline;
-}
-
-#search_bitcoin .results_wrapper {
-    position: relative;
-}
-
-#search_bitcoin .results {
-    background-color: white;
-    padding: 0.2em 0.5em;
-    height: 300px;
-    overflow-y: scroll;
-    border: 1px solid #BDB8B1;
-    border-bottom: 4px solid #7F7569;
-}
-
-#search_bitcoin .item {
-    display: block;
-    height: 65px;
-    clear: both;
-    padding: 0.5em 0.5em 0;
-    border-bottom: 1px solid #BDB8B1;
-    text-decoration: none;
-}
-
-#search_bitcoin .item:last-child {
-    border: 0;
-}
-
-#search_bitcoin .image {
-    float: left;
-    width: 65px;
-    height: 60px;
-}
-
-
-#search_bitcoin .domain {
-    font-weight: bold;
-    font-size: 0.8em;
-    color: #7F7569;
-    text-decoration: none;
-}
-
-#search_bitcoin .item:hover .domain {
-    text-decoration: underline;
-}
-
-#search_bitcoin .results .title {
-    width: 600px;
-    text-decoration: underline;
-}
-
-#search_bitcoin .details {
-    display: none; /*disabled*/
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 300px;
-    height: 100px;
-    background-color: #fff;
-    padding: 0.2em 0.5em;
-    height: 301px;
-}
-
-#search_bitcoin .powered {
-    float: right;
-    padding: 0.3em 0 0 0;
-}
-
-#search_bitcoin .powered .links {
-    font-size: 0.8em;
+#walletbanner .caption {
+    font-family: 'UbuntuBoldItalic', sans-serif;
+    font-size: 150%;
+    color: #fff;
+    text-align: left;
+    display:inline-block;
+    width:380px;
+    padding-left:30px;
+    position:relative;
+    top:-2px;
 }
 
 .box {
@@ -890,105 +750,10 @@ ul.qnalist li {
     padding: 0 2em 0 0;
 }
 
-.walletbox {
-    color: #fff;
-    background-color: #8A4F19;
-    background-image: url(../gx/tex_leather.jpg);
-    border-radius: 10px;
-    position: relative;
-    padding: 12px;
-    margin: 0 0 30px 0;
-}
-
-.walletbox h1.heading {
-    color: #7F7569;
-}
-
 .bigtabs {
     font-family: 'UbuntuBoldItalic', sans-serif;
     font-weight: normal;
     font-size: 105%;
-}
-
-.walletbox_inner {
-    position: relative;
-    border-radius: 3px;
-    border: 1px dashed #e9cdb8;
-    padding: 1em 0 0.8em;
-}
-
-#walletexplain {
-    float: left;
-    width: 300px;
-    padding: 10px 30px;
-}
-
-#walletexplain h1 {
-    margin: 0 0 0.3em;
-}
-
-#walletexplain p {
-    line-height: 1.27;
-}
-
-.walletbox .dl {
-    position: absolute;
-    bottom: 240px;
-    left: 30px;
-    text-align: right;
-}
-
-.walletbox .more {
-    margin: 0 8px 2px;
-    opacity: 0.4;
-}
-
-.walletbox .screenshot {
-    position: absolute;
-    top: 30px;
-    right: 30px;
-}
-
-.walletbox .secondary {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    border-top: 1px dashed #e9cdb8;
-    width: 100%;
-    height: 210px;
-}
-
-.walletbox .secondary .content {
-    padding: 30px 30px 30px 220px;
-}
-.walletbox .secondary .content h1, .walletbox .tertiary h1 {
-    margin-top: 0;
-}
-
-.walletbox .secondary .slot_phone {
-    position: absolute;
-    bottom: 12px;
-    left: 2px;
-    background-image: url(../gx/wallet_slot_phone.png);
-    width: 223px;
-    height: 210px;
-}
-
-.walletbox .tertiary {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    border-left: 1px dashed #e9cdb8;
-    width: 395px;
-    height: 180px;
-    padding: 30px 0 0 30px;
-}
-
-.walletbox .tertiary a {
-    color: #B2D5E3;
-}
-.walletbox .tertiary a:hover {
-    color: #75BFDF;
 }
 
 .featurebox {
@@ -1188,47 +953,6 @@ ul.qnalist li {
     bottom: 13px;
 }
 
-.mediaslit {
-    position: relative;
-    overflow: hidden;
-    height: 80px;
-    margin: 15px 0 -25px;
-}
-
-.mediaslit .l, .mediaslit .r {
-    background-image: url(../gx/slit_media_l.png);
-    width: 10px;
-    height: 80px;
-    position: absolute;
-    top: 0;
-    opacity: 0.3;
-    z-index: 3;
-}
-
-.mediaslit .l {
-    left: 0;
-}
-
-.mediaslit .r {
-    background-image: url(../gx/slit_media_r.png);
-    right: 0;
-}
-
-.mediaslit .content {
-    z-index: 1;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-image: url(../gx/media.gif);
-    height: 64px;
-    width: 100%;
-    background-position: 0 0;
-}
-
-.mediaslit .i2 {
-    left: 1721px;
-}
-
 .mediastatic {
     position: relative;
     z-index: 1;
@@ -1238,28 +962,6 @@ ul.qnalist li {
     background-image: url(../gx/media2.gif);
 }
 
-#marwan {
-    position: relative;
-    width: 970px;
-    height: 330px;
-    background-image: url(../gx/merchant_marwan.jpg);
-    margin: 3px 0;
-}
-
-#marwan .featurebox {
-    position: absolute;
-    bottom: 30px;
-    left: 30px;
-    margin: 0;
-    -moz-box-shadow: 0px 0px 15px #000; /* FF3.5+ */
-    -webkit-box-shadow: 0px 0px 15px #000; /* Saf3.0+, Chrome */
-    box-shadow: 0px 0px 15px #000; /* Opera 10.5, IE9, Chrome 10+ */
-    background-color: #fff;
-}
-#marwan .featurebox blockquote, #marwan .featurebox .source {
-    color: #9D292F;
-}
-
 .featurebox.red blockquote .oq {
     background-image: url(../gx/quote_open_red.png);
 }
@@ -1267,14 +969,52 @@ ul.qnalist li {
     background-image: url(../gx/quote_close_red.png);
 }
 
-#marwan .deem {
-    font-size: 0.9em;
+/* Generated by Font Squirrel (http://www.fontsquirrel.com) on March 20, 2011 08:25:23 PM America/New_York */
+
+@font-face {
+    font-family: 'UbuntuRegular';
+    src: url('../fonts/ubuntu-r-webfont.eot');
+    src: url('../fonts/ubuntu-r-webfont.eot?iefix') format('eot'),
+         url('../fonts/ubuntu-r-webfont.woff') format('woff'),
+         url('../fonts/ubuntu-r-webfont.ttf') format('truetype'),
+         url('../fonts/ubuntu-r-webfont.svg#webfontKT0zjHSC') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
-#marwan .featurebox a {
-    text-decoration: none;
-    color: #9D292F;
+@font-face {
+    font-family: 'UbuntuItalic';
+    src: url('../fonts/ubuntu-ri-webfont.eot');
+    src: url('../fonts/ubuntu-ri-webfont.eot?iefix') format('eot'),
+         url('../fonts/ubuntu-ri-webfont.woff') format('woff'),
+         url('../fonts/ubuntu-ri-webfont.ttf') format('truetype'),
+         url('../fonts/ubuntu-ri-webfont.svg#webfontGetaoUfe') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
-#marwan .featurebox a:hover {
-    text-decoration: underline;
+
+@font-face {
+    font-family: 'UbuntuBold';
+    src: url('../fonts/ubuntu-b-webfont.eot');
+    src: url('../fonts/ubuntu-b-webfont.eot?iefix') format('eot'),
+         url('../fonts/ubuntu-b-webfont.woff') format('woff'),
+         url('../fonts/ubuntu-b-webfont.ttf') format('truetype'),
+         url('../fonts/ubuntu-b-webfont.svg#webfontEreyFiHC') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'UbuntuBoldItalic';
+    src: url('../fonts/ubuntu-bi-webfont.eot');
+    src: url('../fonts/ubuntu-bi-webfont.eot?iefix') format('eot'),
+         url('../fonts/ubuntu-bi-webfont.woff') format('woff'),
+         url('../fonts/ubuntu-bi-webfont.ttf') format('truetype'),
+         url('../fonts/ubuntu-bi-webfont.svg#webfontf1YowZka') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
