@@ -77,6 +77,8 @@ p {
 }
 
 #lang {
+  width:970px;
+  margin:0 auto 0 auto;
   text-align: right;
   font-size: 94%;
 }
@@ -86,6 +88,7 @@ p {
   padding:5px 10px;
   border-bottom:1px solid rgb(213, 213, 213);
   border-left:1px solid rgb(213, 213, 213);
+  border-right:1px solid rgb(213, 213, 213);
 }
 
 #lang a, #lang a:link, #lang a:visited, #lang a:active {
