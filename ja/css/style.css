@@ -156,8 +156,8 @@ p {
   width: 100px;
 }
 
-#menu_qna a {
-  width: 100px;
+#menu_merchants a {
+  width: 135px;
 }
 
 #menu_whatis {
@@ -168,8 +168,8 @@ p {
   background-image: url(../gx/icon_hand.png);
 }
 
-#menu_qna {
-  background-image: url(../gx/icon_qna.png);
+#menu_merchants {
+  background-image: url(../gx/icon_shop.png);
 }
 
 #needhelp {
