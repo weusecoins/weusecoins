@@ -1,0 +1,97 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>Mining Guide - We Use Coins</title>
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+<link rel="shortcut icon" href="/favicon.ico">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js" type="text/javascript"></script>
+<script src="scripts/vendor/jquery.backgroundPosition.js" type="text/javascript"></script>
+<script src="scripts/common.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="background"></div>
+<div id="lang">
+  <div>
+    <a href="/en/">English</a>
+    <a href="/fr/">Français</a>
+    <a href="/ja/">日本語</a>
+  </div>
+</div>
+<div id="wrapper">
+  <div id="header">
+    <div id="logo"><a href="/en/"><span>We Use Coins</span></a></div>
+    <ul id="menu">
+      <li id="menu_whatis"><a href="/en/">What is Bitcoin?</a></li>
+      <li id="menu_getstarted"><a href="getting-started">Getting Started</a></li>
+      <li id="menu_qna"><a href="questions">Questions &amp; Answers</a></li>
+      <li id="menu_merchants"><a href="merchant-tools">Bitcoin for Merchants</a></li>
+      <li id="menu_mining"><a href="mining-guide">Mining Guide</a></li>
+    </ul>
+    <div class="clear">&nbsp;</div>
+  </div>
+  <div id="tagline">Your portal into the world of Bitcoin</div>
+  <div id="content">
+<!--content-->
+<h1 id="intro">Before we begin...</h1>
+<p>Before you read further, please understand that <strong>most bitcoin users don't mine!</strong> Bitcoin mining is a business and very competitive one. Mining only makes sense if you plan to do it for fun and thus don't care if you make a profit, or if you can do it very efficiently and for a profit.</p>
+<p>If you want to get Bitcoins based on a fixed amount of mining power, but you don't want to run the actual hardware yourself, you can purchase a <a href="https://en.bitcoin.it/wiki/Category:Mining_contractors">mining contract</a> .</p>
+<h1 id="technical">Technical Background <a href="http://www.weusecoins.com/mining-guide.php#" class="blocktoggle">more »</a></h1>
+<div class="block_outer">
+<div class="block" style="display: none">
+<p class="first">During mining, your computer runs a <a href="https://en.bitcoin.it/wiki/Proof_of_work">cryptographic hashing function</a> (two rounds of SHA256) on what is called a <em><a href="https://en.bitcoin.it/wiki/Block_hashing_algorithm">block header</a></em>. For each new hash, the mining software will use a different number as the random element of the block header, this number is called the <em>nonce</em>. Depending on the nonce and what else is in the block the hashing function will yield a hash which looks like this:</p>
+<pre>93ef6f358fbb998c60802496863052290d4c63735b7fe5bdaac821de96a53a9a</pre>
+<p>You can look at this hash as a really long number. (It's a hexadecimal number, meaning the letters A-F are the digits 10-15.) Now to make mining difficult, there is what's called a <em>difficulty target</em>. To create a valid block your miner has to find a hash that is below the difficulty target. So if for example the difficulty target is 1000000000000000000000000000000000000000000000000000000000000000, any number that starts with a zero would be below the target, e.g.:</p>
+<pre>0787a6fd6e0782f7f8058fbef45f5c17fe89086ad4e78a1520d06505acb4522f</pre>
+<p>If we lower the target to 0100000000000000000000000000000000000000000000000000000000000000, we now need two zeros in the beginning to be under it:</p>
+<pre>00db27957bd0ba06a5af9e6c81226d74312a7028cf9a08fa125e49f15cae4979</pre>
+<p>Because the target is such an unwieldy number with tons of digits, people generally use a simpler number to express the current target. This number is called the <em>mining difficulty</em>. The mining difficulty expresses how much harder the current block is to generate compared to the first block. So a difficulty of 70000 means to generate the current block you have to do 70000 times more work than <a href="https://en.bitcoin.it/wiki/Satoshi_Nakamoto">Satoshi</a> had to do generating the first block. Though be fair though, back then mining was a lot slower and less optimized.</p>
+<p class="last">The difficulty changes every 2016 blocks. The network tries to change it such that 2016 blocks at the current global network processing power take about 14 days. That's why, when the network power rises, the difficulty rises as well.</p>
+</div>
+</div>
+<h1 id="hardware">Hardware</h1>
+<p>In the beginning, mining with a CPU was the only way to mine bitcoins.  This eventually gave way to mining on graphics cards (GPU) due to the fact that the massively parrallel nature of some GPUs allowed for a <a href="https://en.bitcoin.it/wiki/Why_a_GPU_mines_faster_than_a_CPU">50x to 100x increase</a> in minging power while using less power usage per megahash compared to a CPU.</p> 
+<p>While any modern GPU can be used to mine, the AMD line of GPUs architecture turned out to be far superior to the nVidia architecture for mining bitcoins and the ATI Radeon HD 5870 turned out to be the most cost effective at the time.</p>
+<p>For an extensive list of graphics cards and their performance in Bitcoin mining, see the Bitcoin Wiki: <a href="https://en.bitcoin.it/wiki/Mining_hardware_comparison">Mining hardware comparison</a></p>
+<p>As with the CPU to GPU transition, the bitcoin mining world has progressed to using Field Programmable Gate Arrays (FPGA) as the primary mining hardware platform. While FPGAs do not enjoy a 50x - 100x increase in mining speed as was seen with the transition from CPUs to GPUs, they provide a benefit through power effeciency.  A typical 600 MH/s graphics card will consume upwards of 400w of power, whereas a typical FPGA mining device will provide a hashrate of 826 MH/s at 80w of power, a 5x improvement in power effeciency.  Power effeciency can make or break the profitiability of mining, so it was an important step to move from GPUs to FPGAs for many people.</p>
+<p>The bitcoin mining world is now moving into the Application Specific Integrated Circuit (ASIC) era.  An ASIC is a chip designed specifically to do one thing and one thing only.  Unlike FPGAs an ASIC can not be repurposed to perform other tasks. An ASIC designed to mine bitcoins can only mine bitcoins and will only ever mine bitcoins.  The inflexibility of an ASIC is offset by the fact that it offers a 100x increase in hashing power while reducing power consumption compared to all the previous technologies.  For example and entry level mining device from <a href="http://www.butterflylabs.com/">Butterfly Labs</a> provides 60 GH/s (1 Gigahash is 1000 Megahash. 1 GH/s = 1000 MH/s) while consuming 60w of power.  Compared to the GPU era, this is a 100x increase in hashrate while reducing power consumption by a factor of 7.</p>
+<p>Unlike all the previous generations of hardware preceding ASIC, ASIC is the "end of the line" when it comes to disruptive technology.  CPUs were replaced by GPUs which were in turn replaced by FPGAs which were replaced by ASICs.  There is nothing to replace ASICs now or even in the immediate future.  There will be stepwise refinement of the ASIC products and increases in effeciency, but nothing will offer the 50x - 100x increase in hashing power or 7x reduction in power usage that moves from previous technologies offered.  This makes power consumption on an ASIC device the single most important factor of any ASIC product, as the expected useful lifetime of an ASIC mining device is longer than the entire history of bitcoin mining. It is conceivable that an ASIC device purchased today would still be mining in two years if the device is power effecient enough and the cost of electricity does not exceed it's output.  Mining profitability is also dictated by the exchange rate, but under all circumstances the more power effecient the mining device, the more profitable it is.</p>
+<h1 id="software">Software</h1>
+<p>There are two basic ways to mine: On your own or as part of a pool. If you're mining on your own you need to start by <a href="http://www.weusecoins.com/getting-started.php">setting up your Bitcoin client</a> and set it up for JSON-RPC (see: <a href="https://en.bitcoin.it/wiki/Running_Bitcoin">Running Bitcoin</a>). The other option is to join a <a href="https://en.bitcoin.it/wiki/Pooled_mining">mining pool</a>. There are <a href="https://en.bitcoin.it/wiki/Category:Pool_Operators">several pools</a> to choose from. With a pool, the profit from any block a member generates is divided up among the members of the pool. The benefit of joining a pool is that you will receive a more frequent, steady payout (this is called reducing your variance), but your payout(s) will be less. Ultimately, you will earn the same either way. Solo mining will give you large, infrequent payouts and pooled mining will give you small, frequent payouts, but both add up to the same amount.</p>
+<p>Once you have your client set up or you have registered with a pool, the next step is to set up the actual miner. The most popular GPU/FPGA/ASIC miner at the moment is <a href="http://www.bitcointalk.org/index.php?topic=1334.0">CGminer</a> or a derivative designed specifically for FPGA and ASICs, BFGMiner. 
+<p>If you want a quick taste of mining without installing any software, try <a href="http://www.bitcoinplus.com/generate">Bitcoin Plus</a>, a browser-based CPU Bitcoin miner. As a CPU miner it's not cost-efficient for serious mining, but it does illustrate the principle of pooled mining very well.</p>
+ 
+<h2 id="credit">Thanks to:</h2>
+<p>Blitzboom and the guys from #bitcoin-dev for their help with writing the guide!</p>
+<!--content-->
+  </div>
+  
+  <div id="needhelp" class="box featurebox fullwidth">
+    <div class="left"><strong>Need help?</strong> Email <a href="mailto:help@weusecoins.com">help@weusecoins.com</a> to contact one of our volunteers.</div>
+    <div class="right">Powered by <a href="http://www.coinabul.com/">Coinabul</a></div>
+    <div class="clear"></div>
+  </div>
+  <div id="footer">
+	<div class="footermenu"><ul><li><a href="translations">Translations</a></li><a href="materials">Materials</a></li><li><a href="about">About</a></li></ul></div>
+	<a href="http://creativecommons.org/licenses/by/3.0/" class="cclogo"><img src="gx/footer_cc.png" alt=""/></a>
+	<div class="license">This work is licensed under a<br>
+	<a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a></div>
+  </div>
+</div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-22253606-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+
+</html>
