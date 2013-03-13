@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+	<loc>http://www.weusecoins.com/de/ueber</loc>
+	<lastmod>2013-03-11</lastmod>
+</url>
+<url>
+	<loc>http://www.weusecoins.com/de/kapital</loc>
+	<lastmod>2013-03-11</lastmod>
+</url>
+<url>
+	<loc>http://www.weusecoins.com/de/erste-schritte</loc>
+	<lastmod>2013-03-11</lastmod>
+</url>
+<url>
+	<loc>http://www.weusecoins.com/de/</loc>
+	<lastmod>2013-03-11</lastmod>
+</url>
+<url>
+	<loc>http://www.weusecoins.com/de/materialien</loc>
+	<lastmod>2013-03-11</lastmod>
+</url>
+<url>
+	<loc>http://www.weusecoins.com/de/verkaeufer-werkzeuge</loc>
+	<lastmod>2013-03-11</lastmod>
+</url>
+<url>
+	<loc>http://www.weusecoins.com/de/mining-anleitung</loc>
+	<lastmod>2013-03-11</lastmod>
+</url>
+<url>
+	<loc>http://www.weusecoins.com/de/fragen</loc>
+	<lastmod>2013-03-11</lastmod>
+</url>
+<url>
+	<loc>http://www.weusecoins.com/de/uebersetzungen</loc>
+	<lastmod>2013-03-11</lastmod>
+</url>
+<url>
 	<loc>http://www.weusecoins.com/en/about</loc>
 	<lastmod>2013-02-20</lastmod>
 </url>
@@ -53,7 +89,7 @@
 	<lastmod>2013-02-16</lastmod>
 </url>
 <url>
-	<loc>http://www.weusecoins.com/</loc>
+	<loc>http://www.weusecoins.com/fr/</loc>
 	<lastmod>2013-02-16</lastmod>
 </url>
 <url>
@@ -77,7 +113,7 @@
 	<lastmod>2013-02-16</lastmod>
 </url>
 <url>
-	<loc>http://www.weusecoins.com/</loc>
+	<loc>http://www.weusecoins.com/ja/</loc>
 	<lastmod>2013-02-16</lastmod>
 </url>
 <url>
