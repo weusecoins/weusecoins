@@ -29,15 +29,14 @@ more disk space, such as the weusecoins video.
 
 8. Contact, Make sure you state on appropriate contexts that emails sent to info@weusecoins.com must be in english.
 
-9. Contributor, You are allowed to put your name and a link at the bottom of the page, at the left to "Powered by coinabul". It should looks like this (in your language) : translated by (you). This might help us to contact you in case we need update for your translation.
+9. Contributor, You are allowed to put your name and a link in the team page, at the end of the existing translators list.
 
 10. run ./updatesitemap to update sitemap.xml
 
 ## What not to do ##
 
-for obvious reasons, you should not change the meaning of any text and you are not allowed to add links to
-services that host user funds or process payments. Such changes must be done by Bitcoin developers only.
-You are however allowed to add links to community or websites about Bitcoin that might be appropriate for each language
+for obvious reasons, you should not change the meaning of any text and you are not allowed to add or change links. Such changes must be discussed first.
+You are however allowed to add links to community or news websites in the community section that might be appropriate for each language.
 
 
 ## Using sed for bulk changes ##
