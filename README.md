@@ -22,7 +22,7 @@ Installing dependencies
 # Translation
 
 1. Begin, Run ./_contrib/translate (ISO 639-1 language code) (language name) to create your language. Ex : ./_contrib/translate fr "Français"
-2. Texts, Open .html files in the appropriate folder and in _layouts and translate all human readable english dialogs (without touching the html tags like <a> or <div>).
+2. Texts, Open .html files in the appropriate folder and in _layouts and translate all human readable english dialogs (without touching the html tags).
 3. Links, Update the name of each .html file so that it reflects your language, and update the links in the .html files accordingly.
 5. Images, Update the few images that contain text with some editing software such as Gimp. You might also need to resize some buttons.
 6. Social, Specific contents or integrations that make no sense in your language, such as StackExchange, twitter or else. You can choose to keep them with a notice saying that these ressources are not translated, or you can remove, or replace them by whatever you believe will be appropriate as a replacement.
