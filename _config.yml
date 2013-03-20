@@ -1,0 +1,10 @@
+DOWNLOAD_VERSION: 0.8.1
+langs:
+- langcode: de
+  langtext: Deutsch
+- langcode: en
+  langtext: English
+- langcode: fr
+  langtext: Français
+- langcode: ja
+  langtext: 日本語
