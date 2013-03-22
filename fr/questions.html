@@ -106,8 +106,8 @@ jQuery(function ($) {
   function renderQuestionList(id, data) {
     var container = $('#'+id);
     container.empty();
-    for (var i = 0, l = data.questions.length; i < l; i++) {
-      var q = data.questions[i];
+    for (var i = 0, l = data.items.length; i < l; i++) {
+      var q = data.items[i];
       q.url = 'http://bitcoin.stackexchange.com/questions/'+q.question_id;
       var el;
       if (container[0].nodeName == "TBODY") {
@@ -117,23 +117,26 @@ jQuery(function ($) {
           var q = this;
           var qurl;
           if (q.accepted_answer_id) {
-            qurl = 'http://api.bitcoin.stackexchange.com/1.1/answers/'+q.accepted_answer_id+'?body=true&jsonp=?';
+            qurl = '//api.stackexchange.com/2.1/answers/'+q.accepted_answer_id+'?site=bitcoin&filter=withbody&callback=?';
           } else if (q.answer_count) {
-            qurl = 'http://api.bitcoin.stackexchange.com/1.1/questions/'+q.question_id+'/answers?sort=votes&body=true&pagesize=1&jsonp=?';
+            qurl = '//api.stackexchange.com/2.1/questions/'+q.question_id+'/answers?site=bitcoin&sort=votes&filter=withbody&pagesize=1&callback=?';
           } else {
             // No answers yet, should be very rare
             window.open($(this).find('a').attr('href'));
             return false;
           }
           $.getJSON(qurl, function (data) {
-            var a = data.answers[0];
+            var a = data.items[0];
             $.fancybox.hideLoading();
             var rep = ""+a.owner.reputation;
             var rgx = /(\d+)(\d{3})/;
 	          while (rgx.test(rep)) {
 		          rep = rep.replace(rgx, '$1' + ',' + '$2');
 	          }
-            var content = '<div class="answerer"><img src="http://www.gravatar.com/avatar/'+a.owner.email_hash+'?s=32&d=identicon&r=PG" alt=""/><a href="">'+a.owner.display_name+'</a><br><strong>'+rep+'</strong></div><h1>'+q.title+'</h1>'+a.body;
+            var avatar = a.owner.profile_image || "";
+            avatar = avatar.replace('http://www.gravatar.com', 'https://secure.gravatar.com');
+            avatar = avatar.replace(/[?].*$/, '');
+            var content = '<div class="answerer"><img src="'+avatar+'?s=32&d=identicon&r=PG" alt=""/><a href="">'+a.owner.display_name+'</a><br><strong>'+rep+'</strong></div><h1>'+q.title+'</h1>'+a.body;
 
             content += '<p><a href="'+q.url+'">';
             if (q.answer_count > 1) {
@@ -161,22 +164,22 @@ jQuery(function ($) {
       el.appendTo(container);
     }
   };
-  $.getJSON('http://api.bitcoin.stackexchange.com/1.1/questions?sort=votes&pagesize=10&jsonp=?', function (data) {
+  $.getJSON('//api.stackexchange.com/2.1/questions?site=bitcoin&sort=votes&pagesize=10&callback=?', function (data) {
     $('#totalq').text(data.total);
     renderQuestionList('topquestions_list', data);
   });
-  
-  $.getJSON('http://api.bitcoin.stackexchange.com/1.1/questions?pagesize=5&jsonp=?', function (data) {
+
+  $.getJSON('//api.stackexchange.com/2.1/questions?site=bitcoin&pagesize=5&callback=?', function (data) {
     renderQuestionList('newquestions_list', data);
   });
 
   $('#cattabs a').click(function () {
     var el = $(this);
-    
+
     if (el.hasClass('current')) return false;
 
     var tag = el.data('tag');
-    var url = 'http://api.bitcoin.stackexchange.com/1.1/questions?sort=votes&pagesize=10&jsonp=?';
+    var url = '//api.stackexchange.com/2.1/questions?site=bitcoin&sort=votes&pagesize=10&callback=?';
 
 
     el.parent().parent().find('a').removeClass('current');
