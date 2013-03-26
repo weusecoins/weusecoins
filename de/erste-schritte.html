@@ -1,52 +1,21 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
-
-<head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-<title>Erste Schritte mit Bitcoin - We Use Coins</title>
-<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
-<link rel="shortcut icon" href="/favicon.ico">
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js" type="text/javascript"></script>
-<script src="scripts/vendor/jquery.backgroundPosition.js" type="text/javascript"></script>
-<script src="scripts/common.js" type="text/javascript"></script>
-</head>
-<body>
-<div id="background"></div>
-<div id="lang">
-  <div>
-    <a href="/de/">Deutsch</a>
-    <a href="/en/">English</a>
-    <a href="/fr/">Français</a>
-    <a href="/ja/">日本語</a>
-  </div>
-</div>
-<div id="wrapper">
-  <div id="header">
-    <div id="logo"><a href="/de/"><span>We Use Coins</span></a></div>
-    <ul id="menu">
-      <li id="menu_whatis"><a href="/de/">Was ist Bitcoin?</a></li>
-      <li id="menu_getstarted"><a href="erste-schritte">Erste Schritte</a></li>
-      <li id="menu_qna"><a href="questions">Fragen &amp; Antworten</a></li>
-      <li id="menu_merchants"><a href="verkaeufer-werkzeuge">Bitcoin für Händler</a></li>
-      <li id="menu_mining"><a href="mining-anleitung">Mining Anleitung</a></li>
-    </ul>
-    <div class="clear">&nbsp;</div>
-  </div>
-  <div id="tagline">Dein Portal in die Welt von Bitcoin</div>
-  <div id="content">
+---
+layout: base-de
+id: getting-started
+title: Erste Schritte mit Bitcoin - We Use Coins
+---
 <h1 id="getwallet">Schritt 1 - Besorgen Sie sich eine Brieftasche</h1>
-<p>Das <a href="http://www.bitcoin.org/">originale Bitcoin Programm</a> ist freie, open-source Software. Die aktuelle Version ist <strong>0.8.1</strong>, Sie können sie hier herunterladen:</p>
-<a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.1/bitcoin-0.8.1-win32-setup.exe/download" class="downloadfeature"><img src="gx/os_win_l.png" alt="Windows Logo" class="icon"/>
+<p>Das <a href="http://www.bitcoin.org/">originale Bitcoin Programm</a> ist freie, open-source Software. Die aktuelle Version ist <strong>{{ site.DOWNLOAD_VERSION }}</strong>, Sie können sie hier herunterladen:</p>
+<a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-{{ site.DOWNLOAD_VERSION }}/bitcoin-{{ site.DOWNLOAD_VERSION }}-win32-setup.exe/download" class="downloadfeature"><img src="gx/os_win_l.png" alt="Windows Logo" class="icon"/>
   <p class="first title">Windows</p>
   <p class="desc">Windows Setup (9.2MB)</p>
   <div class="autobutton download"></div>
 </a>
-<a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.1/bitcoin-0.8.1-macosx.dmg/download" class="downloadfeature"><img src="gx/os_mac_l.png" alt="Mac Logo" class="icon"/>
+<a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-{{ site.DOWNLOAD_VERSION }}/bitcoin-{{ site.DOWNLOAD_VERSION }}-macosx.dmg/download" class="downloadfeature"><img src="gx/os_mac_l.png" alt="Mac Logo" class="icon"/>
   <p class="first title">Mac</p>
   <p class="desc">Mac Installer (12.0MB)</p>
   <div class="autobutton download"></div>
 </a>
-<a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.1/bitcoin-0.8.1-linux.tar.gz/download" class="downloadfeature"><img src="gx/os_linux_l.png" alt="Linux Logo" class="icon"/>
+<a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-{{ site.DOWNLOAD_VERSION }}/bitcoin-{{ site.DOWNLOAD_VERSION }}-linux.tar.gz/download" class="downloadfeature"><img src="gx/os_linux_l.png" alt="Linux Logo" class="icon"/>
   <p class="first title">Linux</p>
   <p class="desc">Code & Binaries (11.1MB)</p>
   <div class="autobutton download"></div>
@@ -98,34 +67,5 @@
 <p class="last">Verschaffen Sie sich einen Überblick der Bitcoinwelt auf <a href="http://www.bitcoinwatch.com/">Bitcoin Watch</a>.</p>
 </div>
 </div>
-  </div>
-  <div id="needhelp" class="box featurebox fullwidth">
-    <div class="left"><strong>Hilfe nötig?</strong> Schreibe eine Email an <a href="mailto:help@weusecoins.com">help@weusecoins.com</a> um einen freiwilligen Mitarbeiter zu kontaktieren.</div>
-    <div class="right">Betrieben von <a href="http://www.coinabul.com/">Coinabul</a></div>
-    <div class="clear"></div>
-  </div>
-  <div id="footer">
-	<div class="footermenu"><ul><li><a href="uebersetzungen">Übersetzungen</a></li><a href="materialien">Materialien</a></li><li><a href="ueber">Über</a></li></ul></div>
-	<a href="http://creativecommons.org/licenses/by/3.0/" class="cclogo"><img src="gx/footer_cc.png" alt=""/></a>
-	<div class="license">Diese Arbeit ist lizenziert unter einer<br>
-	<a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported Lizenz</a></div>
-  </div>
-</div>
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-22253606-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
 <script src="scripts/vendor/jquery.getscrollbarwidth.js" type="text/javascript"></script>
 <script src="scripts/vendor/jquery.tmpl.js" type="text/javascript"></script>
-</body>
-
-</html>
