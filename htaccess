@@ -1,3 +1,7 @@
+---
+layout: none
+permalink: .htaccess
+---
 #301 Redirect to migrate old urls
 RewriteEngine on
 RewriteRule ^fund\.php$ /en/fund [R=301,L]

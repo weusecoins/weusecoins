@@ -1,1 +1,1 @@
-Sitemap: http://www.weusecoins.com/sitemap.xml
+Sitemap: https://www.weusecoins.com/sitemap.xml
