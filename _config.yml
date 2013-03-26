@@ -1,10 +1,50 @@
 DOWNLOAD_VERSION: 0.8.1
+
 langs:
-- langcode: de
-  langtext: Deutsch
-- langcode: en
-  langtext: English
-- langcode: fr
-  langtext: Français
-- langcode: ja
-  langtext: 日本語
+  de: Deutsch
+  fr: Français
+  en: English
+  ja: 日本語
+  
+section:
+  index:
+    de: 
+    en: 
+    fr: 
+    ja: 
+  about:
+    de: ueber
+    en: about
+    fr: a-propos
+    ja: about
+  fund:
+    de: kapital
+    en: fund
+    fr: fonds
+  getting-started:
+    de: erste-schritte
+    en: getting-started
+    fr: bitcoin-debuter
+    ja: getting-started
+  materials:
+    de: materialien
+    en: materials
+    fr: materiel
+  merchant-tools:
+    de: verkaeufer-werkzeuge
+    en: merchant-tools
+    fr: bitcoin-commerce
+    ja: merchant
+  mining-guide:
+    de: mining-anleitung
+    en: mining-guide
+  questions:
+    de: questions
+    en: questions
+    fr: questions
+  team:
+    en: team
+  translations:
+    de: uebersetzungen
+    en: translations
+    fr: traductions

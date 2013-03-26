@@ -1,123 +1,13 @@
+---
+---
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+	xmlns:xhtml="http://www.w3.org/1999/xhtml">{% for sect in site.section %}{% for lang in sect[1] %}
 <url>
-	<loc>http://www.weusecoins.com/de/ueber</loc>
-	<lastmod>2013-03-11</lastmod>
-</url>
-<url>
-	<loc>http://www.weusecoins.com/de/kapital</loc>
-	<lastmod>2013-03-11</lastmod>
-</url>
-<url>
-	<loc>http://www.weusecoins.com/de/erste-schritte</loc>
-	<lastmod>2013-03-11</lastmod>
-</url>
-<url>
-	<loc>http://www.weusecoins.com/de/</loc>
-	<lastmod>2013-03-11</lastmod>
-</url>
-<url>
-	<loc>http://www.weusecoins.com/de/materialien</loc>
-	<lastmod>2013-03-11</lastmod>
-</url>
-<url>
-	<loc>http://www.weusecoins.com/de/verkaeufer-werkzeuge</loc>
-	<lastmod>2013-03-11</lastmod>
-</url>
-<url>
-	<loc>http://www.weusecoins.com/de/mining-anleitung</loc>
-	<lastmod>2013-03-11</lastmod>
-</url>
-<url>
-	<loc>http://www.weusecoins.com/de/questions</loc>
-	<lastmod>2013-03-11</lastmod>
-</url>
-<url>
-	<loc>http://www.weusecoins.com/de/uebersetzungen</loc>
-	<lastmod>2013-03-11</lastmod>
-</url>
-<url>
-	<loc>http://www.weusecoins.com/en/about</loc>
-	<lastmod>2013-02-20</lastmod>
-</url>
-<url>
-	<loc>http://www.weusecoins.com/en/fund</loc>
-	<lastmod>2013-02-20</lastmod>
-</url>
-<url>
-	<loc>http://www.weusecoins.com/en/getting-started</loc>
-	<lastmod>2013-02-20</lastmod>
-</url>
-<url>
-	<loc>http://www.weusecoins.com/</loc>
-	<lastmod>2013-02-20</lastmod>
-</url>
-<url>
-	<loc>http://www.weusecoins.com/en/materials</loc>
-	<lastmod>2013-02-20</lastmod>
-</url>
-<url>
-	<loc>http://www.weusecoins.com/en/merchant-tools</loc>
-	<lastmod>2013-02-20</lastmod>
-</url>
-<url>
-	<loc>http://www.weusecoins.com/en/mining-guide</loc>
-	<lastmod>2013-02-20</lastmod>
-</url>
-<url>
-	<loc>http://www.weusecoins.com/en/questions</loc>
-	<lastmod>2013-02-20</lastmod>
-</url>
-<url>
-	<loc>http://www.weusecoins.com/en/translations</loc>
-	<lastmod>2013-02-20</lastmod>
-</url>
-<url>
-	<loc>http://www.weusecoins.com/fr/a-propos</loc>
-	<lastmod>2013-02-16</lastmod>
-</url>
-<url>
-	<loc>http://www.weusecoins.com/fr/bitcoin-commerce</loc>
-	<lastmod>2013-02-16</lastmod>
-</url>
-<url>
-	<loc>http://www.weusecoins.com/fr/bitcoin-debuter</loc>
-	<lastmod>2013-02-16</lastmod>
-</url>
-<url>
-	<loc>http://www.weusecoins.com/fr/fonds</loc>
-	<lastmod>2013-02-16</lastmod>
-</url>
-<url>
-	<loc>http://www.weusecoins.com/fr/</loc>
-	<lastmod>2013-02-16</lastmod>
-</url>
-<url>
-	<loc>http://www.weusecoins.com/fr/materiel</loc>
-	<lastmod>2013-02-16</lastmod>
-</url>
-<url>
-	<loc>http://www.weusecoins.com/fr/questions</loc>
-	<lastmod>2013-02-16</lastmod>
-</url>
-<url>
-	<loc>http://www.weusecoins.com/fr/traductions</loc>
-	<lastmod>2013-02-16</lastmod>
-</url>
-<url>
-	<loc>http://www.weusecoins.com/ja/about</loc>
-	<lastmod>2013-02-16</lastmod>
-</url>
-<url>
-	<loc>http://www.weusecoins.com/ja/getting-started</loc>
-	<lastmod>2013-02-16</lastmod>
-</url>
-<url>
-	<loc>http://www.weusecoins.com/ja/</loc>
-	<lastmod>2013-02-16</lastmod>
-</url>
-<url>
-	<loc>http://www.weusecoins.com/ja/merchant</loc>
-	<lastmod>2013-02-16</lastmod>
-</url>
+  <loc>http://bitcoin.org/{{ lang[0] }}/{{ lang[1] }}</loc>{% for lan in sect[1] %}{% if lang[0] != lan[0] %}
+  <xhtml:link
+    rel="alternate"
+    hreflang="{{ lan[0] }}"
+    href="https://www.weusecoins.org/{{ lan[0] }}/{{ lan[1] }}" />{% endif %}{% endfor %}
+</url>{% endfor %}{% endfor %}
 </urlset>

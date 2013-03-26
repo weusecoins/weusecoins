@@ -1,6 +1,5 @@
 ---
-langcode: de
-langtext: Deutsch
+lang: de
 ---
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -17,16 +16,16 @@ langtext: Deutsch
 <div id="background"></div>
 <div id="lang">
   <div>
-        {% for lang in site.langs %}
-        <a href="/{{ lang.langcode }}/">{{ lang.langtext }}</a>
+        {% for lang in site.langs %}{% assign la = lang[0]%}
+        <a href="/{{ lang[0] }}/{{ site.section[page.id][la] }}">{{ lang[1] }}</a>
         {% endfor %}
   </div>
 </div>
 <div id="wrapper">
   <div id="header">
-    <div id="logo"><a href="/{{ page.langcode }}/"><span>We Use Coins</span></a></div>
+    <div id="logo"><a href="/{{ page.lang }}/"><span>We Use Coins</span></a></div>
     <ul id="menu">
-      <li id="menu_whatis"><a href="/{{ page.langcode }}/">Was ist Bitcoin?</a></li>
+      <li id="menu_whatis"><a href="/{{ page.lang }}/">Was ist Bitcoin?</a></li>
       <li id="menu_getstarted"><a href="erste-schritte">Erste Schritte</a></li>
       <li id="menu_qna"><a href="questions">Fragen &amp; Antworten</a></li>
       <li id="menu_merchants"><a href="verkaeufer-werkzeuge">Bitcoin für Händler</a></li>

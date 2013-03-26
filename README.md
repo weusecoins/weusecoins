@@ -15,7 +15,6 @@ Installing dependencies
 # Usage
 
 * update DOWNLOAD\_VERSION in _config.yml
-* run ./_contrib/updatesitemap if you changed a page
 * run jekyll
 * output will be in \_site/
 
@@ -29,7 +28,7 @@ Installing dependencies
 7. Languages, Make sure that the languages are listed in alphabetical order in _config.yml
 8. Contact, Make sure you state on appropriate contexts that emails sent to info@weusecoins.com must be in english.
 9. Contributor, You are allowed to put your name and a link in the team page, at the end of the existing list of contributors.
-10. Sitemap, run ./_contrib/updatesitemap to update sitemap.xml
+10. Sitemap, Add links to your translated pages in _config.yml under their equivalent english version.
 
 * A tips for translators, you can preview your work in a simple Google chrome browser with no HTTP server. Just go to the existing english page, open the javascript console with CTRL + SHIFT + J and use the following command to make the page editable : document.body.contentEditable=true
 

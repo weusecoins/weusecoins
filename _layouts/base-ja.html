@@ -1,6 +1,5 @@
 ---
-langcode: ja
-langtext: 日本語
+lang: ja
 ---
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -17,16 +16,16 @@ langtext: 日本語
 <div id="background"></div>
 <div id="lang">
   <div>
-        {% for lang in site.langs %}
-        <a href="/{{ lang.langcode }}/">{{ lang.langtext }}</a>
+        {% for lang in site.langs %}{% assign la = lang[0]%}
+        <a href="/{{ lang[0] }}/{{ site.section[page.id][la] }}">{{ lang[1] }}</a>
         {% endfor %}
   </div>
 </div>
 <div id="wrapper">
   <div id="header">
-    <div id="logo"><a href="/{{ page.langcode }}/"><span>We Use Coins 日本</span></a></div>
+    <div id="logo"><a href="/{{ page.lang }}/"><span>We Use Coins 日本</span></a></div>
     <ul id="menu">
-      <li id="menu_whatis"><a href="/{{ page.langcode }}/"><span>ビットコイン<br />とは?</span></a></li>
+      <li id="menu_whatis"><a href="/{{ page.lang }}/"><span>ビットコイン<br />とは?</span></a></li>
       <li id="menu_getstarted"><a href="getting-started"><span>利用を<br />開始する</span></a></li>
       <li id="menu_merchants"><a href="merchant"><span>商用<br />ビットコイン</span></a></li>
     </ul>
