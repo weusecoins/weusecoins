@@ -38,12 +38,14 @@ section:
   mining-guide:
     de: mining-anleitung
     en: mining-guide
+    fr: guide-minage
   questions:
     de: questions
     en: questions
     fr: questions
   team:
     en: team
+    fr: equipe
   translations:
     de: uebersetzungen
     en: translations

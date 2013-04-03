@@ -160,6 +160,10 @@ p {
   width: 135px;
 }
 
+#menu_mining a {
+  width: 100px;
+}
+
 #menu_whatis {
   background-image: url(../gx/icon_bitcoin.png);
 }
@@ -174,6 +178,10 @@ p {
 
 #menu_merchants {
   background-image: url(../gx/icon_shop.png);
+}
+
+#menu_mining {
+  background-image: url(../gx/icon_pickaxe.png);
 }
 
 #tagline {
