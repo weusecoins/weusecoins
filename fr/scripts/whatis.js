@@ -29,7 +29,7 @@ $(function(){
   var tabs = {
     twitter: {}, // autoloaded
     news: {
-      url: 'data/headlines.php'
+      url: '../data/headlines.php'
     }
   };
 
