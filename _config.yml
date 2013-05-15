@@ -2,51 +2,62 @@ DOWNLOAD_VERSION: 0.8.1
 
 langs:
   de: Deutsch
-  fr: Français
   en: English
+  fr: Français
+  nl: Nederlands
   ja: 日本語
   
 section:
   index:
-    de: 
-    en: 
-    fr: 
-    ja: 
+    de:
+    en:
+    fr:
+    nl:
+    ja:
   about:
     de: ueber
     en: about
     fr: a-propos
+    nl: over
     ja: about
   fund:
     de: kapital
     en: fund
     fr: fonds
+    nl: fonds
   getting-started:
     de: erste-schritte
     en: getting-started
     fr: bitcoin-debuter
+    nl: aan-de-slag
     ja: getting-started
   materials:
     de: materialien
     en: materials
     fr: materiel
+    nl: bronnen
   merchant-tools:
     de: verkaeufer-werkzeuge
     en: merchant-tools
     fr: bitcoin-commerce
+    nl: voor-handelaars
     ja: merchant
   mining-guide:
     de: mining-anleitung
     en: mining-guide
     fr: guide-minage
+    nl: ontginnings-gids
   questions:
     de: questions
     en: questions
     fr: questions
+    nl: vragen
   team:
     en: team
     fr: equipe
+    nl: team
   translations:
     de: uebersetzungen
     en: translations
     fr: traductions
+    nl: vertalingen
