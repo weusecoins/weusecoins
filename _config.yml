@@ -4,6 +4,7 @@ langs:
   de: Deutsch
   fr: Français
   en: English
+  it: Italiano
   ja: 日本語
   
 section:
@@ -11,42 +12,52 @@ section:
     de: 
     en: 
     fr: 
+    it: 
     ja: 
   about:
     de: ueber
     en: about
     fr: a-propos
+    it: about
     ja: about
   fund:
     de: kapital
     en: fund
     fr: fonds
+    it: fondi
   getting-started:
     de: erste-schritte
     en: getting-started
     fr: bitcoin-debuter
+    it: incominciare-con-bitcoin
     ja: getting-started
   materials:
     de: materialien
     en: materials
     fr: materiel
+    it: materiale
   merchant-tools:
     de: verkaeufer-werkzeuge
     en: merchant-tools
     fr: bitcoin-commerce
+    it: servizi-commercianti
     ja: merchant
   mining-guide:
     de: mining-anleitung
     en: mining-guide
     fr: guide-minage
+    it: guida-scavo
   questions:
     de: questions
     en: questions
     fr: questions
+    it: domande
   team:
     en: team
     fr: equipe
+    it: team
   translations:
     de: uebersetzungen
     en: translations
     fr: traductions
+    it: traduzioni
