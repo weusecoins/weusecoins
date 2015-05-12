@@ -66,7 +66,7 @@ Please keep HTML structure as symetric and perfectly identical as possible betwe
 
 <h2>Video translations</h2>
 
-Subtitles for <i>What is Bitcoin?</i> are available in the /material/wib_video/v2 folder. Some finished translated versions are currently available. More would be appreciated. If you can do the voiceover then please submit a pull request with the mp3 and we can get the translated video made and uploaded to Youtube.
+Subtitles for <i>What is Bitcoin?</i> are available in the /material/wib_video/v2 folder. Some finished translated versions are currently available. More would be appreciated. If you can do the voiceover then please submit a pull request with the mp3 and we can get the translated video made and uploaded to Youtube. This <a href="The videos has been dubbed into a few languages already. Let's refer to this list when making sites for each of the languages: This <a href="https://bitcointalk.org/index.php?topic=109995.0">thread</a> can help us prioritize which languages to work on.
 
 <ul><li>de - <a href="https://www.youtube.com/watch?v=2kPNz0tdlj0">German</a> - v1 full</li>
 <li>el - Greek - Could not find on Youtube</li>
