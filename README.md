@@ -34,7 +34,7 @@ Installing dependencies
 
 # What not to do
 
-for obvious reasons, you should not change the meaning of any text and you are not allowed to add or change links. Such changes must be discussed first.
+For obvious reasons, you should not change the meaning of any text and you are not allowed to add or change links. Such changes must be discussed first.
 You are however allowed to add links to community or news websites in the community section that might be appropriate for each language.
 
 # Keep the same html structure
