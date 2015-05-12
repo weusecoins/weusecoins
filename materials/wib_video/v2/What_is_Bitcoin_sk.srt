@@ -1,0 +1,130 @@
+﻿1
+00:00:00,180 --> 00:00:01,800
+Čo je Bitcoin?
+
+2
+00:00:01,900 --> 00:00:04,900
+Bitcoin je prvá
+decentralizovaná digitálna mena.
+
+3
+00:00:04,960 --> 00:00:07,800
+Bitcoiny sú digitálne peniaze
+ktoré môžete posielať cez internet.
+
+4
+00:00:07,900 --> 00:00:11,600
+V porovnaní s ostatnými alternatívami,
+majú bitcoiny veľa výhod.
+
+5
+00:00:11,700 --> 00:00:15,000
+Bitcoiny sú posielané priamo
+od osoby k osobe cez internet.
+
+6
+00:00:15,050 --> 00:00:17,160
+bez prechodu
+bankou a bez zdanenia.
+
+7
+00:00:17,200 --> 00:00:19,520
+To znamená, že poplatky sú nižšie,
+
+8
+00:00:19,600 --> 00:00:21,120
+ že ich môžete používať v každej krajine,
+
+9
+00:00:21,200 --> 00:00:22,900
+že vaše konto nemôže byť zmrazené
+
+10
+00:00:23,000 --> 00:00:25,500
+a že tu nie sú žiadne podmienky
+ani iracionálne obmedzenia.
+
+11
+00:00:26,300 --> 00:00:28,000
+Poďme sa pozrieť na to, ako to funguje.
+
+12
+00:00:28,250 --> 00:00:31,400
+Existuje niekoľko konverzných kurzov
+podľa ktorých môžete kupovať a predávať bitcoiny
+
+13
+00:00:31,450 --> 00:00:33,450
+za doláre, eurá a iné.
+
+14
+00:00:33,600 --> 00:00:37,400
+Vaše bitcoiny sú uložené vo vašej digitálnej
+peňaženke na počítači alebo v mobile.
+
+15
+00:00:39,100 --> 00:00:42,100
+Poslanie bitcoinov je rovnako
+jednoduché ako poslanie emailu
+
+16
+00:00:42,200 --> 00:00:45,100
+a s Bitcoinom si
+môžete kúpiť čokoľvek.
+
+17
+00:00:45,900 --> 00:00:49,500
+Sieť Bitcoinu je zabezpečená
+jednotlivcami, prezývanými banníci.
+
+18
+00:00:49,800 --> 00:00:55,120
+Banníci sú odmeňovaní novo generovanými
+bitcoinami za overovanie transakcií.
+
+19
+00:00:55,300 --> 00:01:00,400
+Po tom, ako sú transakcie overené, sú
+zaznamenané vo verejnej "knihe".
+
+20
+00:01:00,900 --> 00:01:04,200
+Bitcoin otvára úplne
+novú platformu pre inovácie.
+
+21
+00:01:04,400 --> 00:01:08,120
+Software je kompletne otvorený
+a ktokoľvek si môže prezrieť jeho kód.
+
+22
+00:01:08,500 --> 00:01:12,500
+Bitcoin mení financie rovnako ako
+web zmenil uverejňovanie.
+
+23
+00:01:12,590 --> 00:01:16,400
+Keď majú všetci prístup k 
+celosvetovému trhu, bude to prosperovať.
+
+24
+00:01:17,100 --> 00:01:21,100
+Bitcoin je výborná cesta ako znížiť
+prevodné náklady pri podnikanie.
+
+25
+00:01:21,180 --> 00:01:24,450
+Začatie nič nestojí
+a práca s nimi je jednoduchá.
+
+26
+00:01:24,600 --> 00:01:28,900
+Nie sú tu žiadne dane a cez 
+Bitcoin economy získate ďalšiu prácu.
+
+
+27
+00:01:29,000 --> 00:01:36,760
+Pre viac informácií o
+Bitcoinoch navštívte: weusecoins.com
+

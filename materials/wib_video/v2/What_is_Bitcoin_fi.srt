@@ -1,0 +1,129 @@
+﻿1
+00:00:00,180 --> 00:00:01,800
+Mikä on Bitcoin?
+
+2
+00:00:01,900 --> 00:00:04,900
+Bitcoin on ensimmäinen
+hajautettu digitaalivaluutta.
+
+3
+00:00:04,960 --> 00:00:07,800
+Bitcoinit ovat digitaalisia kolikoita,
+joita voidaan lähettää Internetin välityksellä.
+
+4
+00:00:07,900 --> 00:00:11,600
+Verrattuna muihin vaihtoehtoihin,
+bitcoineilla on useita etuja.
+
+5
+00:00:11,700 --> 00:00:15,000
+Bitcoinit siirretään suoraan
+henkilöltä henkilölle verkon kautta
+
+6
+00:00:15,050 --> 00:00:17,160
+ilman että ne menevät pankin tai
+maksunvälittäjän läpi.
+
+7
+00:00:17,200 --> 00:00:19,520
+Tämä tarkoittaa että siirtomaksut ovat paljon alhaisempia,
+
+8
+00:00:19,600 --> 00:00:21,120
+voit käyttää niitä kaikkialla,
+
+9
+00:00:21,200 --> 00:00:22,900
+tiliäsi ei voida jäädyttää
+
+10
+00:00:23,000 --> 00:00:25,500
+eikä ole täytettäviä ehtoja
+tai mielivaltaisia rajoituksia.
+
+11
+00:00:26,300 --> 00:00:28,000
+Katsotaan miten tämä toimii.
+
+12
+00:00:28,250 --> 00:00:31,400
+On olemassa useita valuutanvaihtopaikkoja
+joissa voit ostaa ja myydä bitcoineja
+
+13
+00:00:31,450 --> 00:00:33,450
+dollareita, euroja sekä muita valuuttoja vastaan.
+
+14
+00:00:33,600 --> 00:00:37,400
+Bitcoinit säilytetään digitaalisessa
+lompakossa omalla tietokoneella tai mobiililaitteessa.
+
+15
+00:00:39,100 --> 00:00:42,100
+Bitcoinien lähettäminen on yhtä helppoa
+kuin sähköpostin lähettäminen
+
+16
+00:00:42,200 --> 00:00:45,100
+ja voit ostaa Bitcoineilla
+mitä tahansa.
+
+17
+00:00:45,900 --> 00:00:49,500
+Bitcoin verkkoa suojaavat yksittäiset
+ihmiset, joita kutsutaan louhijoiksi.
+
+18
+00:00:49,800 --> 00:00:55,120
+Louhijat palkitaan uusilla bitcoineilla
+siirtojen varmistamisesta.
+
+19
+00:00:55,300 --> 00:01:00,400
+Siirtojen varmistamisen jälkeen maksut
+kirjataan julkiseen ja avoimeen tilikirjaan.
+
+20
+00:01:00,900 --> 00:01:04,200
+Bitcoin avaa kokonaan uuden
+alustan innovaatioille.
+
+21
+00:01:04,400 --> 00:01:08,120
+Ohjelmisto on täysin avointa lähdekoodia
+ja ketä tahansa voi tarkistaa sen toiminnan.
+
+22
+00:01:08,500 --> 00:01:12,500
+Bitcoin on muuttamassa rahoitusalaa vastaavalla
+tavalla kuin Internet muutti julkaisemisen.
+
+23
+00:01:12,590 --> 00:01:16,400
+Kun kaikilla on pääsy globaalille markkinalle,
+hyvät ideat pääsevät kukoistamaan!
+
+24
+00:01:17,100 --> 00:01:21,100
+Bitcoin on loistava tapa yrityksille
+minimoida siirtomaksut.
+
+25
+00:01:21,180 --> 00:01:24,450
+Bitcoinien vastaanottaminen ei maksa
+mitään ja aloittaminen on helppoa.
+
+26
+00:01:24,600 --> 00:01:28,900
+Ei takaisinveloituksia ja saat itsellesi
+ylimääräistä liiketoimintaa Bitcoin taloudesta.
+
+27
+00:01:29,000 --> 00:01:36,760
+Lisätietoa Bitcoinista löydät
+osoitteesta: weusecoins.com
+

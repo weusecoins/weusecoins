@@ -1,0 +1,212 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>Vragen en Antwoorden - We Use Coins</title>
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js" type="text/javascript"></script>
+<script src="scripts/vendor/jquery.backgroundPosition.js" type="text/javascript"></script>
+<script src="scripts/common.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="background"></div>
+<div id="lang">
+  <div>
+        
+        <a href="/en/questions/">English</a>
+        
+        <a href="/ja/">日本語</a>
+        
+        <a href="/de/questions.html">Deutsch</a>
+        
+        <a href="/fr/questions.html">Français</a>
+        
+        <a href="/nl/vragen.html">Nederlands</a>
+        
+  </div>
+</div>
+<div id="wrapper">
+  <div id="header">
+    <div id="logo"><a href="index.html"><span>We Use Coins</span></a></div>
+    <ul id="menu">
+      <li id="menu_whatis"><a href="index.html">Wat is Bitcoin?</a></li>
+      <li id="menu_getstarted"><a href="aan-de-slag.html">Aan de Slag</a></li>
+      <li id="menu_qna"><a href="vragen.html">Vragen &amp; Antwoorden</a></li>
+      <li id="menu_merchants"><a href="voor-handelaars.html">Voor Handelaars</a></li>
+      <li id="menu_mining"><a href="ontginnings-gids.html">Ontginnings Gids</a></li>
+    </ul>
+    <div class="clear">&nbsp;</div>
+  </div>
+  <div id="tagline">Je protaal in de wereld van Bitcoin</div>
+  <div id="content">
+  <link rel="stylesheet" href="scripts/vendor/fancybox/jquery.fancyboxe8da.css?v=2.0.3" type="text/css" media="screen" /><link rel="shortcut icon" href="/favicon.ico">
+<div class="boxcontainer">
+<div style="margin-top:15px;font-weight:bold;">De vragen en antwoorden zijn momenteel enkel beschikbaar in het Engels.</div>
+<div class="box questionbox">
+  <div id="adorn_qmark"><img src="gx/adorn_qmark.png" alt=""/></div>
+  <h1 id="topquestions" class="outheader">Top Vragen</h1>
+  <ul id="cattabs" class="tabs" style="float: left">
+    <li><a href="#" class="current first" data-tag="">All</a></li>
+    <li><a href="#" data-tag="economics">Economie</a></li>
+    <li><a href="#" data-tag="security">Beveiliging</a></li>
+    <li><a href="#" data-tag="client">Software</a></li>
+    <li><a href="#" data-tag="legal">Juridisch</a></li>
+    <li><a href="#" data-tag="exchanges">Beurzen</a></li>
+    <li><a href="#" class="last" data-tag="mining">Ontginning</a></li>
+  </ul>
+  <div class="clear"></div>
+  <div class="boxbody">
+    <table class="qnalist">
+      <thead>
+        <tr><th>Vraag</th><th class="score">Score</th></tr>
+      </thead>
+      <tbody id="topquestions_list"></tbody>
+    </table>
+  </div>
+  <div class="footer">
+    <p class="first last">Mogelijk gemaakt door <a href="http://bitcoin.stackexchange.com/">Bitcoin StackExchange</a></p>
+  </div>
+</div>
+<div class="clear"></div>
+</div>
+<div style="float: right; width: 450px; margin-left: 20px;">
+  <h1>Stel JOUW vraag!</h1>
+  <div class="block_outer">
+    <div class="block">
+      <img src="gx/adorn_qmark_guy.png" alt="" style="float: right; margin: 0 30px 5px 5px"/>
+      <p class="first">Bezoek de <a href="http://bitcoin.stackexchange.com/">Bitcoin StackExchange</a>!</p>
+      <p>Zoek even tussen de <strong id="totalq">500+</strong> antwoorden om te kijken of je vraag reeds beantwoord werd.</p>
+      <p class="last">Zo niet, twijfel niet en <a href="http://bitcoin.stackexchange.com/questions/ask">vraag</a> (enkel in het Engels)!</p>
+    </div>
+  </div>
+</div>
+<h1 id="newquestions">Nieuwste Vragen</h1>
+<ul class="qnalist" id="newquestions_list"></ul>
+<script type="text/javascript">
+jQuery(function ($) {
+  function renderQuestionList(id, data) {
+    var container = $('#'+id);
+    container.empty();
+    for (var i = 0, l = data.items.length; i < l; i++) {
+      var q = data.items[i];
+      q.url = 'http://bitcoin.stackexchange.com/questions/'+q.question_id;
+      var el;
+      if (container[0].nodeName == "TBODY") {
+        // Table
+        el = $('<tr><td class="main"><a href="'+q.url+'" target="_blank">'+q.title+'</a><td class="score">'+q.score+'</td></td></tr>');
+        el.click($.proxy(function () {
+          var q = this;
+          var qurl;
+          if (q.accepted_answer_id) {
+            qurl = '//api.stackexchange.com/2.1/answers/'+q.accepted_answer_id+'?site=bitcoin&filter=withbody&callback=?';
+          } else if (q.answer_count) {
+            qurl = '//api.stackexchange.com/2.1/questions/'+q.question_id+'/answers?site=bitcoin&sort=votes&filter=withbody&pagesize=1&callback=?';
+          } else {
+            // No answers yet, should be very rare
+            window.open($(this).find('a').attr('href'));
+            return false;
+          }
+          $.getJSON(qurl, function (data) {
+            var a = data.items[0];
+            $.fancybox.hideLoading();
+            var rep = ""+a.owner.reputation;
+            var rgx = /(\d+)(\d{3})/;
+	          while (rgx.test(rep)) {
+		          rep = rep.replace(rgx, '$1' + ',' + '$2');
+	          }
+            var avatar = a.owner.profile_image || "";
+            avatar = avatar.replace('http://www.gravatar.com', 'https://secure.gravatar.com');
+            avatar = avatar.replace(/[?].*$/, '');
+            var content = '<div class="answerer"><img src="'+avatar+'?s=32&d=identicon&r=PG" alt=""/><a href="">'+a.owner.display_name+'</a><br><strong>'+rep+'</strong></div><h1>'+q.title+'</h1>'+a.body;
+
+            content += '<p><a href="'+q.url+'">';
+            if (q.answer_count > 1) {
+              content += 'Read '+(q.answer_count-1)+' more answer'+(q.answer_count == 2 ? '' : 's')+' on StackExchange &raquo;';
+            } else {
+              content += 'More information on StackExchange &raquo;';
+            }
+            content += '</a></p>';
+            var box = $.fancybox({
+              autoSize: false,
+              width: 940,
+              height: 600,
+              type: 'html',
+              wrapCSS: 'answerlightbox',
+              content: content
+            });
+          });
+          $.fancybox.showLoading();
+          return false;
+        }, q));
+      } else {
+        // List
+        el = $('<li><a href="'+q.url+'" target="_blank">'+q.title+'</a></li>');
+      }
+      el.appendTo(container);
+    }
+  };
+  $.getJSON('//api.stackexchange.com/2.1/questions?site=bitcoin&sort=votes&pagesize=10&callback=?', function (data) {
+    $('#totalq').text(data.total);
+    renderQuestionList('topquestions_list', data);
+  });
+
+  $.getJSON('//api.stackexchange.com/2.1/questions?site=bitcoin&pagesize=5&callback=?', function (data) {
+    renderQuestionList('newquestions_list', data);
+  });
+
+  $('#cattabs a').click(function () {
+    var el = $(this);
+
+    if (el.hasClass('current')) return false;
+
+    var tag = el.data('tag');
+    var url = '//api.stackexchange.com/2.1/questions?site=bitcoin&sort=votes&pagesize=10&callback=?';
+
+
+    el.parent().parent().find('a').removeClass('current');
+    el.addClass('current');
+
+    if (tag) {
+      url += "&tagged="+tag;
+    }
+
+    $.getJSON(url, function (data) {
+      renderQuestionList('topquestions_list', data);
+    });
+
+    return false;
+  });
+});
+</script>
+<script type="text/javascript" src="scripts/vendor/fancybox/jquery.fancybox.packe8da.js?v=2.0.3"></script>
+
+  </div>
+  <div id="needhelp" class="box featurebox fullwidth">
+    <div class="left"><strong>Hulp nodig?</strong> Email <a href="mailto:help@weusecoins.com">help@weusecoins.com</a> (Engelstalig) om één van onze medewerkers te contacteren.</div>
+    <div class="right"></div>
+    <div class="clear"></div>
+  </div>
+  <div id="footer">
+	<div class="footermenu"><ul><li><a href="vertalingen.html">Vertalingen</a></li><li><a href="bronnen.html">Bronnen</a></li><li><a href="team.html">Team</a></li><li><a href="over.html">Over</a></li></ul></div>
+	<a href="http://creativecommons.org/licenses/by/3.0/" class="cclogo"><img src="gx/footer_cc.png" alt=""/></a>
+	<div class="license">Dit werk werd gepubliceert onder de<br>
+	<a href="http://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution-NoDerivatives 4.0 International</a>
+	<br/><br/><center>&#169; 2011-2015 Hesiod Services LLC <a href="https://www.weusecoins.com/en/terms/">Terms and conditions</a></center></div>
+  </div>
+</div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-22253606-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

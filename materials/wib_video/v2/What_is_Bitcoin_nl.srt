@@ -1,0 +1,129 @@
+﻿1
+00:00:00,180 --> 00:00:01,800
+Wat is Bitcoin?
+
+2
+00:00:01,900 --> 00:00:04,900
+Bitcoin is de eerste
+gedecentraliseerde digitale valuta.
+
+3
+00:00:04,960 --> 00:00:07,800
+Bitcoins zijn digitale munten
+die verstuurd kunnen worden via het Internet.
+
+4
+00:00:07,900 --> 00:00:11,600
+In vergelijking met andere alternatieven
+hebben bitcoins een aantal voordelen.
+
+5
+00:00:11,700 --> 00:00:15,000
+Bitcoins worden via het net direct
+van persoon tot persoon overgedragen
+
+6
+00:00:15,050 --> 00:00:17,160
+zonder tussenkomst van
+een bank of clearinghouse.
+
+7
+00:00:17,200 --> 00:00:19,520
+Dit betekent dat vergoedingskosten veel lager zijn,
+
+8
+00:00:19,600 --> 00:00:21,120
+u kunt ze in elk land gebruiken.
+
+9
+00:00:21,200 --> 00:00:22,900
+uw account kan niet bevroren worden
+
+10
+00:00:23,000 --> 00:00:25,500
+en er zijn geen voorafgaanden voorwaarden
+of willekeurige beperkingen.
+
+11
+00:00:26,300 --> 00:00:28,000
+Laten we eens kijken hoe het werkt.
+
+12
+00:00:28,250 --> 00:00:31,400
+Er bestaan verscheidene valutabeurzen
+waar u bitcoins kunt kopen en verkopen
+
+13
+00:00:31,450 --> 00:00:33,450
+voor dollars, euros en meer.
+
+14
+00:00:33,600 --> 00:00:37,400
+Uw bitcoins worden bewaard in uw digitale
+portomonnee op uw computer of mobiel.
+
+15
+00:00:39,100 --> 00:00:42,100
+Het versturen van bitcoins is zo eenvoudig
+als het verzenden van een e-mail
+
+16
+00:00:42,200 --> 00:00:45,100
+en u kunt met Bitcoin
+alles kopen.
+
+17
+00:00:45,900 --> 00:00:49,500
+Het Bitcoin-netwerk wordt beveiligd
+door individuen die 'miners' genoemd worden.
+
+18
+00:00:49,800 --> 00:00:55,120
+Miners worden voor het verifiëren van transacties
+beloond met nieuw gegenereerde bitcoins.
+
+19
+00:00:55,300 --> 00:01:00,400
+Nadat transacties geverifieerd zijn worden zij
+opgenomen in een transparant publiek grootboek.
+
+20
+00:01:00,900 --> 00:01:04,200
+Bitcoin opent een heel nieuw
+platform voor innovatie.
+
+21
+00:01:04,400 --> 00:01:08,120
+De software is volledig open-source
+en iedereen kan de broncode herzien.
+
+22
+00:01:08,500 --> 00:01:12,500
+Bitcoin verandert de financiele wereld gelijk aan
+hoe het web de manier van publiceren veranderd heeft.
+
+23
+00:01:12,590 --> 00:01:16,400
+Goede ideeën floreren als iedereen 
+toegang heeft tot een mondiale markt, 
+
+24
+00:01:17,100 --> 00:01:21,100
+Bitcoins zijn een excellente manier voor bedrijven
+om transactievergoedingen te minimaliseren.
+
+25
+00:01:21,180 --> 00:01:24,450
+Het kost niets om te beginnen met het accepteren
+van bitcoins en het is eenvoudig op te zetten.
+
+26
+00:01:24,600 --> 00:01:28,900
+Er zijn geen chargebacks en uw zal extra handel 
+kunnen drijven vanuit de Bitcoin-economie.
+
+27
+00:01:29,000 --> 00:01:36,760
+Bezoek weusecoins.com voor
+meer informatie over Bitcoin
+

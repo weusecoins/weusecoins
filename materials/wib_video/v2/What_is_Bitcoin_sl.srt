@@ -1,0 +1,129 @@
+﻿1
+00:00:00,180 --> 00:00:01,800
+Kaj je bitcoin?
+
+2
+00:00:01,900 --> 00:00:04,900
+Bitcoin je prva
+decentralizirana digitalna valuta.
+
+3
+00:00:04,960 --> 00:00:07,800
+Bitcoini so digitalni kovanci,
+ki jih lahko pošljete po internetu.
+
+4
+00:00:07,900 --> 00:00:11,600
+V primerjavi z drugimi sredstvi
+ima bitcoin več prednosti.
+
+5
+00:00:11,700 --> 00:00:15,000
+Bitcoini se izmenjujejo neposredno
+od osebe do osebe prek omrežja,
+
+6
+00:00:15,050 --> 00:00:17,160
+brez posrednikov,
+kot so banke ali kliringi.
+
+7
+00:00:17,200 --> 00:00:19,520
+To pomeni, da so pristojbine bistveno nižje,
+
+8
+00:00:19,600 --> 00:00:21,120
+uporabljate jih lahko kjerkoli po svetu,
+
+9
+00:00:21,200 --> 00:00:22,900
+vašega računa ni mogoče zamrzniti
+
+10
+00:00:23,000 --> 00:00:25,500
+in ni nobene birokracije
+ali samovoljnih omejitev.
+
+11
+00:00:26,300 --> 00:00:28,000
+Poglejmo, kako bitcoin deluje.
+
+12
+00:00:28,250 --> 00:00:31,400
+Obstaja več valutnih menjalnic,
+kjer lahko menjate bitcoine
+
+13
+00:00:31,450 --> 00:00:33,450
+za evre, dolarje ali druge valute.
+
+14
+00:00:33,600 --> 00:00:37,400
+Svoje bitcoine hranite v digitalni denarnici
+na svojem mobilniku ali računalniku.
+
+15
+00:00:39,100 --> 00:00:42,100
+Pošiljanje bitcoinov je enostavno
+kot pošiljanje elektronske pošte,
+
+16
+00:00:42,200 --> 00:00:45,100
+z njimi pa lahko
+kupite karkoli.
+
+17
+00:00:45,900 --> 00:00:49,500
+Varnost v omrežju bitcoin zagotavljajo
+posamezniki, imenovani rudarji.
+
+18
+00:00:49,800 --> 00:00:55,120
+Kot nagrado za preverjanje nakazil
+rudarji prejemajo novonastale bitcoine.
+
+19
+00:00:55,300 --> 00:01:00,400
+Ko je posamezno nakazilo preverjeno,
+se shrani v javni knjigi nakazil.
+
+20
+00:01:00,900 --> 00:01:04,200
+Bitcoin postavlja povsem nov
+oder za inovacije.
+
+21
+00:01:04,400 --> 00:01:08,120
+Programska oprema je popolnoma odprtokodna,
+izvorno kodo pa lahko pregleda vsak.
+
+22
+00:01:08,500 --> 00:01:12,500
+Bitcoin spreminja svet financ na podoben način,
+kot je svetovni splet spremenil založništvo.
+
+23
+00:01:12,590 --> 00:01:16,400
+Če ima vsakdo dostop do celotnega
+svetovnega trga, lahko vzcvetijo odlične ideje.
+
+24
+00:01:17,100 --> 00:01:21,100
+Za podjetja je bitcoin odličen način
+zmanjševanja stroškov prejemanja plačil.
+
+25
+00:01:21,180 --> 00:01:24,450
+Vzpostavitev prejemanja plačil z bitcoinom
+je brezplačna in enostavna.
+
+26
+00:01:24,600 --> 00:01:28,900
+Stornacije niso mogoče, odpre pa se vam tudi
+dostop do dodatnih poslov v bitcoin ekonomiji.
+
+27
+00:01:29,000 --> 00:01:36,760
+Za več informacij o bitcoinu
+obiščite WeUseCoins.com.
+

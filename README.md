@@ -1,42 +1,134 @@
-For Web developers / Designers / Translators
+# Contribute Articles to We Use Coins (WUC)
 
-Each localized version of weusecoins is independent of each other and use static HTML file built using jekyll.
+WUC is one of the highest profile and visited websites in Bitcoin. Our video What Is Bitcoin? has had over 7.5 million views. We want WUC to be a classy resource to introduce people to the concept of crypto-currency. You can responsibly leverage WUC to build your Bitcoin business! For example, you could use WUC for your blog which would have several advantages such as higher search engine visibility and extremely optimized hosting.<p>
+<img src="/images/optimized.png" align="center" alt="optimized"/>
+<p>
+WUC uses Github to manage version control with a fork and pull method. Watch this [video by Clay Shirky](https://www.youtube.com/watch?v=CEN4XNth61o) to understand why. <b>This means your articles and contributions should be submitted as a pull request.</b> Consequently,  If you are unfamiliar then you may need to learn how to [create a pull request](https://help.github.com/articles/creating-a-pull-request/) and how to [use pull requests](https://help.github.com/articles/using-pull-requests/) plus this [short video may be helpful](https://www.youtube.com/watch?v=YTbRzhQju4c).<p>
+<p>
+Articles <b>should</b> be <b>(1)</b> well written, <b>(2)</b> accurate, <b>(3)</b> grammatically correct and <b>(4)</b> objective. Get audience exposure and build your reputation by receiving credit and a link in the byline for the article. Developing a good reputation will help your articles get merged in a more timely manner.
 
-That allows us to adapt anything to best fit each languages requirements and available resources, businesses or active groups. That includes the html, fonts, css, scripts, social networks, etc. And that allows us to update other languages when a translator is missing for a specific language.
+To increase the probability of success please follow these guidelines:
 
-The materials directory is used as a shared directory to store files that take more disk space, such as the weusecoins video. 
+### Author Biography Article<p>
+1. Create an author biography article.<p>
+2. Appropriate examples: <b>Individual</b>: [Live](http://www.weusecoins.com/trace-mayer-bitcoin-expert); [Github](https://github.com/sunnankar/wuc-new/blob/gh-pages/_posts/2015-04-18-trace-mayer-bitcoin-expert.md); <b>Corporate</b>: [Live](http://www.weusecoins.com/armory-technologies); [Github](https://github.com/sunnankar/wuc-new/blob/gh-pages/_posts/2015-04-20-armory-technologies.md)<p>
+3. For the Author URL in the layout use a website of your choice<p>
 
-# Requirements
+### Writing Articles For WUC<p>
+1. Create an objective article in the _posts folder<p>
+2. Use the Year-Month-Date in the file name. Ex. 2015-1-23-bitcoin.md<p>
+3. Fill out the Author and Author URL (use your WUC Author Biography article).<p>
+4. Length should be 500-1,200 words. However, the main criteria is quality and usefulness. Do not be afraid to create a 5,000 word guide if it is awesome.
+5. Even better, develop a <b>content creation plan</b>. Take advantage of the ZMOT with a [hub and spoke model](http://www.verticalmeasures.com/content-strategy/build-your-content-marketing-around-a-hub-and-spoke-model/).
+6. Perform at least basic Search Engine Optimization (Ex. [Free Tool](http://www.weusecoins.com/en/questions/)).<p>
+7. Link to and from other relevant pages on weusecoins.com like the extensive [FAQ](https://www.weusecoins.org/en/questions/)<p>
+8. Optimize images (Ex. [Kraken.io](http://www.kraken.io))<p>
+9. Find websites that will link to the article<p>
+10. Mention the article on social media like Twitter, Facebook, Reddit, etc.<p>
+11. Thanks for your help!<p>
 
-Installing dependencies
+### What Not To Do
 
-    sudo apt-get install jekyll
+WUC is not a low class marketing directory. Do not SPAM links in articles. Add appropriate and objective links to Bitcoin community or news websites in the community section.<p>
+For obvious reasons, when dealing with translations you should not change the meaning of any text or add or change links. Such changes should be discussed first.
 
-# Usage
+# Other Language Versions
 
-* update DOWNLOAD\_VERSION in _config.yml
-* run jekyll
-* output will be in \_site/
+### For Web developers / Designers / Translators
 
-# Translation
+Each localized version of WUC is independent of each other and uses static HTML, CSS or PHP files.
 
-1. Begin, Run ./_contrib/translate (ISO 639-1 language code) (language name) to create your language. Ex : ./_contrib/translate fr "Français"
-2. Texts, Open .html files in the appropriate folder and in _layouts and translate all human readable english dialogs (without touching the html tags and the page id).
-3. Links, Update the name of each .html file so that it reflects your language, and update the links in the .html files accordingly.
-4. Sitemap, Add links to your translated pages in _config.yml under their equivalent english version.
-5. Images, Update the few images that contain text with some editing software such as Gimp. You might also need to resize some buttons.
-6. Social, Specific contents or integrations that make no sense in your language, such as StackExchange, twitter or else. You can choose to keep them with a notice saying that these ressources are not translated, or you can remove, or replace them by whatever you believe will be appropriate as a replacement.
-7. Languages, Make sure that the languages are listed in alphabetical order in _config.yml
-8. Contact, Make sure you state on appropriate contexts that emails sent to info@weusecoins.com must be in english.
-9. Contributor, You are allowed to put your name and a link in the team page, at the end of the existing list of contributors.
+Folders are currently ready for the following languages and labled by [ISO 639 language codes](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes):
+<ul><li>Chinese [zh]</li><li>Dutch [nl or nl1]</li></li><li><b>English [en] (This is the default source.)</b></li><li>German [de or de1]</li><li>Finnish [fi]</li><li>French [fr or fr1]</li><li>Greek [el]</li><li>Norwegian [no]</li><li>Polish [pl]</li><li>Japanese [ja or ja1]</li><li>Polish [pl]</li><li>Portugese [pt]</li><li>Russian [ru]</li><li>Spanish [es]</li><li>Swedish [sv]</li><li>Tagalog/Filipino [tl]</li><li>Turkish [tr]</li></ul>
 
-* A tips for translators, you can preview your work in a simple Google chrome browser with no HTTP server. Just go to the existing english page, open the javascript console with CTRL + SHIFT + J and use the following command to make the page editable : document.body.contentEditable=true
+There are legacy versions of German [de], Dutch [nl], French [fr] and Japanese [ja]. After a sufficient amount has been translated in the new folders [/de1/ /fr1/ /ja1/ and /nl1/] then we will migrate from the legacy versions.
 
-# What not to do
+If you would like to work on a language where the folder structure has not been setup then create an issue for inclusion or submit the appropriate pull request.
 
-For obvious reasons, you should not change the meaning of any text and you are not allowed to add or change links. Such changes must be discussed first.
-You are however allowed to add links to community or news websites in the community section that might be appropriate for each language.
+<b>Example:</b> You want to translate to Spanish.<p>
+<ul>
+<li><b>(1)</b> In _includes/default-es.html change lines 31-37 at /es/page by translating the anchor text [Note: This will make sure the internal link structure is correct.].</li><li><b>(2)</b> Begin translating pages and we recommend in this order (1) homepage [index], (2) getting started, (3) glossary [only needed for fi, no and tl], (4) questions [FAQ] [only needed for fi, no and tl], (5) price, (6) mining guide, (7) merchant and (8) get free bitcoins.</li></ul><p>
 
-# Keep the same html structure
+This order should help get useful content available most efficiently.
 
-Keep html structure as symetric and perfectly identical as possible between each pages, and each localized version. This should not prevent you to add unique things for some languages. But you can keep the rest exactly as it is.
+<h2>Suggestions and recommendations</h2>
+
+Translations should be accurate and professional. However, the maintainer for the language will have editorial discretion for what content should appear. This will enable adaptation to best fit each language's requirements, available resources, local businesses or active groups and general market conditions.<p>
+Unfortunately, pages can easily get out of date if not maintained. That includes the HTML, fonts, CSS, scripts, social networks, etc. and allows us to update other languages when a translator is missing for a specific language.
+
+The materials directory is used as a shared directory to store files that take significant disk space like videos.
+
+Please help fix any broken links, bugs, typos, grammatical errors and such.
+
+<h3>HTML structure</h3>
+
+Please keep HTML structure as symetric and perfectly identical as possible between each page and each localized version. This should not prevent adding unique things for some languages. But please keep the rest as close as possible. This helps keep consistency.
+
+<h2>Video translations</h2>
+
+Subtitles for <i>What is Bitcoin?</i> are available in the /material/wib_video/v2 folder. Some finished translated versions are currently available. More would be appreciated. If you can do the voiceover then please submit a pull request with the mp3 and we can get the translated video made and uploaded to Youtube.
+
+<ul><li>de - <a href="https://www.youtube.com/watch?v=2kPNz0tdlj0">German</a> - v1 full</li>
+<li>el - Greek - Could not find on Youtube</li>
+<li>es - <a href="https://www.youtube.com/watch?v=ceef71b0zSo">Spanish</a> - v1 full</li>
+<li>fi - Finnish - Could not find on Youtube</li>
+<li>fr - <a href="https://www.youtube.com/watch?v=eN4SCHxhgag">French</a> - v1 full</li>
+<li>it - <a href="https://www.youtube.com/watch?v=QSUJqb33Sd8">Italian</a> - v1 full</li>
+<li>ja - <a href="https://www.youtube.com/watch?v=dlZFkTbCveY">Japanese</a> - v2 subtitled</li>
+<li>nl - <a href="https://www.youtube.com/watch?v=9vLIt0YwDB0">Dutch</a> - v1 subtitled</li>
+<li>no - Norwegian - Could not find on Youtube</li>
+<li>pl - <a href="https://www.youtube.com/watch?v=gZRJihow1Qg">Polish</a> - v1 full</li>
+<li>pt - <a href="https://www.youtube.com/watch?v=1WQYLvbGFC0">Portugese</a> - v1 full</li>
+<li>ru - <a href="https://www.youtube.com/watch?v=Ur8zXNGA_3A">Russian</a> - v1 full</li>
+<li>sv - Swedish - Could not find on Youtube</li>
+<li>tl - Tagalog/Filipino - Could not find on Youtube</li>
+<li>tr - <a href="https://www.youtube.com/watch?v=tMnNC_l4tVM">Turkish</a> - v1 full</li>
+<li>zh - <a href="https://www.youtube.com/watch?v=BIyj4qe1wQM">Chinese</a> - v1 subtitled</li>
+</ul>
+
+<h2>Alt-Coin Articles</h2>
+
+WUC is about providing a useful resource for the entire cryptocurrency community. Consequently, there is an entire section devoted to [Alt-Coins](https://www.weusecoins.org/en/alt-coins/). Want to see your favorite alt-coin included? Then please talk to the developers or submit the pull requests yourself. Some article ideas would be:
+
+<ul><li>[alt-coin] guide</li>
+     <li>Alt-coin price ticker widgets</li>
+     <li>[alt-coin] price/value ticker widgets</li>
+     <li>how to get started with [alt-coin]</li>
+     <li>best [alt-coin] wallet</li>
+     <li>best [alt-coin] exchange</li>
+          <li>how to get [alt-coin]</li>
+          <li>how to use [alt-coin]</li>
+     <li>[how to pay with [alt-coin]</li>
+          <li>[alt-coin] shopping cart</li>
+     <li>what is [alt-coin] mining</li>
+          <li>[alt-coin] miner</li>
+          <li>how to mine [alt-coin]</li>
+          <li>[alt-coin] mining hardware</li></ul>
+
+Articles for these particular alt-coins are needed because they seem to have a significant amount of trading volume:
+<ul><li>BitcoinDark</li>
+<li>Counterparty</li>
+<li>Blackcoin</li>
+<li>Clams</li>
+<li>Dash</li>
+<li>DigiByte</li>
+<li>Dogecoin</li>
+<li>Feathercoin</li>
+<li>Litecoin</li>
+<li>Mintcoin</li>
+<li>Monero</li>
+<li>Namecoin</li>
+<li>Nubits</li>
+<li>Novacoin</li>
+<li>Nxt</li>
+<li>Peercoin</li>
+<li>potcoin</li>
+<li>Quark</li>
+<li>Reddcoin</li>
+<li>Ripple</li>
+<li>Shadowcash</li>
+<li>Startcoin</li>
+<li>Unobtanium</li>
+<li>Vericoin</li></ul>
+
+## Thanks!

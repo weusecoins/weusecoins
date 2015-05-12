@@ -1,0 +1,8 @@
+{
+  "name": "BTCQuote",
+  "version": "0.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "odometer": "~0.4.2"
+  }
+}

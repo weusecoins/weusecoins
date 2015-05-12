@@ -1,0 +1,103 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>Mining Anleitung - We Use Coins</title>
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js" type="text/javascript"></script>
+<script src="scripts/vendor/jquery.backgroundPosition.js" type="text/javascript"></script>
+<script src="scripts/common.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="background"></div>
+<div id="lang">
+  <div>
+        
+        <a href="/fr/guide-minage.html">Français</a>
+        
+        <a href="/nl/ontginnings-gids.html">Nederlands</a>
+        
+        <a href="/en/mining-guide/">English</a>
+        
+        <a href="/ja/">日本語</a>
+        
+        <a href="/de/mining-anleitung.html">Deutsch</a>
+        
+  </div>
+</div>
+<div id="wrapper">
+  <div id="header">
+    <div id="logo"><a href="index.html"><span>We Use Coins</span></a></div>
+    <ul id="menu">
+      <li id="menu_whatis"><a href="index.html">Was ist Bitcoin?</a></li>
+      <li id="menu_getstarted"><a href="erste-schritte.html">Erste Schritte</a></li>
+      <li id="menu_qna"><a href="questions.html">Fragen &amp; Antworten</a></li>
+      <li id="menu_merchants"><a href="verkaeufer-werkzeuge.html">Bitcoin für Händler</a></li>
+      <li id="menu_mining"><a href="mining-anleitung.html">Mining Anleitung</a></li>
+    </ul>
+    <div class="clear">&nbsp;</div>
+  </div>
+  <div id="tagline">Dein Portal in die Welt von Bitcoin</div>
+  <div id="content">
+    <h1 id="intro">Was ist Bitcoin-Mining?</h1>
+  <iframe width="640" height="400" src="https://www.youtube.com/embed/GmOzih6I1zs?rel=0" frameborder="0" allowfullscreen></iframe>
+<h1 id="intro">Bevor wir beginnen...</h1>
+<p>Bevor Sie weiterlesen seien Sie sich bitte im Klaren, dass <strong>die meisten Bitcoinnutzer nicht minen!</strong> Bitcoin-Mining ist ein Geschäft mit einer sehr grossen Konkurrenz. Mining macht nur Sinn, wenn Sie es aus Spass machen und es Ihnen nicht so wichtig ist, ob Sie Profit daraus schlagen. Es ist aber auch möglich, dass Sie es sehr effektiv betreiben und davon profitieren.</p>
+<p>Wenn Sie Bitcoins basierend auf einer bestimmten Hashrate erhalten möchten, sollten Sie sich die benötigte Hardware nicht selbst zulegen, sondern einen Mining-Vertrag abschliessen.</p>
+<h1 id="technical">Technischer Hintergrund <a href="http://www.weusecoins.com/de/mining-anleitung.html" class="blocktoggle">mehr »</a></h1>
+<div class="block_outer">
+<div class="block" style="display: none">
+<p class="first">Während dem Mining führt der Computer eine <a href="https://en.bitcoin.it/wiki/Proof_of_work">kryptographische Hashfunktion</a> (zwei Runden SHA256) aus. Den sogenannten <em><a href="https://en.bitcoin.it/wiki/Block_hashing_algorithm">Block Header</a></em>. Für jeden neuen Hash benutzt die Mining-Software eine andere zufällig generierte Zahl für den Block-Header. Diese Nummer wird <em>Nonce</em> genannt. Abhängig von der Nonce und allem anderem, das im Block enthalten ist, erstellt die Hashfunktion einen Hash wie dieser:</p>
+<pre>93ef6f358fbb998c60802496863052290d4c63735b7fe5bdaac821de96a53a9a</pre>
+<p>Sie sehen dieser Hash ist eine ziemlich lange Nummer. (Es ist eine Hexadezimalzahl. Das heisst die Buchstaben A-F sind die Nummern 10-15). Um das Mining schwierig zu machen gibt es noch die <em>Ziel-Schwierigkeit</em>. Um einen gültigen Block zu erstellen muss der Miner einen Hash finden, der kleiner als die Ziel-Schwierigkeit ist. Sagen wir zum Beispiel die Ziel-Schwierigkeit beträgt 1000000000000000000000000000000000000000000000000000000000000000. Jede Nummer, die mit einer 0 beginnt, wäre somit kleiner als die Ziel-Schwierigkeit. z.B.:</p>
+<pre>0787a6fd6e0782f7f8058fbef45f5c17fe89086ad4e78a1520d06505acb4522f</pre>
+<p>Wenn wir nun die Ziel-Schwierigkeit auf 0100000000000000000000000000000000000000000000000000000000000000 reduzieren, brauchen wir nun zwei Nullen am Anfang, um kleiner als sie zu sein:</p>
+<pre>00db27957bd0ba06a5af9e6c81226d74312a7028cf9a08fa125e49f15cae4979</pre>
+<p>Weil die Ziel-Schwierigkeit eine so lange Zahl ist, benutzt man üblicherweise eine kleinere Nummer um die Ziel-Schwierigkeit anzugeben. Diese Nummer wird <em>Mining-Schwierigkeit</em> genannt. Die Mining-Schwierigkeit stellt dar, wie viel schwieriger es ist, den aktuellen Block gegenüber dem Ersten zu erstellen. Eine Schwierigkeit von 70000 bedeutet, dass der aktuelle Block 70000 Mal mehr Arbeit benötigt, als <a href="https://en.bitcoin.it/wiki/Satoshi_Nakamoto">Satoshi</a> benötigte, um den ersten Block zu erstellen. Um Fair zu bleiben muss gesagt werden, dass damals das Mining viel langsamer und weniger optimiert war.</p>
+<p class="last">Die Schwierigkeit wird alle 2016 Blöcke angepasst. Das Netzwerk versucht, die Schwierigkeit so anzupassen, dass es das mit der Leistung des gesamten Netzwerks ungefähr 14 Tage dauert um 2016 Blöcke herzustellen. Deshalb steigt wenn die Leistung des Netzwerks zunimmt, die Schwierigkeit ebenfalls.</p>
+</div>
+</div>
+<h1 id="hardware">Hardware</h1>
+<p>Am Anfang war das "Mining" mit einer CPU der einzige Weg für das minen Bitcoins. Das machte den Weg frei für das minen mit einer Grafikkarte (GPU). Der Umstand, dass Grafikkarten die Arbeit parallel berechen können führte zu einer Erhöhung der Mining-Leistung um das <a href="https://en.bitcoin.it/wiki/Why_a_GPU_mines_faster_than_a_CPU">50 bis 100-fache</a>, während der Stromverbrauch für ein MHash gegenüber der CPU sank.</p> 
+<p>Theoretisch kann jede GPU für das Minen benutzt werden, es stellte sich jedoch heraus, dass die GPU's von AMD gegenüber der von nVidia für das minen von Bitcoins überlegen waren. Die ATI Radeon HD 5870 war damals die kosteneffizienteste Lösung.</p>
+<p>Eine umfangreiche Liste von Grafikkarten und deren Leistung für das Mining finden Sie im Bitcoin-Wiki: <a href="http://www.bitcoinx.com/bitcoin-mining-hardware/">Mining hardware comparison</a></p>
+<p>Nach dem Übergang von der CPU zur GPU wurde schon bald die Verwendung von Field Programmable Gate Arrays (FPGA) als Haupt-Mining-Plattform eingeläutet. FPGAs bewirkten keine 50 bis 100-fache Erhöhuung der Hashrate wie bei Wechsel von CPU zur GPU, stellte aber einen grossen Schritt in der Verbesserung der Energieeffizienz dar. Eine typische 600 MH/s Grafikkarte hat einen Verbrauch von etwa 400 Watt, während ein FPGA mit einer Hashrate von 826 MH/s nur 80 Watt benötigt. Dies stellt eine fünffache Erhöhung der Energieeffizienz dar. Die Energieeffizient ist ein wichtiger Bestandteil des Gewinns, was viele Personen dazu bewog, FPGA's anstatt GPU's zu verwenden.</p>
+<p>Die Weld des Bitcoin-Minings befindet sich gerade im Übergang zur Anwendungsspezifisch integrierten Schaltung (Application Specific Integrated Circuit ASIC). Ein ASIC ist ein Chip mit einer elektronischen Schaltung, der nur für eine ganz bestimmte Arbeit hergestellt wird. Anders als FPGA's können ASIC's keine anderen Arbeiten ausführen. Ein ASIC, das für das Minen von Bitcoins gebaut wurde, kann und wird immer nur Bitcoins minen. Die Tatsache, dass ein ASIC so nur so spezifische Aufgaben erledigen kann, führte zu einer 100-fachen Erhöhung der Hashrate während der Stromverbrauch im Verhältnis zu früheren Generation stark sank. Das Gerät von Butterfly Labs zum Beispiel, hat eine Hashrate von 60 GH/s (1 Gigahash sind 1000 Megahash. 1 GH/s = 1000 MH/s) bei einem Stromverbrauch von 60 Watt. Verglichen zur GPU Era ist das eine 100-fache Erhöhung der Hashrate, während der Stromverbrauch um das siebenfache sank.</p>
+<p>Anders als die frühere Mining-Hardware ist ASIC die letzte Generation, welche fortan weiterentwickelt wird. CPU's wurden durch GPU's ersetzt, welche durch FPGA's ersetzt wurden, die nun von ASIC's ersetzt werden. Es gibt zurzeit keine Anzeichen, dass ASIC's in der näheren Zukunft ersetzen werden. Es wird eine schrittweise Weiterentwicklung der Effizienz der ASIC Produkte geben. Niemand wird aber die Leistung um das 50 bis 100-fache erhöhen oder den Stromverbrauch gegenüber der vorgängigen Version drastisch reduzieren. Der Stromverbrauch ist im Verhältnis zur Hashrate der wichtigste Faktor eines ASIC-Produktes. Ausserdem ist die Lebenszeit länger als die gesamte Geschichte des Bitcoin-Minings. Es ist sehr wahrscheinlich, dass ein ASIC-Gerät, das heute gekauft wird in zwei Jahren noch genügend energieeffizient ist und sein Ertrag die Stromkosten übertrifft. Der Ertrag wird auch von den Währungskursen bestimmt. Man kann aber in der Regel sagen: "Je höher die Energieeffizienz, desto höher der Ertrag".</p>
+<h1 id="software">Software</h1>
+<p>Es gibt zwei grundlegende Varianten um zu minen: Alleine oder als Mitglied eines Pools. Wenn Sie alleine minen möchten, lesen Sie am Besten <a href="erste-schritte.html">hier </a>nach, wie Sie die Bitcoin-Software installieren und für eine JSON-RPC-Verbindung (siehe: <a href="https://en.bitcoin.it/wiki/Running_Bitcoin">Running Bitcoin (Wiki)</a>) konfigurieren. Die andere Option ist es einem <a href="https://en.bitcoin.it/wiki/Pooled_mining">Mining-Pool</a> beizutreten. Es gibt <a href="https://en.bitcoin.it/wiki/Category:Pool_Operators">mehrere Pools</a>, aus denen Sie wählen können. Bei einem Pool wird der Gewinn aus jedem Block, der ein Mitglied generiert durch alle Mitglieder des Pools geteilt. Der Vorteil den Sie durch den Beitritt eines Pools erhalten sind regelmässigere und gleichmässige Auszahlungen. Diese fallen jedoch kleiner aus. Wenn Sie alleine minen erhalten Sie grössere und unregelmässigere Auszahlungen. Letztendlich verdienen Sie jedoch etwa dasselbe.</p>
+<p>Wenn Sie die Bitcoin-Software heruntergeladen und konfiguriert haben oder einem Pool beigetreten sind, besteht der nächste Schritt darin Ihre Mining-Software einzurichten. Für GPU/FPGA/ASIC Miner ist dies zurzeit etwa <a href="http://www.bitcointalk.org/index.php?topic=1334.0">CGminer</a> oder BFGMiner eine spezielle Ableitung davon für FPGA's und ASIC's. 
+<p>Wenn Sie sich einen kleinen Einblick über das mining verschaffen wollen, versuchen Sie <a href="http://www.bitcoinplus.com/generate">Bitcoin Plus</a>, einen browserbasierten CPU Bitcoin miner. Ein CPU Miner ist nicht die kostengünstigste Variante für seriöses minen, zeigt Ihnen aber das Prinzip eines Pools sehr gut dar.</p>
+<h2 id="credit">Vielen Dank an:</h2>
+<p>Blitzboom und die Jungs von #bitcoin-dev für Ihre Hilfe bei der Erstellung dieser Anleitung!</p>
+
+  </div>
+  <div id="needhelp" class="box featurebox fullwidth">
+    <div class="left"><strong>Hilfe nötig?</strong> Schreibe eine Email an <a href="mailto:help@weusecoins.com">help@weusecoins.com</a> um einen freiwilligen Mitarbeiter zu kontaktieren.</div>
+    <div class="right"></div>
+    <div class="clear"></div>
+  </div>
+  <div id="footer">
+	<div class="footermenu"><ul><li><a href="uebersetzungen.html">Übersetzungen</a></li><a href="materialien.html">Materialien</a></li><li><a href="ueber.html">Über</a></li></ul></div>
+	<a href="http://creativecommons.org/licenses/by/3.0/" class="cclogo"><img src="gx/footer_cc.png" alt=""/></a>
+	<div class="license">Diese Arbeit ist lizenziert unter einer<br>
+	<a href="http://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution-NoDerivatives 4.0 International</a>
+	<br/><br/><center>&#169; 2011-2015 Hesiod Services LLC <a href="https://www.weusecoins.com/en/terms/">Terms and conditions</a></center></div>
+  </div>
+</div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-22253606-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

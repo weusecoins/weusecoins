@@ -1,0 +1,130 @@
+﻿1
+00:00:00,180 --> 00:00:01,800
+Vad är Bitcoin?
+
+2
+00:00:01,900 --> 00:00:04,900
+Bitcoin är den första
+decentraliserade digitala valutan.
+
+3
+00:00:04,960 --> 00:00:07,800
+Bitcoin är digitala pengar
+som du kan skicka över Internet.
+
+4
+00:00:07,900 --> 00:00:11,600
+Bitcoin har en mängd fördelar
+jämfört med andra alternativ.
+
+5
+00:00:11,700 --> 00:00:15,000
+Bitcoins är överförda direkt från
+person till person via nätet
+
+6
+00:00:15,050 --> 00:00:17,160
+utan att gå igenom en
+bank eller ett clearinginstitut.
+
+7
+00:00:17,200 --> 00:00:19,520
+Det innebär mycket lägre avgifter,
+
+8
+00:00:19,600 --> 00:00:21,120
+du kan använda dem i alla länder,
+
+9
+00:00:21,200 --> 00:00:22,900
+ditt konto kan inte bli fryst
+
+10
+00:00:23,000 --> 00:00:25,500
+och det finns inga förkrav
+eller godtyckliga gränser.
+
+11
+00:00:26,300 --> 00:00:28,000
+Låt oss titta på hur det fungerar.
+
+12
+00:00:28,250 --> 00:00:31,400
+Flera valutaomvandlare existerar
+där du kan köpa och sälja bitcoins
+
+13
+00:00:31,450 --> 00:00:33,450
+i dollar, euros och andra valutor.
+
+14
+00:00:33,600 --> 00:00:37,400
+Dina bitcoins sparas i en digital
+plånbok på din dator eller mobil.
+
+15
+00:00:39,100 --> 00:00:42,100
+Att skicka bitcoins är lika
+enkelt som att skicka e-post
+
+16
+00:00:42,200 --> 00:00:45,100
+och du kan köpa vad
+som helst med Bitcoin.
+
+17
+00:00:45,900 --> 00:00:49,500
+Bitcoin-nätverket säkras av
+personer kallade utvinnare.
+
+18
+00:00:49,800 --> 00:00:55,120
+Utvinnare belönas med nyskapade
+bitcoins för att de verifierar transaktioner.
+
+19
+00:00:55,300 --> 00:01:00,400
+När transaktioner blir verifierade sparas de
+i en transparent publik logg.
+
+20
+00:01:00,900 --> 00:01:04,200
+Bitcoin öppnar upp en helt ny
+platform för innovation.
+
+21
+00:01:04,400 --> 00:01:08,120
+Mjukvaran är öppen källkod
+och alla kan granska koden.
+
+22
+00:01:08,500 --> 00:01:12,500
+Bitcoin håller på att förändra finansbranschen på samma
+sätt som webben förändrade publiceringsbranchen.
+
+23
+00:01:12,590 --> 00:01:16,400
+När alla har tillgång till den globala
+marknaden, så kan bra idéer blomstra.
+
+24
+00:01:17,100 --> 00:01:21,100
+Bitcoins är ett utmärkt sätt för företag att
+minimera transaktionskostnader.
+
+25
+00:01:21,180 --> 00:01:24,450
+Det kostar ingenting att börja och att
+acceptera bitcoins är enkelt att sätta upp.
+
+26
+00:01:24,600 --> 00:01:28,900
+Det finns inga "chargebacks" och du får
+ytterligare affärer från Bitcoin ekonomin.
+
+
+27
+00:01:29,000 --> 00:01:36,760
+För mer information om
+Bitcoin besök: weusecoins.com
+

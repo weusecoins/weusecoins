@@ -1,0 +1,24 @@
+{
+  "name": "BTCQuote",
+  "version": "0.0.0",
+  "description": "Real-time Bitcoin Price Widget, powered by Firebase",
+  "directories": {},
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-bower-task": "~0.3.2",
+    "grunt-cli": "~0.1.9",
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-uglify": "~0.2.4",
+    "grunt-replace": "~0.5.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/firebase/btcquote.git"
+  },
+  "author": "Firebase",
+  "license": "MIT"
+}

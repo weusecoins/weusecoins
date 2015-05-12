@@ -1,0 +1,129 @@
+﻿1
+00:00:00,180 --> 00:00:01,800
+¿Qué es Bitcoin?
+
+2
+00:00:01,900 --> 00:00:04,900
+Bitcoin es la primera
+moneda digital descentralizada.
+
+3
+00:00:04,960 --> 00:00:07,800
+Los bitcoins son monedas digitales
+que puedes enviar a través de Internet.
+
+4
+00:00:07,900 --> 00:00:11,600
+Comparado con otras alternativas,
+Bitcoin tiene muchas ventajas.
+
+5
+00:00:11,700 --> 00:00:15,000
+Los bitcoins son transferidos directamente
+de persona a persona a través de la red
+
+6
+00:00:15,050 --> 00:00:17,160
+sin pasar por un banco
+u otro intermediario.
+
+7
+00:00:17,200 --> 00:00:19,520
+Esto significa que las comisiones son mucho menores,
+
+8
+00:00:19,600 --> 00:00:21,120
+que puedes usar bitcoins en cualquier país,
+
+9
+00:00:21,200 --> 00:00:22,900
+que tu cuenta no puede ser bloqueada
+
+10
+00:00:23,000 --> 00:00:25,500
+y que no hay prerequisitos
+o límites arbitrarios.
+
+11
+00:00:26,300 --> 00:00:28,000
+Veamos como funciona:
+
+12
+00:00:28,250 --> 00:00:31,400
+Existen diversas casas de cambio
+donde puedes comprar o vender bitcoins
+
+13
+00:00:31,450 --> 00:00:33,450
+usando dólares, euros y más.
+
+14
+00:00:33,600 --> 00:00:37,400
+Tus bitcoins se guardan en un monedero
+digital en tu ordenador o dispositivo móvil.
+
+15
+00:00:39,100 --> 00:00:42,100
+Envíar bitcoins es tan sencillo
+como enviar un correo electrónico
+
+16
+00:00:42,200 --> 00:00:45,100
+por lo tanto puedes comprar
+cualquier cosa usando Bitcoin.
+
+17
+00:00:45,900 --> 00:00:49,500
+La red de Bitcoin se mantiene segura
+gracias a personas denominadas mineros.
+
+18
+00:00:49,800 --> 00:00:55,120
+Los Mineros son recompensados con bitcoins
+por su trabajo verificando transacciones.
+
+19
+00:00:55,300 --> 00:01:00,400
+Una vez que las transacciones son verificadas
+se almacenan permanentemente en la red.
+
+20
+00:01:00,900 --> 00:01:04,200
+Bitcoin representa una nueva
+plataforma para la innovación
+
+21
+00:01:04,400 --> 00:01:08,120
+El software es completamente abierto y
+cualquier persona puede revisar el código.
+
+22
+00:01:08,500 --> 00:01:12,500
+Bitcoin está cambiando las finanzas de la misma
+forma que internet ha cambiado el periodismo.
+
+23
+00:01:12,590 --> 00:01:16,400
+Cuando todo el mundo tiene acceso a un
+mercado global aparecen grandes emprendedores.
+
+24
+00:01:17,100 --> 00:01:21,100
+Bitcoin es un gran avance para las empresas ya que les
+permite reducir las comisiones en las transacciones.
+
+25
+00:01:21,180 --> 00:01:24,450
+No cuesta nada y es muy fácil
+empezar a aceptar bitcoins. 
+
+26
+00:01:24,600 --> 00:01:28,900
+No hay reembolsos fraudulentos y además obtendrás
+negocio adicional de la comunidad Bitcoin.
+
+27
+00:01:29,000 --> 00:01:36,760
+Para más información acerca de Bitcoin
+visita: weusecoins.com
+

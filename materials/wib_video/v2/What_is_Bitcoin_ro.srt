@@ -1,0 +1,129 @@
+﻿1
+00:00:00,180 --> 00:00:01,800
+Ce este Bitcoin?
+
+2
+00:00:01,900 --> 00:00:04,900
+Bitcoin este prima
+monedă digitală descentralizată.
+
+3
+00:00:04,960 --> 00:00:07,800
+Bitcoinii sunt monezi digitale
+pe care le poţi trimite pe Internet.
+
+4
+00:00:07,900 --> 00:00:11,600
+În comparaţie cu alte mecanisme de plată,
+bitcoinii au un număr de avantaje.
+
+5
+00:00:11,700 --> 00:00:15,000
+Bitcoinii sunt transferaţi direct
+de la o persoană la alta prin intermediul Internetului
+
+6
+00:00:15,050 --> 00:00:17,160
+fară a mai trece
+printr-o bancă sau alte instituţii.
+
+7
+00:00:17,200 --> 00:00:19,520
+Acest lucru inseamnă că taxele sunt mult mai mici,
+
+8
+00:00:19,600 --> 00:00:21,120
+că poţi să ii foloseşti în orice ţară,
+
+9
+00:00:21,200 --> 00:00:22,900
+contul tău nu poate fi blocat
+
+10
+00:00:23,000 --> 00:00:25,500
+şi nu sunt cerinţe preliminare
+sau limite arbitrare.
+
+11
+00:00:26,300 --> 00:00:28,000
+Să ne uităm la modul în care funcţionează.
+
+12
+00:00:28,250 --> 00:00:31,400
+Există mai multe servicii de schimb valutar
+unde poţi cumpăra şi vinde bitcoini
+
+13
+00:00:31,450 --> 00:00:33,450
+pentru dolari, euro şi alte monede.
+
+14
+00:00:33,600 --> 00:00:37,400
+Bitcoinii tăi sunt păstraţi în portofelul
+digital de pe computerul sau dispozitivul tău mobil.
+
+15
+00:00:39,100 --> 00:00:42,100
+Să trimiţi bitcoini este la fel de simplu
+ca trimiterea unui email.
+
+16
+00:00:42,200 --> 00:00:45,100
+si poţi achiziţiona
+orice doreşti cu Bitcoin.
+
+17
+00:00:45,900 --> 00:00:49,500
+Reţeaua Bitcoin este securizată
+de persoane numite mineri.
+
+18
+00:00:49,800 --> 00:00:55,120
+Minerii sunt răsplătiţi cu bitcoini proaspăt generaţi
+pentru verificarea tranzacţiilor.
+
+19
+00:00:55,300 --> 00:01:00,400
+După ce tranzacţiile sunt verificate ele sunt înregistrate
+într-un registru public transparent.
+
+20
+00:01:00,900 --> 00:01:04,200
+Bitcoin deschide o nouă
+platformă pentru inovare.
+
+21
+00:01:04,400 --> 00:01:08,120
+Software-ul este open source
+şi oricine poate revizui codul.
+
+22
+00:01:08,500 --> 00:01:12,500
+Bitcoin schimbă lumea financiară în acelaşi mod
+în care Internetul a schimbat lumea presei.
+
+23
+00:01:12,590 --> 00:01:16,400
+Atunci când toată lumea are acces la
+o piaţă la nivel global, idei măreţe pot înflori!
+
+24
+00:01:17,100 --> 00:01:21,100
+Bitcoinii sunt o modalitate foarte bună pentru afaceri
+să reducă taxele de tranzacţie.
+
+25
+00:01:21,180 --> 00:01:24,450
+Nu costă nimic pentru a începe
+să accepţi Bitcoin şi este uşor de implementat.
+
+26
+00:01:24,600 --> 00:01:28,900
+Nu există retururi si veţi obţine noi oportunități
+de afaceri din universul economic Bitcoin.
+
+27
+00:01:29,000 --> 00:01:36,760
+Pentru mai multe informaţii despre
+Bitcoin vizitaţi: weusecoins.com
+

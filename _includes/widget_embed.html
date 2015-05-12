@@ -1,0 +1,21 @@
+
+
+<div>
+    <pre><code id="clipboard_content" class="xml">
+    <span class="tag">&lt;<span class="title">div</span> <span class="attribute">id</span>=<span class="value">"btc-quote"</span>&gt;</span><span class="tag">&lt;/<span class="title">div</span>&gt;</span>
+    <span class="tag">&lt;<span class="title">script</span> <span class="attribute">type</span>=<span class="value">"text/javascript"</span> <span class="attribute">src</span>=<span class="value">"{{ site.url }}/embed.js"</span>&gt;</span><span class="javascript"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span>
+    </code><div id="copy-button" title="Click me to copy to clipboard." data-clipboard-target="clipboard_content">Copy to Clipboard</div></pre>
+</div>
+
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/ZeroClipboard.min.js"></script>
+<script>
+    var client = new ZeroClipboard(document.getElementById("copy-button"));
+    client.on("ready", function(readyEvent) {
+        client.on("aftercopy", function(event) {
+            document.getElementById("copy-button").innerHTML = "Copied!";
+            setTimeout(function() {
+                document.getElementById("copy-button").innerHTML = "Copy to Clipboard";
+            }, 5000);
+        });
+    });
+</script>

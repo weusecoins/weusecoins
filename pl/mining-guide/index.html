@@ -1,0 +1,55 @@
+---
+layout: default-pl
+---
+
+<title>What is Bitcoin Mining? - We Use Coins Bitcoin Experts Can Help</title>
+<meta name="description" content="Bitcoin mining is how bitcoins are securely generated. Computer equipment, bitcoin miners, solve complex math problems to verify bitcoin transactions.">
+<meta name="keywords" content="bitcoin mining, bitcoin miner, bitcoin transaction">
+
+ <h1>What is Bitcoin Mining?</h1>
+  <iframe width="700" height="394" frameborder="0" allowfullscreen="" src="https://www.youtube.com/embed/GmOzih6I1zs"></iframe>
+<center><small>Video courtesy of: <em><a href="http://www.bitcoinmining.com">www.bitcoinmining.com</a></em></small></center></p>
+</p>
+<h2><em>Before we begin...</em></h2>
+<p>Before you read further, please understand that <strong>most bitcoin users don't mine!</strong> Bitcoin mining is a business and very competitive one and volatility in the <a href="/en/bitcoin-price/">Bitcoin price</a> makes it even more difficult. Mining only makes sense if you plan to do it for fun and thus don't care if you make a profit, or if you can do it very efficiently and for a profit.</p>
+<p>If you want to get Bitcoins based on a fixed amount of mining power, but you don't want to run the actual hardware yourself, you can purchase a mining contract.</p>
+<h2>Technical Background</h2>
+<p>During mining, your computer runs a <a href="https://en.bitcoin.it/wiki/Proof_of_work">cryptographic hashing function</a> (two rounds of SHA256) on what is called a <em><a href="https://en.bitcoin.it/wiki/Block_hashing_algorithm">block header</a></em>. For each new hash, the mining software will use a different number as the random element of the block header, this number is called the <em>nonce</em>. Depending on the nonce and what else is in the block the hashing function will yield a hash which looks like this:</p>
+<p>
+<center>93ef6f358fbb998c60802496863052290d4c63735b7fe5bdaac821de96a53a9a</center>
+<p>You can look at this hash as a really long number. (It's a hexadecimal number, meaning the letters A-F are the digits 10-15.) Now to make mining difficult, there is what's called a <em>difficulty target</em>. To create a valid block your miner has to find a hash that is below the difficulty target. So if for example the difficulty target is
+<p>
+<center>1000000000000000000000000000000000000000000000000000000000000000</center>
+<p>any number that starts with a zero would be below the target, e.g.:</p>
+<p><center>0787a6fd6e0782f7f8058fbef45f5c17fe89086ad4e78a1520d06505acb4522f</center>
+<p>If we lower the target to
+<p><center>0100000000000000000000000000000000000000000000000000000000000000</center>
+<p>
+we now need two zeros in the beginning to be under it:</p>
+<p><center>00db27957bd0ba06a5af9e6c81226d74312a7028cf9a08fa125e49f15cae4979</center>
+<p>Because the target is such an unwieldy number with tons of digits, people generally use a simpler number to express the current target. This number is called the <em>mining difficulty</em>. The mining difficulty expresses how much harder the current block is to generate compared to the first block. So a difficulty of 70000 means to generate the current block you have to do 70000 times more work than <a href="https://en.bitcoin.it/wiki/Satoshi_Nakamoto">Satoshi Nakamoto</a> had to do generating the first block. Though be fair though, back then mining was a lot slower and less optimized.</p>
+The difficulty changes every 2016 blocks. The network tries to change it such that 2016 blocks at the current global network processing power take about 14 days. That's why, when the network power rises, the difficulty rises as well.
+<h2>Bitcoin Mining Hardware</h2>
+<h3>CPU</h3>
+In the beginning, mining with a CPU was the only way to mine bitcoins. Mining this way via the original Satoshi client is how the bitcoin network started. This method is no longer viable now that the network difficulty level is so high. You might mine for years and years without earning a single coin.</p> 
+<h3>GPU</h3>
+Soon it was discovered that high end graphics cards were much more efficient at bitcoin mining and the landscape changed. CPU bitcoin mining gave way to the GPU (Graphical Processing Unit). The massively parallel nature of some GPUs allowed for a 50x to 100x increase in bitcoin mining power while using far less power per unit of work.
+<p>While any modern GPU can be used to mine, the AMD line of GPU architecture turned out to be far superior to the nVidia architecture for mining bitcoins and the ATI Radeon HD 5870 turned out to be the most cost effective choice at the time.</p>
+<h3>FPGA</h3>
+As with the CPU to GPU transition, the bitcoin mining world progressed up the technology food chain to the Field Programmable Gate Array. With the successful launch of the Butterfly Labs FPGA 'Single', the bitcoin mining hardware landscape gave way to specially manufactured hardware dedicated to mining bitcoins.
+<p>While the FPGAs didn't enjoy a 50x - 100x increase in mining speed as was seen with the transition from CPUs to GPUs, they provided a benefit through power efficiency and ease of use. A typical 600 MH/s graphics card consumed upwards of 400w of power, whereas a typical FPGA mining device would provide a hashrate of 826 MH/s at 80w of power.
+<p>That 5x improvement allowed the first large bitcoin mining farms to be constructed at an operational profit. The bitcoin mining industry was born.</p>
+<h3>ASIC</h3>
+The bitcoin mining world is now solidly in the Application Specific Integrated Circuit (ASIC) era. An ASIC is a chip designed specifically to do one thing and one thing only. Unlike FPGA's, an ASIC cannot be repurposed to perform other tasks.
+<p>An ASIC designed to mine bitcoins can only mine bitcoins and will only ever mine bitcoins. The inflexibility of an ASIC is offset by the fact that it offers a 100x increase in hashing power while reducing power consumption compared to all the previous technologies.</p>
+<p>Unlike all the previous generations of hardware preceding ASIC, ASIC is the "end of the line" when it comes to disruptive technology. CPUs were replaced by GPUs which were in turn replaced by FPGAs which were replaced by ASICs. There is nothing to replace ASICs now or even in the immediate future.
+<p>There will be stepwise refinement of the ASIC products and increases in efficiency, but nothing will offer the 50x to 100x increase in hashing power or 7x reduction in power usage that moves from previous technologies offered. This makes power consumption on an ASIC device the single most important factor of any ASIC product, as the expected useful lifetime of an ASIC mining device is longer than the entire history of bitcoin mining.
+<p>It is conceivable that an ASIC device purchased today would still be mining in two years if the device is power efficient enough and the cost of electricity does not exceed it's output. Mining profitability is also dictated by the exchange rate, but under all circumstances the more power efficient the mining device, the more profitable it is.</p>
+
+<h2>Software</h2>
+<p>There are two basic ways to mine: On your own or as part of a pool. Almost all miners choose to mine on a pool because it takes the luck out of the process. Before you join a pool, make sure you have a <a href="https://www.weusecoins.com/en/getting-started">bitcoin wallet</a> so you have a place to store your bitcoins. Next you need to join a mining pool like Eclipse, Eligius or BTC Guild. With pool mining, the profit from any block a member generates is divided up among the members of the pool.
+<p>This gives the pool members a more frequent, steady payout (this is called reducing your variance), but your payout(s) will be less unless you use a zero fee pool like Eclipse. Solo mining will give you large, infrequent payouts and pooled mining will give you small, frequent payouts, but both add up to the same amount if you're using a zero fee pool.</p>
+<p>Once you have your client set up or you have registered with a pool, the next step is to set up the actual mining software.
+ 
+<h2>Thanks</h2>
+Blitzboom and the guys from #bitcoin-dev for their help with writing the guide!

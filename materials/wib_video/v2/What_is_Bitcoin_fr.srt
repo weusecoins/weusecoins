@@ -1,0 +1,131 @@
+﻿1
+00:00:00,180 --> 00:00:01,800
+Ç'est quoi, Bitcoin ?
+
+2
+00:00:01,900 --> 00:00:04,900
+Bitcoin est la première devise
+monétaire électronique décentralisée.
+
+3
+00:00:04,960 --> 00:00:07,800
+Les bitcoins sont des jetons électroniques
+que vous pouvez envoyer sur Internet.
+
+4
+00:00:07,900 --> 00:00:11,600
+Par rapport aux monnaies alternatives,
+les bitcoins ont plusieurs avantages.
+
+5
+00:00:11,700 --> 00:00:15,000
+Les bitcoins se transmettent d'une
+personne à une autre à travers le réseau
+
+6
+00:00:15,050 --> 00:00:17,160
+sans passer par une banque
+ou une chambre de compensation.
+
+7
+00:00:17,200 --> 00:00:19,520
+Cela signifie que les frais de
+transaction sont beaucoup plus bas,
+
+8
+00:00:19,600 --> 00:00:21,120
+vous pouvez les utiliser dans
+n'importe quel pays,
+
+9
+00:00:21,200 --> 00:00:22,900
+votre compte ne peut pas être bloqué,
+
+10
+00:00:23,000 --> 00:00:25,500
+et il n'y a pas de conditions préalables
+ou de limites arbitraires.
+
+11
+00:00:26,300 --> 00:00:28,000
+Voyons comment cela fonctionne !
+
+12
+00:00:28,250 --> 00:00:31,400
+Plusieurs bourses de change existent
+où vous pouvez échanger vos bitcoins
+
+13
+00:00:31,450 --> 00:00:33,450
+contre des dollars, euros, ou autre.
+
+14
+00:00:33,600 --> 00:00:37,400
+Vos bitcoins sont conservés dans votre portefeuille
+électronique sur votre ordinateur ou téléphone mobile.
+
+15
+00:00:39,100 --> 00:00:42,100
+Envoyer des bitcoins est aussi
+simple que d'envoyer un email
+
+16
+00:00:42,200 --> 00:00:45,100
+et vous pouvez acheter n'importe
+quel article ou service avec Bitcoin.
+
+17
+00:00:45,900 --> 00:00:49,500
+Le réseau Bitcoin est sécurisé par des
+personnes que l'on nomme les mineurs.
+
+18
+00:00:49,800 --> 00:00:55,120
+Les mineurs sont récompensés avec les bitcoins
+nouvellement créés pour vérifier les transactions.
+
+19
+00:00:55,300 --> 00:01:00,400
+Lorsque les transactions sont vérifiées, elles sont
+enregistrées dans un registre transparent et public.
+
+20
+00:01:00,900 --> 00:01:04,200
+Bitcoin ouvre la porte à une
+nouvelle plateforme pour l'innovation. 
+
+21
+00:01:04,400 --> 00:01:08,120
+Le logiciel est entièrement libre
+et tout le monde peut consulter le code.
+
+22
+00:01:08,500 --> 00:01:12,500
+Bitcoin change le monde de la finance de la même
+façon que le web a changé le monde de l'édition.
+
+23
+00:01:12,590 --> 00:01:16,400
+Quand tout le monde a accès à un marché
+global, de grandes idées apparaissent.
+
+24
+00:01:17,100 --> 00:01:21,100
+Bitcoin est un très bon moyen pour réduire
+les frais de transaction des entreprises.
+
+25
+00:01:21,180 --> 00:01:24,450
+Commencer à accepter les
+bitcoins est facile et gratuit.
+
+26
+00:01:24,600 --> 00:01:28,900
+Il n'y pas de renversements et vous pourrez faire des
+affaires supplémentaires grâce à l'économie de Bitcoin.
+
+27
+00:01:29,000 --> 00:01:36,760
+Plus plus d'information à propos de
+Bitcoin visitez : weusecoins.com
+
