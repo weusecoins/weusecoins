@@ -1,0 +1,274 @@
+1
+00:00:00,210 --> 00:00:01,546
+Kaj je Bitcoin?
+
+2
+00:00:01,609 --> 00:00:02,901
+Bitcoin je prva
+
+3
+00:00:02,902 --> 00:00:04,968
+decentralizirana digitalna valuta.
+
+4
+00:00:05,000 --> 00:00:06,138
+Bitcoini so digitalni kovanci,
+
+5
+00:00:06,138 --> 00:00:07,654
+ki jih lahko pošljete po internetu.
+
+6
+00:00:07,951 --> 00:00:09,333
+V primerjavi z drugimi sredstvi
+
+7
+00:00:09,333 --> 00:00:11,388
+ima bitcoin več prednosti.
+
+8
+00:00:11,492 --> 00:00:12,523
+Bitcoini se izmenjujejo
+
+9
+00:00:12,545 --> 00:00:13,304
+neposredno od osebe
+
+10
+00:00:13,312 --> 00:00:13,984
+do osebe
+
+11
+00:00:13,992 --> 00:00:14,744
+prek omrežja,
+
+12
+00:00:14,759 --> 00:00:15,797
+brez posrednikov,
+kot so banke
+
+13
+00:00:15,798 --> 00:00:16,880
+ali kliringi.
+
+14
+00:00:17,145 --> 00:00:18,786
+To pomeni, da so pristojbine
+bistveno nižje,
+
+15
+00:00:18,831 --> 00:00:20,316
+uporabljate jih lahko
+kjerkoli po svetu,
+
+16
+00:00:20,339 --> 00:00:21,706
+vašega računa ni
+mogoče zamrzniti
+
+17
+00:00:21,792 --> 00:00:22,893
+in ni nobene birokracije
+
+18
+00:00:22,933 --> 00:00:23,950
+ali samovoljnih omejitev.
+
+19
+00:00:25,952 --> 00:00:27,585
+Poglejmo, kako bitcoin deluje.
+
+20
+00:00:27,795 --> 00:00:29,880
+Bitocoini nastajajo
+povsod po internetu.
+
+21
+00:00:29,935 --> 00:00:31,479
+Ustvarja jih lahko kdorkoli,
+kdor poganja prosto aplikacijo
+
+22
+00:00:31,513 --> 00:00:33,333
+za rudarjenje bitcoinov.
+
+23
+00:00:33,445 --> 00:00:35,224
+Rudarjenje za vsak blok bitcoinov
+
+24
+00:00:35,239 --> 00:00:36,694
+zahteva določeno količino dela.
+
+25
+00:00:36,968 --> 00:00:38,250
+Omrežje potrebno količino dela
+
+26
+00:00:38,273 --> 00:00:39,249
+samodejno prilagaja tako,
+
+27
+00:00:39,273 --> 00:00:40,724
+da je količina
+novonastalih bitcoinov
+
+28
+00:00:40,740 --> 00:00:43,310
+vedno predvidljiva
+in omejena.
+
+29
+00:00:44,146 --> 00:00:46,370
+Svoje bitcoine hranite
+v digitalni denarnici,
+
+30
+00:00:46,503 --> 00:00:49,096
+ki vam bo hitro domača,
+če uporabljate spletno bančništvo.
+
+31
+00:00:49,222 --> 00:00:50,409
+Ko nakažete bitcoine,
+
+32
+00:00:50,456 --> 00:00:52,292
+dobit transakcija
+digitalen podpis.
+
+33
+00:00:52,550 --> 00:00:53,414
+V nekaj minutah
+
+34
+00:00:53,446 --> 00:00:55,464
+bo rudar overil transakcijo,
+
+35
+00:00:55,566 --> 00:00:57,071
+ki bo s tem trajno ter anonimno
+
+36
+00:00:57,072 --> 00:00:58,237
+shranjena v omrežju.
+
+37
+00:00:58,301 --> 00:01:00,652
+Programska oprema za bitcoin
+je popolnoma odprtokodna,
+
+38
+00:01:00,704 --> 00:01:02,439
+izvorno kodo pa
+lahko pregleda vsak.
+
+39
+00:01:02,924 --> 00:01:04,541
+Bitcoin spreminja svet financ
+na podoben način,
+
+40
+00:01:04,564 --> 00:01:06,607
+kot je svetovni splet
+spremenil založništvo.
+
+41
+00:01:06,818 --> 00:01:08,014
+Če ima vsakdo dostop
+
+42
+00:01:08,015 --> 00:01:09,060
+do celotnega svetovnega trga,
+
+43
+00:01:09,146 --> 00:01:10,966
+lahko vzcvetijo odlične ideje.
+
+44
+00:01:11,624 --> 00:01:13,198
+Poglejmo nekaj primerov,
+
+45
+00:01:13,206 --> 00:01:15,069
+kako se bitcoin že uporablja:
+
+46
+00:01:15,201 --> 00:01:16,895
+Z njim lahko kupite video igre,
+
+47
+00:01:16,913 --> 00:01:17,676
+darila,
+
+48
+00:01:17,811 --> 00:01:18,474
+knjige,
+
+49
+00:01:18,685 --> 00:01:19,365
+strežnike
+
+50
+00:01:19,623 --> 00:01:21,411
+ali nogavice iz alpaka volne.
+
+51
+00:01:21,498 --> 00:01:23,200
+Obstaja več valutnih menjalnic,
+
+52
+00:01:23,208 --> 00:01:24,411
+kjer lahko menjate bitcoine
+
+53
+00:01:24,427 --> 00:01:24,990
+za dolarje,
+
+54
+00:01:24,997 --> 00:01:25,466
+evre
+
+55
+00:01:25,490 --> 00:01:25,997
+in druge valute.
+
+56
+00:01:26,295 --> 00:01:27,394
+Za mala podjetja in podjetnike
+
+57
+00:01:27,410 --> 00:01:29,034
+je bitcoin odličen način
+
+58
+00:01:29,050 --> 00:01:30,146
+za prodor.
+
+59
+00:01:30,388 --> 00:01:32,346
+Prejemanje bitcoinov je brezplačno,
+
+60
+00:01:32,378 --> 00:01:33,713
+ni stornacij ali provizij,
+
+61
+00:01:33,745 --> 00:01:35,419
+odpre pa vam tudi dostop do
+
+62
+00:01:35,420 --> 00:01:36,774
+dodatnih poslov
+v bitcoin ekonomiji.
+
+63
+00:01:36,985 --> 00:01:39,296
+Za več informacij
+in svoje prve bitcoine
+obiščite:
+
+64
+00:01:39,312 --> 00:01:41,335
+weusecoins.com
+
