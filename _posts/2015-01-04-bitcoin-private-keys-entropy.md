@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Andy O'Fiesh | Bitcoin Security Expert
+title: Andy O'Fiesh - Bitcoin Security Expert
 author: Andy O'Fiesh
 authorurl: http://www.weusecoins.com/andy-ofiesh-bitcoin-security-expert
 description: Interview with Andy O'Fiesh of the Bitcoin Armor Wallet about entopy, Bitcoin wallets, private keys, public keys and network security attack vectors.
@@ -22,7 +22,7 @@ Andy holds a degree in systems engineering and graduate degrees in computer scie
 
 <b>Trace:  </b> Yeah.  So our topic for this podcast is going to be all about wallets and this is 101, you know.  We're just starting off with the real basics.  So like what is a Bitcoin wallet?  How does it work?
 
-<b>Andy Ofiesh:  </b> Well, a Bitcoin wallet is how you organize and protect your Bitcoin keys, that's your public key and your private key.  For those unfamiliar with Bitcoin, the keys are essentially the key to spending and receiving Bitcoins.  When somebody sends you a Bitcoin, they send it to your public key. So everybody knows your public key.  Hopefully, only you know your private key.  So there is a 1-1 relationship between public and private keys.  One of the effects of Bitcoin is now there is data in the world that is worth money directly.  In the past, a hacker would have to take over your computer and do something with it to make money, maybe access your other financial data and take advantage of that in some way but with Bitcoin, it is now a one step process.  Access your private key and take your money.  It actually has increased the amount of potential for hacking computers.  It has also caused a great deal of increase in the technology available to protect your data.  One of the manifestations of that is the Bitcoin Armory.  We are working on many different features and have already quite a few features that are designed specifically to protect your private keys for your Bitcoins that you own.
+<b>Andy Ofiesh:  </b> Well, a Bitcoin wallet is how you organize and protect your Bitcoin keys, that's your public key and <a href="/amazing-math-bitcoin-private-keys/">your private key</a>.  For those unfamiliar with Bitcoin, the keys are essentially the key to spending and receiving Bitcoins.  When somebody sends you a Bitcoin, they send it to your public key. So everybody knows your public key.  Hopefully, only you know your private key.  So there is a 1-1 relationship between public and private keys.  One of the effects of Bitcoin is now there is data in the world that is worth money directly.  In the past, a hacker would have to take over your computer and do something with it to make money, maybe access your other financial data and take advantage of that in some way but with Bitcoin, it is now a one step process.  Access your private key and take your money.  It actually has increased the amount of potential for hacking computers.  It has also caused a great deal of increase in the technology available to protect your data.  One of the manifestations of that is the Bitcoin Armory.  We are working on many different features and have already quite a few features that are designed specifically to protect your private keys for your Bitcoins that you own.
 
 ### Bitcoin Private Keys | Where the rubber meets the road
 

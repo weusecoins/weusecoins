@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bitcoin Arbitrage Made Easy | Lesson Two
+title: Bitcoin Arbitrage Made Easy - Lesson Two
 author: Arthur Hayes
 authorurl: http://www.weusecoins.com/arthur-hayes
 published: true
@@ -50,7 +50,7 @@ The portfolio first must borrow USD with which to trade. $10,000 is borrowed at 
 <li>On September 26, 2014 the USDU14 contract expires</li>
 <li>Sell the 20 XBT and receive USD at the prevailing USDXBt spot price</li>
 <li>Repay the USD bank loan</li></ol>
-The below table shows the profit of the strategy given different USDXBt spot prices at expiry:
+The below table shows the profit of the strategy given different <a href="/en/bitcoin-price/">USDXBt spot prices</a> at expiry:
 <p>
 <img src="/images/bitcoin-arbitrage-table-2.png" alt="bitcoin arbitrage table" align="center">
 <p>

@@ -1,0 +1,93 @@
+## Wallet List Template
+## - merchant: 
+##   description:
+##   category: 
+
+###### General ######
+
+ - merchant: Overstock
+   description: Overstock became the first billion dollar company to accept Bitcoin in early-2014. It’s possible to buy just about anything with Bitcoin at Overstock.com. From furniture to clothing, to jewelry and electronics, Overstock can provide Bitcoiners with most everyday items.
+   category: general
+   url: http://www.overstock.com/
+   
+ - merchant: Gyft
+   description: Gyft is an electronic gift card retailer that started accepting Bitcoin in mid-2013. Suddenly, Bitcoin users could buy gift cards for Amazon, Best Buy, Delta, Home Depot, Whole Foods, and Walmart. Although some small stores had accepted Bitcoin before Gyft, none offered mainstream goods or ways to shop at already frequented stores. Additionally, Gyft offers 3% back on Bitcoin purchases, making Gyft competitive with credit card rewards programs. 
+   category: general
+   url: https://www.gyft.com/
+   
+ - merchant: Rakuten
+   description: "Rakuten, a multi-billion dollar company based in Japan, added Bitcoin as a payment option for its US customers in May 2015. Rakuten’s offerings are similar to Overstock’s: clothes, books, furniture, health, toys, and electronics." 
+   category: general
+   url: http://www.rakuten.com/
+   
+ - merchant: Purse.io
+   description: Purse.io makes it possible to buy anything on Amazon with Bitcoin. Purse matches users with extra Amazon credit (buyers) with users who want to spend bitcoin (spenders). A spender first creates a wishlist with his/her desired items. Once a buyer finds a wishlist in the right price range and accepts a spender’s offer, bitcoins are placed in escrow with Purse.io. The buyer then orders items to the spender’s destination address. Once a spender receives the order, the escrow is unlocked and bitcoins are released to the buyer.
+   category: general
+   url: http://www.howtovanish.com/purseio
+
+###### Travel ######
+   
+ - merchant: CheapAir
+   description: CheapAir, an online travel agency, helps customers find affordable flights and hotels. The service began accepting Bitcoin in November 2013 and as of July 2014 <a href="https://www.cheapair.com/press/releases/cheapair-com-bitcoin-sales-top-1-5-million">had processed over $1.5 million worth of Bitcoin transactions</a>. 
+   category: travel
+   url: https://www.cheapair.com/
+   
+ - merchant: Virgin Galactic
+   description: Virgin Galactic, a space travel company, accepted its first Bitcoin payment in November 2013. The company’s CEO, Richard Branson, believes the futuristic nature of Bitcoin and space go hand-in-hand. 
+   category: travel
+   url: http://www.virgin.com/richard-branson/bitcoins-in-space
+   
+ - merchant: Expedia
+   description: Expedia, one of the world’s largest online travel companies, started accepting Bitcoin for hotel bookings in mid-2014.
+   category: travel
+   url: https://www.expedia.com/
+
+###### Electronics & Computers ######
+   
+ - merchant: NewEgg
+   description: NewEgg is one of the world’s most popular stores for computer hardware and software. NewEgg accepted its first Bitcoin payment in July 2014 and has even <a href="https://www.cryptocoinsnews.com/newegg-offers-30-canadian-bitcoiners/">offered exclusive discounts to customers paying with Bitcoin</a>. 
+   category: electronics
+   url: http://www.newegg.com/
+   
+ - merchant: TigerDirect
+   description: TigerDirect became the easiest place to buy computer hardware, printers, and TVs when it started accepting Bitcoin in July 2013.
+   category: electronics
+   url: http://www.tigerdirect.com/
+   
+ - merchant: Dell
+   description: Dell started accepting Bitcoin much later than the two computer companies listed above. The company’s CEO, Michael Dell, <a href="https://twitter.com/MichaelDell/status/568442379570540544">made the announcement on Twitter</a> in Februrary 2015. 
+   category: electronics
+   url: http://www.dell.com/
+
+###### Domains & Hosting ######
+   
+ - merchant: Namecheap
+   description: Namecheap became the first domain registrar to accept Bitcoin in March 2013. In addition to domain names, customers can buy hosting, SSL certificates and more with bitcoin. Namecheap has taken stand against legislation like SOPA and CISPA, further boosting the company’s favor among Bitcoiners.
+   category: domainshosting
+   url: https://www.namecheap.com/
+
+###### Decentralized ######
+   
+ - merchant: OpenBazaar
+   description: OpenBazaar will become the world’s first purely peer-to-peer marketplace when it launches in February 2016. Users will be able to create listings similar to the way auctions are created on eBay. Since the available products depends on user listings, it’s safe to say that there will be a wide range of both unique and everyday items available for sale. 
+   category: decentralized
+   url: https://openbazaar.org/
+  
+###### Food and Groceries ######
+   
+ - merchant: Fold
+   description: Fold, together with its sister company Card for Coin, helps pass on discounts from unused gift cards over to Bitcoin users. Since gift cards lack liquidity and can only be used to buy specific products, many are willing to sell gift cards for cash for only 60-80% of the listed value. Card for Coin purchases gift cards at a discount and then spends the gift cards for users through Fold. Bitcoin is sent to an address displayed in Fold. Within seconds, a scannable gift card is ready for use. Currently, Fold offers a 20% discount at Starbucks and 3% discount at Target with its <a href="https://foldapp.com/blog/2015/12/14/airbitz-integration-and-target-beta/">AirBitz integration</a>. 
+   category: food
+   url: https://foldapp.com
+   
+ - merchant: Fiverr
+   description: Fiverr is an online marketplace used to buy and sell services. Freelancers can offer jobs for as little as $5, and contractors are able to pay for services with bitcoin. 
+   category: freelancers
+   url: https://www.fiverr.com/
+
+###### Luxury Items ######
+   
+ - merchant: BitPremier
+   description: BitPremier is the luxury Bitcoin marketplace. Yachts, mansions, premium domain names, sports cars, and antiques are just some of the many expensive items listed for sale. 
+   category: luxury 
+   url: https://www.bitpremier.com/

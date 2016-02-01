@@ -1,5 +1,9 @@
 ---
 layout: default-de
+toc: 
+  technical: Technischer Hintergrund
+  hardware: Hardware
+  software: Software
 ---
 
 <title>Was ist Bitcoin-Mining? - We Use Coins Bitcoin Experts Can Help</title>
@@ -12,7 +16,11 @@ layout: default-de
 </p>
 
 <h1 id="intro">Bevor wir beginnen...</h1>
+
+{% include page-toc.html %}
+
 <p>Bevor Sie weiterlesen seien Sie sich bitte im Klaren, dass <strong>die meisten Bitcoinnutzer nicht minen!</strong> Bitcoin-Mining ist ein Geschäft mit einer sehr grossen Konkurrenz. Mining macht nur Sinn, wenn Sie es aus Spass machen und es Ihnen nicht so wichtig ist, ob Sie Profit daraus schlagen. Es ist aber auch möglich, dass Sie es sehr effektiv betreiben und davon profitieren.</p>
+<center><a href="http://www.runtogold.com/coinbase" target="_blank"><img src='https://www.weusecoins.com/images/coinbase-468-60.jpg' title='Coinbase' alt='Coinbase' width="468" height="60" border='0'></a></center>
 <p>Wenn Sie Bitcoins basierend auf einer bestimmten Hashrate erhalten möchten, sollten Sie sich die benötigte Hardware nicht selbst zulegen, sondern einen Mining-Vertrag abschliessen.</p>
 <h1 id="technical">Technischer Hintergrund</h1>
 Während dem Mining führt der Computer eine <a href="https://en.bitcoin.it/wiki/Proof_of_work">kryptographische Hashfunktion</a> (zwei Runden SHA256) aus. Den sogenannten <em><a href="https://en.bitcoin.it/wiki/Block_hashing_algorithm">Block Header</a></em>. Für jeden neuen Hash benutzt die Mining-Software eine andere zufällig generierte Zahl für den Block-Header. Diese Nummer wird <em>Nonce</em> genannt. Abhängig von der Nonce und allem anderem, das im Block enthalten ist, erstellt die Hashfunktion einen Hash wie dieser:</p>
@@ -40,5 +48,6 @@ reduzieren, brauchen wir nun zwei Nullen am Anfang, um kleiner als sie zu sein:<
 <p>Es gibt zwei grundlegende Varianten um zu minen: Alleine oder als Mitglied eines Pools. Wenn Sie alleine minen möchten, lesen Sie am Besten hier nach, wie Sie die Bitcoin-Software installieren und für eine JSON-RPC-Verbindung (siehe: <a href="https://en.bitcoin.it/wiki/Running_Bitcoin">Running Bitcoin (Wiki)</a>) konfigurieren. Die andere Option ist es einem <a href="https://en.bitcoin.it/wiki/Pooled_mining">Mining-Pool</a> beizutreten. Es gibt <a href="https://en.bitcoin.it/wiki/Category:Pool_Operators">mehrere Pools</a>, aus denen Sie wählen können. Bei einem Pool wird der Gewinn aus jedem Block, der ein Mitglied generiert durch alle Mitglieder des Pools geteilt. Der Vorteil den Sie durch den Beitritt eines Pools erhalten sind regelmässigere und gleichmässige Auszahlungen. Diese fallen jedoch kleiner aus. Wenn Sie alleine minen erhalten Sie grössere und unregelmässigere Auszahlungen. Letztendlich verdienen Sie jedoch etwa dasselbe.</p>
 <p>Wenn Sie die Bitcoin-Software heruntergeladen und konfiguriert haben oder einem Pool beigetreten sind, besteht der nächste Schritt darin Ihre Mining-Software einzurichten. Für GPU/FPGA/ASIC Miner ist dies zurzeit etwa CGminer oder BFGMiner eine spezielle Ableitung davon für FPGA's und ASIC's. 
 <p>Wenn Sie sich einen kleinen Einblick über das mining verschaffen wollen, versuchen Sie Bitcoin Plus, einen browserbasierten CPU Bitcoin miner. Ein CPU Miner ist nicht die kostengünstigste Variante für seriöses minen, zeigt Ihnen aber das Prinzip eines Pools sehr gut dar.</p>
+<p><a href="http://www.btc-echo.de/">Aktuelle Bitcoin Nachrichten</a>.
 <h2 id="credit">Vielen Dank an:</h2>
 <p>Blitzboom und die Jungs von #bitcoin-dev für Ihre Hilfe bei der Erstellung dieser Anleitung!</p>

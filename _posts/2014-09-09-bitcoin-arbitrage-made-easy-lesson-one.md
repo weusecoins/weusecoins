@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bitcoin Arbitrage Made Easy | Lesson One
+title: Bitcoin Arbitrage Made Easy - Lesson One
 author: Arthur Hayes
 authorurl: http://www.weusecoins.com/arthur-hayes
 published: true
@@ -26,7 +26,7 @@ The arbitraging of spot exchange requires traders to buy XBT cheaply on exchange
 <li>Sell XBT for USD on exchange B/li>
 <li>Remit USD from exchange B to home bank account/li>
 <li>Repeat</li></ol>
-There are several problems with that trade flow. Wiring USD can take upwards of 5 business days depending on the bank and country. By the time the funds reach exchange A, the arbitrage opportunity could have disappeared. In step 3, the price of XBT could move against the trader before he is able to sell on exchange B.
+There are several problems with that trade flow. Wiring USD can take upwards of 5 business days depending on the bank and country. By the time the funds reach exchange A, the arbitrage opportunity could have disappeared. In step 3, the <a href="/en/bitcoin-price/">price of XBT</a> could move against the trader before he is able to sell on exchange B.
 <p>
 The optimal structure would be to have a portfolio of USD and XBT spread out across the relevant exchanges. When an opportunity presents itself, traders can act immediately and capture the arbitrage before it evaporates.
 <p>

@@ -10,10 +10,11 @@
     <![endif]-->
 
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
     <!-- Created with Jekyll Now -->
+    {% include javascript.html %}
   </head>
 
   <body>
@@ -41,6 +42,7 @@
     </div>
 We need to translate all of these pages into Greek.
     <div id="main" role="main" class="container">
+          {% include social-shares.html %}
       {{ content }}
     </div>
 
@@ -51,7 +53,7 @@ We need to translate all of these pages into Greek.
           <p>
 		  | <a href="https://github.com/sunnankar/wuc-new/blob/gh-pages/README.md">Contribute</a> | 
           </p>
-          © 2011-2015 Hesiod Services LLC <a href="{{ site.baseurl }}/en/terms">Terms</a> <a href="{{ site.baseurl }}/en/privacy">Privacy</a>
+          © 2011-2016 Hesiod Services LLC <a href="{{ site.baseurl }}/en/terms">Terms</a> <a href="{{ site.baseurl }}/en/privacy">Privacy</a>
           <p>
           | <a href="{{ site.baseurl }}/de/">Deutsch</a> | 
           <a href="{{ site.baseurl }}/fr/">Français</a> | 

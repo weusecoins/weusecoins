@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Jesse Powell | Kraken - the best bitcoin exchange
+title: Jesse Powell - Kraken - the best bitcoin exchange
 author: Jesse Powell
 authorurl: http://www.weusecoins.com/jesse-powell/
 description: Jesse Powell talks about Kraken, the best bitcoin exchange, Mt. Gox, Mark Karpeles and bitcoin security.

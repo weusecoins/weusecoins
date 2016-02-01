@@ -18,7 +18,7 @@ Namecoin is a decentralized open source information registration and transfer sy
 <li>(up to 520 bytes, more in the future).</li>
 <li>Transact namecoins, the digital currency (ℕ, NMC).</li></ul>
 <p>
-Namecoin was the first fork of Bitcoin and still is one of the most innovative altcoins. It was first to implement merged mining and a decentralized DNS. Namecoin squares Zooko's Triangle!
+Namecoin was the first fork of Bitcoin and still is one of the most <a href="/en/alt-coins/">innovative altcoins</a>. It was first to implement merged mining and a decentralized DNS. Namecoin squares Zooko's Triangle!
 <p>
 What can Namecoin be used for?
 <ul><li>Protect free-speech rights online by making the web more resistant to censorship.</li>

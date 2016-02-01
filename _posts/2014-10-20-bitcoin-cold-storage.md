@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Andy O'Fiesh | Bitcoin Security Expert
+title: Andy O'Fiesh - Bitcoin Security Expert
 author: Andy O'Fiesh
 authorurl: http://www.weusecoins.com/andy-ofiesh-bitcoin-security-expert
 description: Andy O'Fiesh on bitcoin cold storage, deterministic key generation, private key and bitcoin security.
@@ -120,7 +120,7 @@ Trace Mayer: How is this root seed concept and how Armory has implemented it, ho
 <b>Trace Mayer</b>: Uh-huh.
 
 <b>Andy O'Fiesh</b>: Or what is it, touch-tone. It had to be a touch-tone phone, right? And you would take the handle that you would hold up to your ear and your mouths. Remember that, if anyone here's over 30? And you put that on to this modem, which you would actually like to have these two like suction cups-style things and you would actually put the receiver on the modem and then it was all audio and it was like really low bandwidth.
-<p>I mean, certainly you would not send any kind of image content, much less video content over this modem. You would literally watch text come in on this thing. But people have suggested using that kind of old technology to transfer transactions to and from an offline bitcoin cold storage because certainly there isn't any malware written to travel over such a old school modem.
+<p>I mean, certainly you would not send any kind of image content, much less video content over this modem. You would literally watch text come in on this thing. But people have suggested using that kind of old technology to transfer transactions to and from an <a href="/bitcoin-cold-storage-guide/">offline bitcoin cold storage</a> because certainly there isn't any malware written to travel over such a old school modem.
 
 <b>Trace Mayer</b>: Yeah. And it's what, 200 bods or something? I mean, we --
 

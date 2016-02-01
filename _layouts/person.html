@@ -1,0 +1,45 @@
+---
+layout: page
+---
+
+{% if page.img %}
+	<img src="{{ page.img }}" alt="{{ page.title }}" align="right">
+{% endif %}
+
+{{ content }}
+
+{% for post in site.posts %}
+	{% if post.author == page.title %}
+		{% assign hasPosts = true %}
+		{% break %}
+	{% endif %}
+{% endfor %}
+
+{% if hasPosts %}
+	<h2>Bitcoin articles by or related to {{ page.title }}</h2>
+	<ul>
+		{% for post in site.posts %}
+			{% if post.author == page.title %}
+				<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+			{% endif %}
+		{% endfor %}
+	</ul>
+{% endif %}
+
+{% for pageBy in site.pages %}
+	{% if pageBy.author == page.title %}
+		{% assign hasPages = true %}
+		{% break %}
+	{% endif %}
+{% endfor %}
+
+{% if hasPages %}
+	<h2>Pages by or related to {{ page.title }}</h2>
+	<ul>
+		{% for pageBy in site.pages %}
+			{% if pageBy.author == page.title %}
+				<li><a href="{{ pageBy.url }}">{{ pageBy.title }}</a></li>
+			{% endif %}
+		{% endfor %}
+	</ul>
+{% endif %}

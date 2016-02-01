@@ -10,30 +10,25 @@
     <![endif]-->
 
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
     <!-- Created with Jekyll Now -->
+    {% include javascript.html %}
   </head>
 
   <body>
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
+          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" width="150" height="50"/></a>
 
           <nav>
             <a href="{{ site.baseurl }}/zh/getting-started/">开始</a>
             <a href="{{ site.baseurl }}/zh/get-free-bitcoins/">免费 Bitcoins</a>
-            <a href="{{ site.baseurl }}/zh/bitcoin-price/">免费</a>
             <a href="{{ site.baseurl }}/zh/glossary/">词汇表</a>
             <a href="{{ site.baseurl }}/zh/questions/">常问问题</a>
-            <a href="{{ site.baseurl }}/zh/merchant-tools/">店主</a>
+            <a href="{{ site.baseurl }}/zh/news/">新聞</a>
             <a href="{{ site.baseurl }}/zh/mining-guide/">矿业</a>
           </nav>
         </header>
@@ -47,6 +42,9 @@ We need to translate all of these pages into Chinese.
     <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">
+          {% include ad-footer.html %}
+          {% include email-form.html %}
+          <p>
           {% include svg-icons.html %}
           <p>
 		  | <a href="https://github.com/sunnankar/wuc-new/blob/gh-pages/README.md">Contribute</a> | 

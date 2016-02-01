@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+    <title>{% if page.seotitle %}{{ page.seotitle }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
-{% if page.description %}
-<meta name="description" content="{{ page.description }}">
-{% else %}
-<meta name="description" content= "Anything" >
-{% endif %}
+  	{% if page.description %}
+  	<meta name="description" content="{{ page.description }}">
+  	{% endif %}
 
     {% include meta.html %}
 
@@ -16,63 +14,62 @@
     <![endif]-->
 
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
     <!-- Created with Jekyll Now -->
-    {% include dfp-script.html %}
+    {% include javascript.html %}
   </head>
 
   <body>
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
+          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" width="150" height="50"/></a>
 
           <nav>
             <a href="{{ site.baseurl }}/en/getting-started/">Start</a>
-            <a href="{{ site.baseurl }}/en/get-free-bitcoins/">Free Bitcoins</a>
-            <a href="{{ site.baseurl }}/en/bitcoin-expert-interviews/">Interviews</a>
+            <a href="{{ site.baseurl }}/en/how-buy-bitcoins-online-best-bitcoin-exchange-rate-bitcoin-price/">Buy</a>
+            <a href="{{ site.baseurl }}/en/bitcoin-news/">News</a>
             <a href="{{ site.baseurl }}/en/questions/">FAQ</a>
-            <a href="{{ site.baseurl }}/en/whos-who/">Who's Who</a>
             <a href="{{ site.baseurl }}/en/mining-guide/">Mining</a>
             <a href="{{ site.baseurl }}/en/alt-coins/">Alt-coins</a>
-          </nav>
+           </nav>
         </header>
       </div>
     </div>
 
     <div id="main" role="main" class="container">
+      {% include social-shares.html %}
+      {% include header-banner.html %}
       {{ content }}
-      {% include long-banner.html}
     </div>
 
     <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">
-          {% include dfp.html %}
+          {% include ad-footer.html %}
           {% include email-form.html %}
           <p>
         | <a href="{{ site.baseurl }}/de/">Deutsch</a> | 
           <a href="{{ site.baseurl }}/es/">Español</a> | 
           <a href="{{ site.baseurl }}/fr/">Français</a> | 
           <a href="{{ site.baseurl }}/nl/">Nederlands</a> | 
+          <a href="{{ site.baseurl }}/pt/">Portugese</a> | 
           <a href="{{ site.baseurl }}/ja/">日本語</a> | 
           <p>
           {% include svg-icons.html %}    
           <p>
           | <a href="{{ site.baseurl }}/en/translations/">Translations</a> | 
           <a href="https://github.com/sunnankar/wuc-new/blob/gh-pages/README.md">Contribute</a> |
+          <a href="{{ site.baseurl }}/advertise">Advertise</a> | 
           <a href="{{ site.baseurl }}/en/materials/">Materials</a> | 
           <a href="{{ site.baseurl }}/en/team/">Team</a> | 
           <a href="{{ site.baseurl }}/en/about/">About</a> | 
+          <a href="{{ site.baseurl }}/en/whos-who/">Who's Who</a> |
+          <a href="{{ site.baseurl }}/en/get-free-bitcoins/">Free Bitcoins</a> |
           <p>
-          © 2011-2015 Hesiod Services LLC | <a href="{{ site.baseurl }}/en/terms/">Terms</a> |  <a href="{{ site.baseurl }}/en/privacy/">Privacy</a>
+          © 2011-2016 Hesiod Services LLC | <a href="{{ site.baseurl }}/en/terms/">Terms</a> |  <a href="{{ site.baseurl }}/en/privacy/">Privacy</a>
           <p>
         </footer>
       </div>

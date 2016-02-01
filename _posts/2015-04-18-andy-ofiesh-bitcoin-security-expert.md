@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Andy O'Fiesh | Bitcoin Security Expert
+title: Andy O'Fiesh - Bitcoin Security Expert
 author: Andy O'Fiesh
-authorurl: http://www.weusecoins.com/andy-ofiesh-bitcoin-security-expert
+authorurl: https://www.weusecoins.com/andy-ofiesh-bitcoin-security-expert
 published: true
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tony Gallippi | BitPay
+title: Tony Gallippi - BitPay
 author: Tony Gallippi
 authorurl: http://www.bitcoin.kn/2015/01/btck-128-2015-01-24/
 description: Tony Gallippi of BitPay on bitcoin merchant processors.

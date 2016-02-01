@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Aaron Voisine | Bitcoin Security Expert
+title: Aaron Voisine - Bitcoin Security Expert
 author: Aaron Voisine
-authorurl: http://www.weusecoins.com/aaron-voisine-bitcoin-security-expert
+authorurl: https://www.weusecoins.com/aaron-voisine-bitcoin-security-expert
 published: true
 ---
 

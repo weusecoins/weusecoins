@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Andy O'Fiesh | Bitcoin Security Expert
+title: Andy O'Fiesh - Bitcoin Security Expert
 author: Andy O'Fiesh
 authorurl: http://www.weusecoins.com/andy-ofiesh-bitcoin-security-expert/
 description: Andy O'Fiesh on bitcoin multi-signature transactions.

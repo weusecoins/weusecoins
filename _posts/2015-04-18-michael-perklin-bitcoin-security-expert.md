@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Michael Perklin | Bitcoin Security Expert
+title: Michael Perklin - Bitcoin Security Expert
 author: Michael Perklin
-authorurl: http://www.weusecoins.com/michael-perklin-bitcoin-security-expert
+authorurl: https://www.weusecoins.com/michael-perklin-bitcoin-security-expert
 published: true
 ---
 
@@ -17,6 +17,7 @@ C4 is a not-for-profit organization dedicated to standards and certifications in
 I am also a director of the Bitcoin Alliance of Canada, a non-profit organization that promotes, educates, and protects bitcoin in Canada. You may have seen video of me speaking to the Canadian Senate about bitcoin in the same hearings that brought Andreas M. Antonopoulos to Canada.
 ## Bitcoin articles by Michael Perklin
 <ul>
+<li><a href="/bitcoin-security-standards/">Bitcoin Security Standards</a></li>
 <li><a href="">Why Bitcoin Matters</a></li>
 <li><a href="">Securing Your First Bitcoin</a></li>
 </ul>

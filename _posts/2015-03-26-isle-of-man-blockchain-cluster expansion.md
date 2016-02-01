@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Isle of Man | Blockchain cluster expansion!
+title: Isle of Man - Blockchain cluster expansion!
 author: Brian Donegan
 authorurl: http://www.weusecoins.com/brian-donegan
 published: true

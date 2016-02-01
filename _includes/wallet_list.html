@@ -1,0 +1,4 @@
+<div class="wallet-list">
+<h3><img src="/images/{{ wallet.img }}.png">{{ wallet.wallet }} <span class="wallet-link">{% if wallet.download != null %}<a href="{{ wallet.download }}">Download</a>{% elsif wallet.buy != null %}<a href="{{ wallet.buy }}">Buy</a>{% elsif wallet.create != null %}<a href="{{ wallet.create }}">Create</a>{% else %} {% endif %}</span></h3>
+<p>{{ wallet.description }}</p>
+</div>

@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Answers to frequently asked Bitcoin questions
 ---
 <link rel="canonical" href="https://www.weusecoins.com/en/questions/" />
 
@@ -65,6 +66,7 @@ Many questions can be answered by understanding some <a href="/en/glossary/">bas
   <li><a href="#can-bitcoin-be-regulated">Can Bitcoin be regulated?</a></li>
   <li><a href="#what-about-bitcoin-and-taxes">What about Bitcoin and taxes?</a></li>
   <li><a href="#what-about-bitcoin-and-consumer-protection">What about Bitcoin and consumer protection?</a></li>
+  <li><a href="#is-bitcoin-gambling-legal">Is Bitcoin gambling legal?</a></li>
 </ul>
 <li><a href="#economy">Economy</a></li>
 <ul>
@@ -83,15 +85,18 @@ Many questions can be answered by understanding some <a href="/en/glossary/">bas
 </ul>
 <li><a href="#transactions">Transactions</a></li>
 <ul>
+  <li><a href="#is-bitcoin-anonymous">Are transactions anonymous?</a></li>
   <li><a href="#why-do-i-have-to-wait-10-minutes">Why do I have to wait 10 minutes?</a></li>
   <li><a href="#how-much-will-the-transaction-fee-be">How much will the transaction fee be?</a></li>
   <li><a href="#what-if-i-receive-a-bitcoin-when-my-computer-is-powered-off">What if I receive a bitcoin when my computer is powered off?</a></li>
   <li><a href="#what-does-synchronizing-mean-and-why-does-it-take-so-long">What does "synchronizing" mean and why does it take so long?</a></li>
+  <li><a href="#what-does-increasing-the-block-size-limit-mean">What does increasing the block size limit mean?</a></li>
 </ul>
-<li><a href="#mining">Mining</a></li>
+<li><a href="#mining">Bitcoin Mining</a></li>
 <ul>
   <li><a href="#what-is-bitcoin-mining">What is Bitcoin mining?</a></li>
   <li><a href="#how-does-bitcoin-mining-work">How does Bitcoin mining work?</a></li>
+  <li><a href="#how-much-bandwidth-does-bitcoin-mining-take">How much bandwidth does Bitcoin mining take?</a></li>
   <li><a href="#isnt-bitcoin-mining-a-waste-of-energy">Isn't Bitcoin mining a waste of energy?</a></li>
   <li><a href="#how-does-mining-help-secure-bitcoin">How does mining help secure Bitcoin?</a></li>
   <li><a href="#what-do-i-need-to-start-mining">What do I need to start mining?</a></li>
@@ -110,6 +115,7 @@ Many questions can be answered by understanding some <a href="/en/glossary/">bas
 </ul>
 </div>
 
+<hr style="width: 100%; margin: 20px 0; color: #eee;" />
 <h2 id="general">General</h2>
 
 <h3 id="what-is-bitcoin">What is Bitcoin?</h3>
@@ -125,21 +131,22 @@ Many questions can be answered by understanding some <a href="/en/glossary/">bas
 <h3 id="how-does-bitcoin-work">How does Bitcoin work?</h3>
 <p>From a user perspective, Bitcoin is nothing more than a mobile app or computer program that provides a personal Bitcoin wallet and allows a user to send and receive bitcoins with them. This is how Bitcoin works for most users.</p>
 <p>Behind the scenes, the Bitcoin network is sharing a public ledger called the "block chain". This ledger contains every transaction ever processed, allowing a user's computer to verify the validity of each transaction. The authenticity of each transaction is protected by digital signatures corresponding to the sending addresses, allowing all users to have full control over sending bitcoins from their own Bitcoin addresses. In addition, anyone can process transactions using the computing power of specialized hardware and earn a reward in bitcoins for this service. This is often called "mining". To learn more about Bitcoin, you can consult the <a href="https://www.bitcoin.org/bitcoin.pdf">original whitepaper</a>.</p>
+<iframe width="700" height="394" src="https://www.youtube.com/embed/YIVAluSL9SU" frameborder="0" allowfullscreen></iframe>
 
 <h3 id="is-bitcoin-really-used-by-people">Is Bitcoin really used by people?</h3>
 <p>Yes. There is a growing number of businesses and individuals using Bitcoin. This includes brick and mortar businesses like restaurants, apartments, law firms, and popular online services such as Namecheap, WordPress, and Reddit. While Bitcoin remains a relatively new phenomenon, it is growing fast. At the end of August 2013, the value of all bitcoins in circulation exceeded US$ 1.5 billion with millions of dollars worth of bitcoins exchanged daily.</p>
 <p>
-<img src="/images/bitcoin-merchants-map.png" alt="bitcoin merchant map">
+<center><img src="/images/bitcoin-merchants-map.png" alt="bitcoin merchant map"></center>
 </p>
 
 <h3 id="how-does-one-acquire-bitcoins">How does one acquire bitcoins?</h3>
 <ul>
   <li>As payment for goods or services.</li>
-  <li>Purchase bitcoins at a Bitcoin exchange.</li>
+  <li><a href="/en/how-buy-bitcoins-online-best-bitcoin-exchange-rate-bitcoin-price/">Purchase bitcoins</a> at a Bitcoin exchange.</li>
   <li>Exchange bitcoins with <a href="https://localbitcoins.com/">someone near you</a>.</li>
   <li>Earn bitcoins through competitive <a href="/en/mining-guide">bitcoin mining</a>.</li>
 </ul>
-<p>While it may be possible to find individuals who wish to sell bitcoins in exchange for a credit card or PayPal payment, most exchanges do not allow funding via these payment methods. This is due to cases where someone buys bitcoins with PayPal, and then reverses their half of the transaction. This is commonly referred to as a chargeback.</p>
+<p>While it may be possible to find individuals who wish to [sell bitcoins](/how-to-sell-bitcoins/) in exchange for a credit card or PayPal payment, most exchanges do not allow funding via these payment methods. This is due to cases where someone buys bitcoins with PayPal, and then reverses their half of the transaction. This is commonly referred to as a chargeback.</p>
 
 <h3 id="how-difficult-is-it-to-make-a-bitcoin-payment">How difficult is it to make a Bitcoin payment?</h3>
 <p>Bitcoin payments are easier to make than debit or credit card purchases, and can be received without a merchant account. Payments are made from a wallet application, either on your computer or smartphone, by entering the recipient's address, the payment amount, and pressing send. To make it easier to enter a recipient's address, many wallets can obtain the address by scanning a QR code or touching two phones together with NFC technology.</p>
@@ -151,7 +158,7 @@ Many questions can be answered by understanding some <a href="/en/glossary/">bas
 <h3 id="what-are-the-advantages-of-bitcoin">What are the advantages of Bitcoin?</h3>
 <ul>
   <li><em><b>Payment freedom</b></em> - It is possible to send and receive any amount of money instantly anywhere in the world at any time. No bank holidays. No borders. No imposed limits. Bitcoin allows its users to be in full control of their money.</li>
-  <li><em><b>Very low fees</b></em> - Bitcoin payments are currently processed with either no fees or extremely small fees. Users may include fees with transactions to receive priority processing, which results in faster confirmation of transactions by the network. Additionally, merchant processors exist to assist merchants in processing transactions, converting bitcoins to fiat currency and depositing funds directly into merchants' bank accounts daily. As these services are based on Bitcoin, they can be offered for much lower fees than with PayPal or credit card networks.</li>
+  <li><em><b>Very low fees</b></em> - Bitcoin payments are currently processed with either no fees or extremely small fees. Users may include fees with transactions to receive priority processing, which results in faster confirmation of transactions by the network. Additionally, <a href="/en/merchant-tools/">merchant processors exist</a> to assist merchants in processing transactions, converting bitcoins to fiat currency and depositing funds directly into merchants' bank accounts daily. As these services are based on Bitcoin, they can be offered for much lower fees than with PayPal or credit card networks.</li>
   <li><em><b>Fewer risks for merchants</b></em> - Bitcoin transactions are secure, irreversible, and do not contain customers’ sensitive or personal information. This protects merchants from losses caused by fraud or fraudulent chargebacks, and there is no need for PCI compliance. Merchants can easily expand to new markets where either credit cards are not available or fraud rates are unacceptably high. The net results are lower fees, larger markets, and fewer administrative costs.</li>
   <li><em><b>Security and control</b></em> - Bitcoin users are in full control of their transactions; it is impossible for merchants to force unwanted or unnoticed charges as can happen with other payment methods. Bitcoin payments can be made without personal information tied to the transaction. This offers strong protection against identity theft. Bitcoin users can also protect their money with backup and encryption.</li>
   <li><em><b>Transparent and neutral</b></em> - All information concerning the Bitcoin money supply itself is readily available on the block chain for anybody to verify and use in real-time. No individual or organization can control or manipulate the Bitcoin protocol because it is cryptographically secure. This allows the core of Bitcoin to be trusted for being completely neutral, transparent and predictable.</li>
@@ -177,6 +184,7 @@ Many questions can be answered by understanding some <a href="/en/glossary/">bas
 <h3 id="is-bitcoin-anonymous">Is Bitcoin anonymous?</h3>
 <p>Bitcoin is designed to allow its users to send and receive payments with an acceptable level of privacy as well as any other form of money. However, Bitcoin is not anonymous and cannot offer the same level of privacy as cash. The use of Bitcoin leaves extensive public records. Various mechanisms exist to protect users' privacy, and more are in development. However, there is still work to be done before these features are used correctly by most Bitcoin users.</p>
 <p>Some concerns have been raised that private transactions could be used for illegal purposes with Bitcoin. However, it is worth noting that Bitcoin will undoubtedly be subjected to similar regulations that are already in place inside existing financial systems. Bitcoin cannot be more anonymous than cash and it is not likely to prevent criminal investigations from being conducted. Additionally, Bitcoin is also designed to prevent a large range of financial crimes.</p>
+<p>Bitcoin transactions are pseudo-anonymous. The inputs in every transaction can be tracked in the blockchain to every previous transaction's outputs. However, there are <a href="/bitcoin-privacy-technologies-zerocash-confidential-transactions/">Bitcoin privacy technologies</a> being developed.
 
 <h3 id="what-happens-when-bitcoins-are-lost">What happens when bitcoins are lost?</h3>
 <p>When a user loses his wallet, it has the effect of removing money out of circulation. Lost bitcoins still remain in the block chain just like any other bitcoins. However, lost bitcoins remain dormant forever because there is no way for anybody to find the <a href="/en/glossary/#private-key">private key(s)</a> that would allow them to be spent again. Because of the law of supply and demand, when fewer bitcoins are available, the ones that are left will be in higher demand and increase in value to compensate.</p>
@@ -184,6 +192,7 @@ Many questions can be answered by understanding some <a href="/en/glossary/">bas
 <h3 id="can-bitcoin-scale-to-become-a-major-payment-network">Can Bitcoin scale to become a major payment network?</h3>
 <p>The Bitcoin network can already process a much higher number of transactions per second than it does today. It is, however, not entirely ready to scale to the level of major credit card networks. Work is underway to lift current limitations, and future requirements are well known. Since inception, every aspect of the Bitcoin network has been in a continuous process of maturation, optimization, and specialization, and it should be expected to remain that way for some years to come. As traffic grows, more Bitcoin users may use lightweight clients, and full network nodes may become a more specialized service. For more details, see the <a href="https://en.bitcoin.it/wiki/Scalability">Scalability</a> page on the Wiki.</p>
 
+<hr style="width: 100%; margin: 20px 0; color: #eee;" />
 <h2 id="legal">Legal</h2>
 
 <h3 id="is-bitcoin-legal">Is Bitcoin legal?</h3>
@@ -206,6 +215,10 @@ Many questions can be answered by understanding some <a href="/en/glossary/">bas
 <p>Bitcoin is freeing people to transact on their own terms. Each user can send and receive payments in a similar way to cash but they can also take part in more complex contracts. Multiple signatures allow a transaction to be accepted by the network only if a certain number of a defined group of persons agree to sign the transaction. This allows innovative dispute mediation services to be developed in the future. Such services could allow a third party to approve or reject a transaction in case of disagreement between the other parties without having control on their money. As opposed to cash and other payment methods, Bitcoin always leaves a public proof that a transaction did take place, which can potentially be used in a recourse against businesses with fraudulent practices.</p>
 <p>It is also worth noting that while merchants usually depend on their public reputation to remain in business and pay their employees, they don't have access to the same level of information when dealing with new consumers. The way Bitcoin works allows both individuals and businesses to be protected against fraudulent chargebacks while giving the choice to the consumer to ask for more protection when they are not willing to trust a particular merchant.</p>
 
+<h3 id="is-bitcoin-gambling-legal">Is Bitcoin gambling legal?</h3>
+<p>In general, gambling with Bitcoin is legal although this usually depends on the user's country or state of residence. It is always wise to consult with a local attorney and the official entities before gambling. There are currently more than 100 <a href="http://www.bitcoingambling.net/casino/">Bitcoin casinos</a> and sportsbooks operating. Many hold a gambling license like gambling operators who use fiat currency.
+
+<hr style="width: 100%; margin: 20px 0; color: #eee;" />
 <h2 id="economy">Economy</h2>
 
 <h3 id="how-are-bitcoins-created">How are bitcoins created?</h3>
@@ -218,7 +231,8 @@ Many questions can be answered by understanding some <a href="/en/glossary/">bas
 
 <h3 id="what-determines-bitcoins-price">What determines bitcoin’s price?</h3>
 <p>The price of a bitcoin is determined by supply and demand. When demand for bitcoins increases, the price increases, and when demand falls, the price falls. There is only a limited number of bitcoins in circulation and new bitcoins are created at a predictable and decreasing rate, which means that demand must follow this level of inflation to keep the price stable. Because Bitcoin is still a relatively small market compared to what it could be, it doesn't take significant amounts of money to move the market price up or down, and thus the price of a bitcoin is still very volatile. Plus, many people do not really know <a href="/how-bitcoin-margin-calls-work/">how Bitcoin margin calls work</a>.</p>
-<p>Bitcoin price over time:<br><img src="/images/bitcoin-price-chart.png" alt="bitcoin price chart"></p>
+<p>Bitcoin price over time:
+<center><img src="/images/bitcoin-price-chart.png" alt="bitcoin price chart"></center>
 
 <h3 id="can-bitcoins-become-worthless">Can bitcoins become worthless?</h3>
 <p>Yes. History is littered with currencies that failed and are no longer used, such as the <a href="https://en.wikipedia.org/wiki/German_gold_mark">German Mark</a> during the Weimar Republic and, more recently, the <a href="https://en.wikipedia.org/wiki/Zimbabwean_dollar">Zimbabwean dollar</a>. Although previous currency failures were typically due to hyperinflation of a kind that Bitcoin makes impossible, there is always potential for technical failures, competing currencies, political issues and so on. As a basic rule of thumb, no currency should be considered absolutely safe from failures or hard times. Bitcoin has proven reliable for years since its inception and there is a lot of potential for Bitcoin to continue to grow. However, no one is in a position to predict what the future will be for Bitcoin.</p>
@@ -251,7 +265,11 @@ Many questions can be answered by understanding some <a href="/en/glossary/">bas
 <h3 id="what-if-someone-creates-a-better-digital-currency">What if someone creates a better digital currency?</h3>
 <p>That can happen. For now, Bitcoin remains by far the most popular decentralized virtual currency, but there can be no guarantee that it will retain that position. There is already a set of alternative currencies inspired by Bitcoin. It is however probably correct to assume that significant improvements would be required for a new currency to overtake Bitcoin in terms of established market, even though this remains unpredictable. Bitcoin could also conceivably adopt improvements of a competing currency so long as it doesn't change fundamental parts of the protocol.</p>
 
+<hr style="width: 100%; margin: 20px 0; color: #eee;" />
 <h2 id="transactions">Transactions</h2>
+
+<center><img src="/images/bitcoin-transaction-life-cycle.png">
+<a href="/images/bitcoin-transaction-life-cycle-high-resolution.png" target="_blank">Visualize and Download High-Resolution Infographic</a></center>
 
 <h3 id="why-do-i-have-to-wait-10-minutes">Why do I have to wait 10 minutes?</h3>
 <p>Receiving a payment is almost instant with Bitcoin. However, there is a 10 minutes delay on average before the network begins to confirm your transaction by including it in a block and before you can spend the bitcoins you receive. A confirmation means that there is a consensus on the network that the bitcoins you received haven't been sent to anyone else and are considered your property. Once your transaction has been included in one block, it will continue to be buried under every block after it, which will exponentially consolidate this consensus and decrease the risk of a reversed transaction. Every user is free to determine at what point they consider a transaction confirmed, but 6 confirmations is often considered to be as safe as waiting 6 months on a credit card transaction.</p>
@@ -266,10 +284,16 @@ Many questions can be answered by understanding some <a href="/en/glossary/">bas
 <h3 id="what-does-synchronizing-mean-and-why-does-it-take-so-long">What does "synchronizing" mean and why does it take so long?</h3>
 <p>Long synchronization time is only required with full node clients like Bitcoin Core. Technically speaking, synchronizing is the process of downloading and verifying all previous Bitcoin transactions on the network. For some Bitcoin clients to calculate the spendable balance of your Bitcoin wallet and make new transactions, it needs to be aware of all previous transactions. This step can be resource intensive and requires sufficient bandwidth and storage to accommodate the full size of the block chain. For Bitcoin to remain secure, enough people should keep using full node clients because they perform the task of validating and relaying transactions.</p>
 
-<h2 id="mining">Mining</h2>
+<h3 id="what-does-increasing-the-block-size-limit-mean">What does increasing the block size limit mean?</h3>
+<p>The <a href="/why-blocksize-limit-keeps-bitcoin-free-decentralized/">blocksize limit</a> is what ensures everyone can participate in the Bitcoin network, and it ensures everyone can participate anonymously should they choose too. Some people want to remove this protection to make Bitcoin scale, but we can have the best of both worlds: high transaction volume and true decentralization with off-chain transactions.
+<iframe width="700" height="394" src="https://www.youtube.com/embed/cZp7UGgBR0I" frameborder="0" allowfullscreen></iframe>
+
+<hr style="width: 100%; margin: 20px 0; color: #eee;" />
+<h2 id="mining">Bitcoin Mining</h2>
 
 <h3 id="what-is-bitcoin-mining">What is Bitcoin mining?</h3>
 <p>Mining is the process of spending computing power to process transactions, secure the network, and keep everyone in the system synchronized together. It can be perceived like the Bitcoin data center except that it has been designed to be fully decentralized with miners operating in all countries and no individual having control over the network. This process is referred to as "mining" as an analogy to gold mining because it is also a temporary mechanism used to issue new bitcoins. Unlike gold mining, however, Bitcoin mining provides a reward in exchange for useful services required to operate a secure payment network. Mining will still be required after the last bitcoin is issued.</p>
+<iframe width="700" height="394" src="https://www.youtube.com/embed/GmOzih6I1zs" frameborder="0" allowfullscreen></iframe>
 
 <h3 id="how-does-bitcoin-mining-work">How does Bitcoin mining work?</h3>
 <p>Anybody can become a Bitcoin miner by running software with specialized hardware. Mining software listens for transactions broadcast through the peer-to-peer network and performs appropriate tasks to process and confirm these transactions. Bitcoin miners perform this work because they can earn transaction fees paid by users for faster transaction processing, and newly created bitcoins issued into existence according to a fixed formula.</p>
@@ -277,16 +301,22 @@ Many questions can be answered by understanding some <a href="/en/glossary/">bas
 <p>The proof of work is also designed to depend on the previous block to force a chronological order in the block chain. This makes it exponentially difficult to reverse previous transactions because this requires the recalculation of the proofs of work of all the subsequent blocks. When two blocks are found at the same time, miners work on the first block they receive and switch to the longest chain of blocks as soon as the next block is found. This allows mining to secure and maintain a global consensus based on processing power.</p>
 <p>Bitcoin miners are neither able to cheat by increasing their own reward nor process fraudulent transactions that could corrupt the Bitcoin network because all Bitcoin nodes would reject any block that contains invalid data as per the rules of the Bitcoin protocol. Consequently, the network remains secure even if not all Bitcoin miners can be trusted.</p>
 
+<h3 id="how-much-bandwidth-does-bitcoin-mining-take">How much bandwidth does Bitcoin mining take?</h3>
+<p>If you are mining with a pool then the amount should be negligible with about 10MB/day. However, what you do need is exceptional connectivity so that you get any updates on the work as fast as possible.
+
 <h3 id="isnt-bitcoin-mining-a-waste-of-energy">Isn't Bitcoin mining a waste of energy?</h3>
 <p>Spending energy to secure and operate a payment system is hardly a waste. Like any other payment service, the use of Bitcoin entails processing costs. Services necessary for the operation of currently widespread monetary systems, such as banks, credit cards, and armored vehicles, also use a lot of energy. Although unlike Bitcoin, their total energy consumption is not transparent and cannot be as easily measured.</p>
 <p>Bitcoin mining has been designed to become more optimized over time with specialized hardware consuming less energy, and the operating costs of mining should continue to be proportional to demand. When Bitcoin mining becomes too competitive and less profitable, some miners choose to stop their activities. Furthermore, all energy expended mining is eventually transformed into heat, and the most profitable miners will be those who have put this heat to good use. An optimally efficient mining network is one that isn't actually consuming any extra energy. While this is an ideal, the economics of mining are such that miners individually strive toward it.</p>
 
 <h3 id="how-does-mining-help-secure-bitcoin">How does mining help secure Bitcoin?</h3>
-<p>Mining creates the equivalent of a competitive lottery that makes it very difficult for anyone to consecutively add new blocks of transactions into the block chain. This protects the neutrality of the network by preventing any individual from gaining the power to block certain transactions. This also prevents any individual from replacing parts of the block chain to roll back their own spends, which could be used to defraud other users. Mining makes it exponentially more difficult to reverse a past transaction by requiring the rewriting of all blocks following this transaction.</p>
+<p>Mining creates the equivalent of a competitive lottery that makes it very difficult for anyone to consecutively add new blocks of transactions into the block chain. This protects the neutrality of the network by preventing any individual from gaining the power to block certain transactions.
+<p>This also prevents any individual from replacing parts of the <a href="/what-is-immutability">immutable</a> block chain to roll back their own spends, which could be used to defraud other users. Mining makes it exponentially more difficult to reverse a past transaction by requiring the rewriting of all blocks following this transaction.</p>
+<center><img src="/images/why-bitcoin-blockchain-unhackable.png" alt="why bitcoin blockchain unhackable"></center>
 
 <h3 id="what-do-i-need-to-start-mining">What do I need to start mining?</h3>
 <p>In the early days of Bitcoin, anyone could find a new block using their computer's CPU. As more and more people started mining, the difficulty of finding new blocks increased greatly to the point where the only cost-effective method of mining today is using specialized hardware.</p>
 
+<hr style="width: 100%; margin: 20px 0; color: #eee;" />
 <h2 id="security">Security</h2>
 
 <h3 id="is-bitcoin-secure">Is Bitcoin secure?</h3>

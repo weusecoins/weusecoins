@@ -1,0 +1,144 @@
+---
+layout: post
+title: Get a Bitcoin Wallet
+author: Jordan Tuwiner
+authorurl: /jordan-tuwiner/
+published: true
+seotitle: 20+ Best Bitcoin Wallets to Store Bitcoins
+toc: 
+  uni: Universal Wallets
+  hardware: Hardware Wallets
+  online: Online Wallets (Web Wallets)
+  mobile-android: Mobile Wallets for Android
+  mobile-ios: Mobile Wallets for iOS
+  desktop: Desktop Wallets
+  paper: Paper Wallets
+  how-to: How to Store Bitcoins
+---
+{% include page-toc.html %}
+
+<p>Without a Bitcoin wallet, you can’t send or receive Bitcoin payments. So before you get bitcoins</a>, you’ll need to buy, download, or create a bitcoin wallet. There are different types of wallets: </p>
+
+<ul>
+<li>Online bitcoin wallets. Wallets that can be accessed on the web from any internet connected device.</li> 
+<li>Bitcoin hardware wallets. Physical devices designed to secure bitcoins. </li> 
+<li>Software wallets. Wallet applications downloaded to your phone, computer or tablet. </li> 
+<li>Paper wallets. <a href="https://en.bitcoin.it/wiki/Private_key">Bitcoin private keys</a> printed from an offline computer. </li> 
+</ul>
+
+<p>By the end of this article you’ll understand Bitcoin wallets and have a better idea about which type is right for you. <a href="https://bitcoin.org/en/secure-your-wallet">Learn how to secure your wallet</a> before dealing with any significant amount of money.</p>
+
+<h2 id="uni">Universal Wallets</h2>
+{% for wallet in site.data.wallets %}
+{% if wallet.category == 'universal' %}
+{% include wallet_list.html %}
+{% endif %}
+{% endfor %}
+
+<h2 id="hardware">Hardware Wallets</h2>
+<p><a href="https://www.coldhardware.com/">Hardware wallets</a> are small computers or smartcards built with the sole purpose of generating Bitcoin <a href="/amazing-math-bitcoin-private-keys/">private keys</a> offline. Hardware wallets securely sign transactions in the same offline environment. </p>
+{% for wallet in site.data.wallets %}
+{% if wallet.category == 'hardware' %}
+{% include wallet_list.html %}
+{% endif %}
+{% endfor %}
+
+<h2 id="online">Online Bitcoin Wallets</h2>
+<p>Online Bitcoin wallets, or web wallets, store your private keys online. Wallets can only be accessed with a user-set password.</p>
+{% for wallet in site.data.wallets %}
+{% if wallet.category == 'web' %}
+{% include wallet_list.html %}
+{% endif %}
+{% endfor %}
+
+<h2 id="mobile-android">Mobile Wallets for Android</h2>
+{% for wallet in site.data.wallets %}
+{% if wallet.category == 'mobileandroid' %}
+{% include wallet_list.html %}
+{% endif %}
+{% endfor %}
+
+<h2 id="mobile-ios">Mobile Wallets for iOS</h2>
+{% for wallet in site.data.wallets %}
+{% if wallet.category == 'mobileios' %}
+{% include wallet_list.html %}
+{% endif %}
+{% endfor %}
+
+
+<h2 id="desktop">Desktop Wallets</h2>
+<p>Desktop wallets are software wallets that are downloaded and installed on your computer. The desktop wallets below are available on Mac OS X, Windows, and Linux. </p>
+{% for wallet in site.data.wallets %}
+{% if wallet.category == 'desktop' %}
+{% include wallet_list.html %}
+{% endif %}
+{% endfor %}
+
+<h2 id="paper">Paper Wallets</h2>
+<p>Paper wallets were the standard method of <a href="/bitcoin-cold-storage-guide/">cold storage</a> before hardware wallets were built. Paper wallets are private keys printed out on a piece of paper. If generated and printed with a secure, offline computer, paper wallets are secure cold storage. </p>
+
+<p>The main problem with paper wallets is it can be inconvenient to create and print a new wallet each time you send funds to cold storage. However, it’s possible to bulk print paper wallets to save time and eliminate address reuse. </p>
+
+<h2>Best Practices</h2>
+<p>Bitcoin lets you control your money, meaning you are responsible for both your money’s security and your financial privacy. Here are some steps you can take to ensure your privacy and security: </p>
+
+<h3>Control your private keys</h3>
+<p>Services like Coinbase and Circle offer “Bitcoin wallets”, but in reality control your private keys. It’s best to use a wallet where you control your private keys. This is the only way to have full control of your funds and not have to rely on third parties for security. </p>
+
+<h3>Protect your privacy</h3>
+<p>Each time you request blockchain data from a wallet, the server may be able to view your IP address and connect this to the address data requested. Each wallet handles data requests differently. If privacy is important to you, use a wallet that downloads the whole blockchain like Bitcoin Core or Armory. Tor can be used with other wallets to shield your IP address, but this doesn’t prevent a server from tying a group of addresses to one identity. For more information, check out the <a href="http://www.openbitcoinprivacyproject.org/">Open Bitcoin Privacy Project</a> for wallet rankings based on privacy.</p>  
+
+<h3>Don’t reuse addresses</h3>
+<p>Most Bitcoin wallets today automatically create a new address for each transaction. Since all Bitcoin transactions are public, address reuse makes it easy for others to group transactions and understand which payments are connected to one identity. </p>
+
+<h3>Use different wallets for different sums of money</h3>
+<p>Just like you don’t walk around with your savings account as cash, there are different Bitcoin wallets that should be used depending on how much money is being stored or transferred. Secure wallets like paper wallets or hardware wallets can be used as “savings” wallets, while mobile, web, and desktop wallets should be treated like your spending wallet. </p>
+
+<h3>Create multiple secure backups</h3>
+<p>Users should create multiple backups of their wallets. Backups should be kept in separate physical locations in the case of fire or water damage. Paper wallets can be laminated or written in metal for extra protection. </p>
+
+<h2 id="how-to">How to Store Bitcoins</h2>
+
+<p>Earlier it was mentioned that there are four types of Bitcoin wallets: online wallets, hardware wallets, software wallets, and paper wallets. These four categories can be broken down further into different kinds of storage and security: </p>   
+
+<h3>Hot Wallets</h3>
+
+<p>Hot wallets refer to Bitcoin wallets used on internet connected devices like phones, computers, or tablets. Because hot wallets run on internet connected devices there is always a risk of theft. Think of hot wallets like your wallet today. You shouldn’t store any significant amount of bitcoins in a hot wallet, just as you would not walk around with your savings account as cash. </p>   
+
+<p>If only used with small amounts, hot wallets should be used for your everyday Bitcoin needs. One may, for example, want to keep $200 worth of bitcoins in a hot wallet for spending, with $10,000 locked away in cold storage. </p>
+
+<h3>Custodial Services</h3>
+
+<p>Although often called Bitcoin wallets, <a href="https://www.buybitcoinworldwide.com/exchanges/coinbase/">services like Coinbase</a> and Circle aren’t true Bitcoin wallets. Customers private keys are held by these third party services, meaning users don’t really have control of their money.</p>   
+
+<p>As Bitcoiners often say: “if you don’t control the keys, you don’t control the coins”. <a href="https://en.wikipedia.org/wiki/Mt._Gox">Mt. Gox</a> is an extreme example, but one that illustrates the importance of holding private keys. Gox was the first and largest Bitcoin exchange up until 2013. Thousands of users stored more than 800,000 bitcoins in their Gox accounts. </p>   
+
+<p>At the time, one may have claimed to have 1,000 bitcoins in a Gox account. While true at the time, as soon as Mt. Gox claimed to have been victim of theft users with bitcoins in their accounts were left empty handed. </p>   
+
+<p>Services like Coinbase and Circle may in fact use good security practices and there’s a chance your bitcoins are safe. But by storing bitcoins with a third party you are always taking on additional risk.</p>    
+
+<h3>Cold Storage</h3>
+
+<p>Cold storage is achieved when Bitcoin private keys are created and stored offline. Private keys stored offline are more secure since there is no risk that a hacker or malware could steal your coins. </p>   
+
+<p>There are three ways to create cold storage: paper wallets, hardware wallets, and software wallets run on offline computers. Think of cold storage as your savings account. Use it to securely store bitcoins that you don’t plan to spend.</p>      
+
+<h3>Multisignature Wallets</h3>
+
+<p>Multisignature wallets like <a href="https://copay.io/">Copay</a> make it easier to share control of bitcoins between multiple parties. If created offline, multisig can also make cold storage more secure.</p>   
+
+<p>Multisignature wallets require multiple parties to sign transactions in order for funds to be spend. In a 2-2 wallet, for example, both parties must sign a transaction. In a 2-3 multisig wallet, two of the three co-signers must sign each transaction.</p>
+
+<p><b>Armory Multisig:</b> Armory offers a <a href="https://bitcoinarmory.com/tutorials/armory-advanced-features/lockbox/">Lockbox feature</a> that requires any amount of up to seven co-signers to approve shared transactions. A Lockbox is created by one party who adds additional public keys as co-signers. This solution provides a mix of flexibility and security for personal use or organizations.  </p>
+
+<iframe width="740" height="416" src="https://www.youtube.com/embed/B5E3WQjSB6w" frameborder="0" allowfullscreen></iframe>
+
+<p>Armory’s fragmented backups is another useful feature. Instead of requiring multiple signatures for each transaction, fragmented backups require multiple signatures only for backups. A fragmented backup splits up your Armory backup into multiple pieces, which decreases the risk of physical theft of your wallet. Without a fragmented backup, discovery of your backup would allow for immediate theft. With fragmented backup, multiple backup locations would need to be compromised in order to obtain the full backup.  </p>
+
+<iframe width="740" height="416" src="https://www.youtube.com/embed/nyeMtM-Gclw" frameborder="0" allowfullscreen></iframe>
+
+<p>Here's a look at some everyday use cases for multisig: </p>   
+
+<p><b>2-2 Wallet:</b> Two business partners work together at a startup. They create a 2-2 multisig wallet so that no funds can be spent without the permission of both founders. If one tries to create a transaction, the other partner will be required to sign off on the transaction before money can be moved. </p>   
+
+<p><b>2-3 Wallet:</b> A 2-3 multisig wallet could be used to create secure offline storage with paper wallets or hardware wallets. Users should already backup their offline Bitcoin holdings in multiple locations, and multisig helps add another level of security. A user, for example, may keep a backup of a paper wallet in three separate physical locations. If any single location is compromised the user’s funds can be stolen. Multisignature wallets improve upon this by requiring instead any two of the three backups to spend funds--in the case of a 2-3 multisig wallet. The same setup can be created with any number of signatures. A 5-9 wallet would require any five of the nine signatures in order to spend funds.</p>   

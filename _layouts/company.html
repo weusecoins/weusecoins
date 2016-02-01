@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<article class="page">
+	{% if page.img %}
+		<center>
+			<img src='{{ page.img }}' title='{{ page.title }} logo' alt='{{ page.title }} logo' border='0'>
+		</center>
+	{% else %}
+		<h1>{% if page.seotitle %}{{ page.seotitle }}{% else %}{{ page.title }}{% endif %}</h1>
+	{% endif %}
+
+	<div class="entry">
+		{{ content }}
+	</div>
+
+</article>

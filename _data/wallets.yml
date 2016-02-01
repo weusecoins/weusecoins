@@ -1,0 +1,131 @@
+## Wallet List Template
+## - wallet: 
+##   description:
+##   category: 
+##   create: 
+
+## Universal
+
+ - wallet: Copay
+   description: <p>Copay is a Bitcoin wallet by Bitpay and available on iOS, Android, Windows Phone, Linux, Max OS X, and Windows. Because Copay is available on multiple platforms, it’s easy to use the same wallet or accounts across multiple devices.</p><p>Copay’s simple, clean user interface makes it a good choice for new Bitcoin users. Copay is also a good option for businesses due to a shared account feature, which requires a certain number of users to sign each transaction. Two co-founders, for example, could create a 2 of 2 wallet where both will be required to sign each transaction.</p>
+   category: universal
+   download: https://copay.io/
+   img: copay
+   
+## Hardware
+
+ - wallet: Ledger Nano
+   description: <p>The Ledger Nano is a smartcard based hardware wallet. Private keys are generated and signed offline in the smartcard’s secure environment. The Nano is setup using the Ledger Chrome Application. A random 24-word seed is generated upon setup and backed offline by writing it down on a piece of paper. In case of theft, damage or loss, the entire wallet can be recreated with the seed. A user selected PIN code is also assigned to the device to protect against physical theft or hacking.</p><p>The Ledger Nano may be used on any computer, or Android phones with Mycelium or GreenBits.</p> 
+   category: hardware
+   buy: http://buybitcoinww.co/ledger_nano
+   img: ledger
+   
+ - wallet: TREZOR
+   description: <p>The TREZOR differs from the Ledger Nano in that it’s a very tiny computer rather than a smartcard. Private keys are still generated offline.</p> <p>TREZOR also generates a 24-word seed upon setup. The TREZOR has its own built in screen where the seed is displayed and copied down during backup. Since the TREZOR is an offline device it offers extra security since the seed isn’t displayed on an online computer.</p> <p>An additional passphrase can be added to the 24-word seed. This provides extra protection, since anyone who finds someone else’s 24-word seed is free to access the funds. If the optional passphrase is added, an attacker still wouldn’t be able to access funds without both the seed AND the passphrase. If the passphrase is forgotten, it cannot be recovered.</p> 
+   category: hardware
+   buy: http://buybitcoinww.co/TREZOR_Wallet
+   img: trezor
+
+ - wallet: Ledger HW.1
+   description: The Ledger HW.1 is a more affordable version of the Ledger Nano. 
+   category: hardware
+   buy: http://buybitcoinww.co/ledger_unplugged
+   img: ledger
+
+ - wallet: Ledger Unplugged
+   description: <p>The Ledger Unplugged is a credit card-size wireless hardware wallet. Private keys are generated offline. Transactions are signed on the device and sent to a mobile phone via NFC.</p> <p>The Ledger Unplugged is ideal for everyday use, since the device fits perfectly into wallets and no OTG cable is required. </p>
+   category: hardware
+   buy: http://buybitcoinww.co/ledger_unplugged   
+   img: ledger
+
+## Web Wallets
+
+ - wallet: Coinkite
+   description: Coinkite is a multisignature Bitcoin wallet with good privacy. Coinkite accounts can be accessed via a .onion address and no personal details are required to create a wallet.  
+   category: web
+   create: https://coinkite.com/
+   img: coinkite
+
+ - wallet: GreenAddress
+   description: GreenAddress is a multisig web wallet, with apps available for Chrome, iOS, and Android.  
+   category: web
+   create: https://greenaddress.it/en/
+   img: greenaddress
+   
+## Mobile - Android
+
+ - wallet: Mycelium (Android)
+   description: Mycelium is a favorite among experienced Bitcoin users. It’s an HD wallet with many advanced features, like support for hardware wallets TREZOR and Ledger, watch-only accounts, cold storage spending, and Tor. 
+   category: mobileandroid
+   download: https://play.google.com/store/apps/details?id=com.mycelium.wallet
+   img: mycelium
+
+ - wallet: Bitcoin Wallet
+   description: Bitcoin Wallet was the first Bitcoin wallet for Android. It’s simple, easy to backup, and connects directly to the Bitcoin network with SPV. 
+   category: mobileandroid
+   download: https://play.google.com/store/apps/details?id=de.schildbach.wallet&hl=en
+   img: bitcoinwallet
+
+ - wallet: Airbitz
+   description: <p>AirBitz is another Bitcoin wallet that’s great for everyday use. It’s integrated with Fold, meaning you can get 20% discounts at Starbucks from within the wallet.</p><p>Airbitz manages accounts with usernames and passwords, but doesn’t have access to your funds. This type of account creation is easier for less technical users who may have trouble backing up or understanding HD seeds.</p>
+   category: mobileandroid
+   download: https://play.google.com/store/apps/details?id=com.airbitz&hl=en
+   img: airbitz2
+
+ - wallet: GreenBits
+   description: GreenBits is the native version of GreenAddress. It’s fast, simple, and supports hardware wallets TREZOR and Ledger Nano/HW.1.
+   category: mobileandroid
+   download: https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet&hl=en
+   img: greenbits
+
+## Mobile - iOS
+
+ - wallet: breadwallet
+   description: Breadwallet’s combination of simplicity and security has made it the most popular iOS wallet. iPhone users in search of their first Bitcoin wallet should find Breadwallet easy to understand. 
+   category: mobileios 
+   download: https://itunes.apple.com/il/app/breadwallet-bitcoin-wallet/id885251393?mt=8
+   img: breadwallet2
+
+ - wallet: Mycelium (iOS)
+   description: Mycelium for iOS is a simple Bitcoin wallet, built for speed and ease of use. 
+   category: mobileios
+   download: https://itunes.apple.com/us/app/mycelium-bitcoin-wallet/id943912290?mt=8
+   img: mycelium
+
+ - wallet: Copay
+   description: Copay is available in the App Store. Click here for more details. 
+   category: mobileios
+   download: https://itunes.apple.com/us/app/copay/id951330296
+   img: copay
+
+ - wallet: Airbitz
+   description: AirBitz is also available in the App Store. 
+   category: mobileios
+   download: https://itunes.apple.com/us/app/bitcoin-wallet-airbitz/id843536046?mt=8
+   img: airbitz2
+
+## Desktop Wallets
+
+ - wallet: Armory
+   description: Armory is the most mature, secure and full featured Bitcoin wallet but it can be technologically intimidating for users. Whether you are an individual storing $1,000 or institution storing $1,000,000,000 this is the most secure option available. Users are in complete control all Bitcoin private keys and can setup a secure offline-signing process in Armory.
+   category: desktop
+   download: https://bitcoinarmory.com
+   img: armory2
+
+ - wallet: Bitcoin Core
+   description: Bitcoin Core is the “official” Bitcoin client and wallet, though isn’t used by many due to slow speeds and a lack of features. Bitcoin Core, however, <a href="https://bitcoin.org/en/full-node">is a full node</a>, meaning it helps verify and transmit other Bitcoin transactions across the network and stores a copy of the entire blockchain. This offers better privacy since Core doesn’t have to rely on data from external servers or other peers on the network. Bitcoin Core routed through Tor is considered one of the best ways to use Bitcoin privately. 
+   category: desktop
+   download: https://bitcoin.org/en/download
+   img: core
+
+ - wallet: Electrum
+   description: Electrum may be the most popular desktop wallet, due to its speed and ease of use. Electrum can also be used as cold storage if you have an extra computer that can be used offline. Additonaly, Electrum offers other features like connecting through Tor, multisiganture wallets, integration with hardware wallets, and more. 
+   category: desktop
+   download: https://electrum.org/
+   img: electrum
+
+ - wallet: MultiBit HD
+   description: Multibit HD is a fast and straightforward desktop wallet with support for hardware wallets TREZOR and KeepKey. 
+   category: desktop
+   download: https://multibit.org/
+   img: multibit

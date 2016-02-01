@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Andreas M. Antonopoulos | Bitcoin Expert
+title: Andreas M. Antonopoulos - Bitcoin Expert
 author: Andreas M. Antonopoulos
-authorurl: https://www.weusecoins.com/andreas-antonopoulos-bitcoin-expert/
+authorurl: /andreas-antonopoulos-bitcoin-expert/
 published: true
 ---
 

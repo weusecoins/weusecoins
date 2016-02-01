@@ -59,4 +59,4 @@ Proof of Work (PoW) - <strong>Complete</strong>
 <ul><li>Algo: SHA-256</li>
 <li>Nominal Stake Interest: 2% annually</li></ul>
 <p>Multipool
-<ul><li>PoW mining has ended, but you can still use your mining rigs to earn ShadowCash by using the SDC <a href="https://www.shadowpool.info/">Multipool.</a> Point your rigs and enter your SDC payout address to begin!</li></ul>
+<ul><li>PoW mining has ended, but you can still use your mining rigs to earn ShadowCash by using the SDC Multipool. Point your rigs and enter your SDC payout address to begin!</li></ul>

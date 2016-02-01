@@ -10,22 +10,18 @@
     <![endif]-->
 
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
     <!-- Created with Jekyll Now -->
+    {% include javascript.html %}
   </head>
 
   <body>
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
+          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" width="150" height="50"/></a>
 
           <nav>
             <a href="{{ site.baseurl }}/de/getting-started/">Anfang</a>
@@ -33,25 +29,28 @@
             <a href="{{ site.baseurl }}/de/bitcoin-price/">Kurs</a>
             <a href="{{ site.baseurl }}/de/glossary/">Glossar</a>
             <a href="{{ site.baseurl }}/de/questions/">FAQ</a>
-            <a href="{{ site.baseurl }}/de/merchant-tools/">Kaufmann</a>
-            <a href="{{ site.baseurl }}/de/mining-guide/">Mining Anleitung</a>
+            <a href="{{ site.baseurl }}/de/mining-guide/">Mining</a>
           </nav>
         </header>
       </div>
     </div>
 
     <div id="main" role="main" class="container">
+      {% include social-shares.html %}
       {{ content }}
     </div>
 
     <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">
+          {% include ad-footer.html %}
+          {% include email-form.html %}
+          <p>
           {% include svg-icons.html %}
           <p>
 		  | <a href="https://github.com/sunnankar/wuc-new/blob/gh-pages/README.md">Contribute</a> | 
           </p>
-          © 2011-2015 Hesiod Services LLC <a href="{{ site.baseurl }}/en/terms">Terms</a> <a href="{{ site.baseurl }}/en/privacy">Privacy</a>
+          © 2011-2016 Hesiod Services LLC <a href="{{ site.baseurl }}/en/terms">Terms</a> <a href="{{ site.baseurl }}/en/privacy">Privacy</a>
           <p>
           | <a href="{{ site.baseurl }}/de/">Deutsch</a> | 
           <a href="{{ site.baseurl }}/fr/">Français</a> | 

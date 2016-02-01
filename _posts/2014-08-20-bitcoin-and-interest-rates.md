@@ -2,7 +2,7 @@
 layout: post
 title: Bitcoin and Interest Rates
 author: Arthur Hayes
-authorurl: http://www.weusecoins.com/arthur-hayes
+authorurl: https://www.weusecoins.com/arthur-hayes
 published: true
 ---
 

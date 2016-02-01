@@ -1,0 +1,15 @@
+---
+layout: post
+title: Venture Capital Investments in Bitcoin and Blockchain Companies
+author: We Use Coins
+authorurl: 
+published: true
+---
+
+<center><img src='/images/bitcoin-blockchain-venture-capital-investment.jpg' title='bitcoin blockchain venture capital investment' alt='bitcoin blockchain venture capital investment' width="700" height="99" border='0' ></center>
+<p>Tracking venture capital investments in Bitcoin and blockchain companies. <a href="https://github.com/sunnankar/wuc-new/blob/gh-pages/_data/companies.yml">Create a pull request</a> to add new data. </p>
+<p><b>Total - $942.94m</b>; 2015 - $484.23m; 2014 - $361.53m; 2013 - $95.05m; 2012 - $2.13m
+
+{% for company in site.data.companies %}
+{% include company_list.html %}
+{% endfor %}
