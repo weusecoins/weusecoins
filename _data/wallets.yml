@@ -13,11 +13,6 @@
    img: copay
    
 ## Hardware
- - wallet: COLDCARD Wallet
-   description: <p>Coldcard is an easy to use, ultra-secure, <a href="https://github.com/coldcard/firmware">open-source</a> and affordable hardware wallet that is easy to back up via an encrypted microSD card. Your private key is stored in a dedicated security chip. MicroPython software design allows you to make changes. It goes above and beyond, by giving you the option to sign transactions fully Air-Gapped/Offline via MicroSD (PSBT-BIP174)</p> <p>Coldcard is different than other wallet. No specialized software required. It accepts standard PSBT transaction (BIP 174) stored on an MicroSD card. No companion 'app' on your computer, works with the major wallets already (Electrum, and more to come). It's cheap! Simple packaging, plain design, no fancy boxes, no redundant cables. It's ultrasecure! Real crypto security chip. Your private key is stored in a dedicated security chip, not the main micro's flash. Easy back-up! MicroSD card slot for backup and data storage. This allows truly offline signing, by transferring the unsigned/signed transactions on sneakernet. Open source software design runs Micropython and you can change it.</p>
-   category: hardware
-   buy: https://store.coinkite.com/store/ckcc2
-   img: coldcard
 
  - wallet: Ledger Nano
    description: <p>The Ledger Nano is a smartcard based hardware wallet. Private keys are generated and signed offline in the smartcard’s secure environment. The Nano is setup using the Ledger Chrome Application. A random 24-word seed is generated upon setup and backed offline by writing it down on a piece of paper. In case of theft, damage or loss, the entire wallet can be recreated with the seed. A user selected PIN code is also assigned to the device to protect against physical theft or hacking.</p><p>The Ledger Nano may be used on any computer, or Android phones with Mycelium or GreenBits.</p> 
